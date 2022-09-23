@@ -1,0 +1,17 @@
+2022-09-22 03:23:28 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_3
+2022-09-22 03:23:29 | [run_VPG_opt] Obtaining samples...
+2022-09-22 03:23:35 | [run_VPG_opt] epoch #0 | Saving snapshot...
+2022-09-22 03:23:35 | [run_VPG_opt] epoch #0 | Saved
+2022-09-22 03:23:35 | [run_VPG_opt] epoch #0 | Time 6.07 s
+2022-09-22 03:23:35 | [run_VPG_opt] epoch #0 | EpochTime 6.07 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    47.8748
+Evaluation/AverageReturn              49.0383
+Evaluation/Iteration                   0
+Evaluation/MaxReturn                 110.241
+Evaluation/MinReturn                  26.8012
+Evaluation/NumEpisodes               740
+Evaluation/StdReturn                  14.6979
+Evaluation/TerminationRate             1
+TotalEnvSteps                       4007
+----------------------------------  ---------

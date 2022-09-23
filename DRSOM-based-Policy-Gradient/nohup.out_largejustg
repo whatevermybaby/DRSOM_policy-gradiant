@@ -1,0 +1,70 @@
+nohup: ignoring input
+2022-09-22 13:51:28.349633: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/lib64::/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia
+2022-09-22 13:51:28.349690: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+/home/lw/.local/lib/python3.8/site-packages/flatbuffers/compat.py:19: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': pil_image.NEAREST,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': pil_image.BILINEAR,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': pil_image.BICUBIC,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:39: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': pil_image.HAMMING,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:40: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': pil_image.BOX,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:41: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  'lanczos': pil_image.LANCZOS,
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/experiment.py:551: UserWarning: Archiving a launch repo larger than 8MiB. This may be slow. Set archive_launch_repo=False in wrap_experiment to disable this behavior.
+  warnings.warn('Archiving a launch repo larger than 8MiB. This may be '
+2022-09-22 13:51:41 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_22
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/deterministic.py:36: UserWarning: Enabeling deterministic mode in PyTorch can have a performance impact when using GPU.
+  warnings.warn(
+/home/lw/.local/lib/python3.8/site-packages/gym/core.py:329: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  deprecation(
+/home/lw/.local/lib/python3.8/site-packages/gym/wrappers/step_api_compatibility.py:39: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  deprecation(
+timesteps: 50001 average return:  47.36198327548801 time 39.22593569755554
+timesteps: 100001 average return:  49.33204557699688 time 137.7215280532837
+smallest eigenvalue -151.1281
+timesteps: 150001 average return:  50.03046263279038 time 209.43446922302246
+smallest eigenvalue -150.893
+timesteps: 200003 average return:  50.75782537640934 time 280.5084412097931
+smallest eigenvalue -152.02632
+timesteps: 250006 average return:  51.862549807843735 time 350.9338457584381
+smallest eigenvalue -156.00381
+timesteps: 300009 average return:  53.126731938031 time 420.5545599460602
+smallest eigenvalue -156.8396
+timesteps: 350012 average return:  54.00415164669351 time 490.0938889980316
+smallest eigenvalue -157.88266
+timesteps: 400012 average return:  55.063246153293136 time 558.8874685764313
+smallest eigenvalue -156.41455
+timesteps: 450012 average return:  56.21675116669161 time 626.8620474338531
+smallest eigenvalue -160.05069
+timesteps: 500018 average return:  57.23903774813287 time 693.5400061607361
+smallest eigenvalue -160.08954
+timesteps: 550019 average return:  58.3130037029593 time 759.5303268432617
+smallest eigenvalue -156.5944
+timesteps: 600020 average return:  59.21046805252276 time 824.6296663284302
+smallest eigenvalue -151.49655
+timesteps: 650025 average return:  60.117662512126365 time 889.4040031433105
+smallest eigenvalue -147.28702
+timesteps: 700025 average return:  60.668749571121026 time 953.5195045471191
+smallest eigenvalue -141.91
+timesteps: 750034 average return:  61.95145252330465 time 1017.5524642467499
+smallest eigenvalue -120.71654
+timesteps: 800034 average return:  62.52527970833087 time 1080.6936993598938
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+smallest eigenvalue -43.147617
+timesteps: 850035 average return:  63.29624604399064 time 1170.5572175979614
+smallest eigenvalue -148.44327
+timesteps: 900040 average return:  64.26483673345432 time 1232.9577732086182
+smallest eigenvalue -151.98088
+timesteps: 950045 average return:  65.41385249092538 time 1294.9195246696472
+smallest eigenvalue -154.4459

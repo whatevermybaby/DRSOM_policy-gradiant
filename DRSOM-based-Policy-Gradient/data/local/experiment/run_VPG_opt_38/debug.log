@@ -1,0 +1,47 @@
+2022-09-22 14:42:42 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_38
+2022-09-22 14:42:43 | [run_VPG_opt] Obtaining samples...
+2022-09-22 14:42:54 | [run_VPG_opt] epoch #0 | Saving snapshot...
+2022-09-22 14:42:54 | [run_VPG_opt] epoch #0 | Saved
+2022-09-22 14:42:54 | [run_VPG_opt] epoch #0 | Time 11.32 s
+2022-09-22 14:42:54 | [run_VPG_opt] epoch #0 | EpochTime 11.32 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    47.5213
+Evaluation/AverageReturn              48.6696
+Evaluation/Iteration                   0
+Evaluation/MaxReturn                 119.449
+Evaluation/MinReturn                  26.8025
+Evaluation/NumEpisodes               745
+Evaluation/StdReturn                  14.8268
+Evaluation/TerminationRate             1
+TotalEnvSteps                       4006
+----------------------------------  ---------
+2022-09-22 14:43:05 | [run_VPG_opt] epoch #1 | Saving snapshot...
+2022-09-22 14:43:06 | [run_VPG_opt] epoch #1 | Saved
+2022-09-22 14:43:06 | [run_VPG_opt] epoch #1 | Time 22.46 s
+2022-09-22 14:43:06 | [run_VPG_opt] epoch #1 | EpochTime 11.13 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    47.1511
+Evaluation/AverageReturn              48.3003
+Evaluation/Iteration                   1
+Evaluation/MaxReturn                 137.844
+Evaluation/MinReturn                  26.7599
+Evaluation/NumEpisodes               750
+Evaluation/StdReturn                  15.9711
+Evaluation/TerminationRate             1
+TotalEnvSteps                       8008
+----------------------------------  ---------
+2022-09-22 14:43:16 | [run_VPG_opt] epoch #2 | Saving snapshot...
+2022-09-22 14:43:17 | [run_VPG_opt] epoch #2 | Saved
+2022-09-22 14:43:17 | [run_VPG_opt] epoch #2 | Time 33.43 s
+2022-09-22 14:43:17 | [run_VPG_opt] epoch #2 | EpochTime 10.97 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     47.8157
+Evaluation/AverageReturn               49.006
+Evaluation/Iteration                    2
+Evaluation/MaxReturn                  147.414
+Evaluation/MinReturn                   26.7991
+Evaluation/NumEpisodes                739
+Evaluation/StdReturn                   16.5043
+Evaluation/TerminationRate              1
+TotalEnvSteps                       12008
+----------------------------------  ----------

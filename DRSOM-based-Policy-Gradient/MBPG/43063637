@@ -1,0 +1,1808 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <link rel="canonical" href="https://blog.csdn.net/barry283049/article/details/43063637"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="report" content='{"pid": "blog", "spm":"1001.2101"}'>
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <meta name="applicable-device" content="pc">
+    <link  href="https://g.csdnimg.cn/static/logo/favicon32.ico"  rel="shortcut icon" type="image/x-icon" />
+    <title>fatal error: X11/Xlib.h: No such file or directory_埋头的博客-CSDN博客</title>
+    <script>
+      (function(){ 
+        var el = document.createElement("script"); 
+        el.src = "https://s3a.pstatp.com/toutiao/push.js?1abfa13dfe74d72d41d83c86d240de427e7cac50c51ead53b2e79d40c7952a23ed7716d05b4a0f683a653eab3e214672511de2457e74e99286eb2c33f4428830"; 
+        el.id = "ttzz"; 
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(el, s);
+      })(window)
+    </script>
+        <meta name="keywords" content="fatal error: X11/Xlib.h: No such file or directory">
+    <meta name="description" content="x11没有安装完整，于是先输入:sudo apt-cache search x11-devlibx11-dev - X11 client-side library (development headers)libxkbcommon-x11-dev - library to create keymaps with the XKB X11 protocol - development file">
+    <script src="//g.csdnimg.cn/tingyun/1.8.5/blog.js" type='text/javascript'></script>
+        <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/release/blogv2/dist/pc/css/detail_enter-98da382783.min.css">
+    <style>
+        #content_views pre{
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none; 
+            user-select: none; 
+        }
+        #content_views pre code{
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none; 
+            user-select: none; 
+        }
+    </style>
+    <script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://blog.csdn.net/barry283049/article/details/43063637","appid":"1638831770136827","pubDate":"2015-01-23T22:57:21","title":"fatal error: X11/Xlib.h: No such file or directory_埋头的博客-CSDN博客","upDate":"2015-01-23T22:57:21"}</script>
+        <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/release/blogv2/dist/pc/themesSkin/skin3-template/skin3-template-762f7595fd.min.css">
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var isCorporate = false;//注释删除enterprise
+        var username =  "barry283049";
+        var skinImg = "white";
+        var blog_address = "https://blog.csdn.net/barry283049";
+        var currentUserName = "";
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/barry283049/article/details/43063637";
+        var blogUrl = "https://blog.csdn.net/";
+        var avatar = "https://profile.csdnimg.cn/0/0/4/3_barry283049";
+        var articleTitle = "fatal error: X11/Xlib.h: No such file or directory";
+        var articleDesc = "x11没有安装完整，于是先输入:sudo apt-cache search x11-devlibx11-dev - X11 client-side library (development headers)libxkbcommon-x11-dev - library to create keymaps with the XKB X11 protocol - development file";
+        var articleTitles = "fatal error: X11/Xlib.h: No such file or directory_埋头的博客-CSDN博客";
+        var nickName = "埋头";
+        var articleDetailUrl = "https://blog.csdn.net/barry283049/article/details/43063637";
+        if(window.location.host.split('.').length == 3) {
+            blog_address = blogUrl + username;
+        }
+        var skinStatus = "White";
+        var blogStaticHost = "https://csdnimg.cn/release/blogv2/"
+        var mallTestStyle = "control"
+    </script>
+    <script src="https://g.csdnimg.cn/??fixed-sidebar/1.1.6/fixed-sidebar.js" type="text/javascript"></script>
+    <script src='//g.csdnimg.cn/common/csdn-report/report.js' type='text/javascript'></script>
+    <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+    <script src="https://dup.baidustatic.com/js/ds.js"></script>
+</head>
+  <body class="nodata " style="">
+        <script>
+            var toolbarSearchExt = '{"landingWord":[],"queryWord":"","tag":[],"title":"fatal error: X11/Xlib.h: No such file or directory"}';
+        </script>
+    <script src="https://g.csdnimg.cn/common/csdn-toolbar/csdn-toolbar.js" type="text/javascript"></script>
+    <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/pc/css/blog_code-01256533b5.min.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/chart-3456820cac.css" />
+
+<script>
+    var articleId = 43063637;
+    var commentscount = 1;
+    var curentUrl = "https://blog.csdn.net/barry283049/article/details/43063637";
+    var myUrl = "https://my.csdn.net/";
+    var highlight = ["directory","error","fatal","such","file","xlib","x11","no","or",":","."];//高亮数组
+    var isRecommendModule = true;
+    var isBaiduPre = true;
+    var baiduCount = 2;
+    var setBaiduJsCount = 10;
+    var share_card_url = "https://app-blog.csdn.net/share?article_id=43063637&username=barry283049"
+	var articleType = 1;
+    var baiduKey = "";
+    var userNewReport = true;
+    var needInsertBaidu = true;
+    var recommendRegularDomainArr = ["blog.csdn.net/.+/article/details/","download.csdn.net/download/","edu.csdn.net/course/detail/","ask.csdn.net/questions/","bbs.csdn.net/topics/","www.csdn.net/gather_.+/"]
+    var codeStyle = "";
+    var baiduSearchType = "";
+    var canRead = true;
+    var blogMoveHomeArticle = false;
+    var showPcWindowAd = false;
+    var showHeadWord = true;
+    var showSearchText = "";
+    var linkPage = true;
+    var articleSource = 1;
+    var articleReport = '{"pid": "blog", "spm":"1001.2101"}';
+    var isShowToQuestion = false;
+    var baiduSearchChannel = 'pc_relevant'
+    var baiduSearchIdentification = '.t5_refersearch_landing'
+    var distRequestId = '1663656485975_06637'
+    var initRewardObject = {
+        giver: currentUserName,
+        anchor: username,
+        articleId: articleId,
+        sign: ''
+    }
+    var isLikeStatus = false;
+    var isUnLikeStatus = false;
+    var studyLearnWord = "";
+    var isCurrentUserVip = false;
+    var testNewStyle = "oldStyle"
+    var contentViewsHeight = 3820;
+    var contentViewsCount = 10;
+    var contentViewsCountLimit = 40;
+    var isShowConcision = false;
+    var isCookieConcision = false
+    var isHasDirectoryModel = false
+    var isShowSideModel = false
+    var isShowDirectoryModel = true
+    function getCookieConcision(sName){
+        var allCookie = document.cookie.split("; ");
+        for (var i=0; i < allCookie.length; i++){
+            var aCrumb = allCookie[i].split("=");
+            if (sName == aCrumb[0])
+                return aCrumb[1];
+        }
+        return null;
+    }
+    if (getCookieConcision('blog_details_concision') && getCookieConcision('blog_details_concision') == 0){
+        isCookieConcision = true
+        isShowSideModel = true
+        isShowDirectoryModel = false
+    }
+</script>
+<div class="main_father clearfix d-flex justify-content-center " style="height:100%;"> 
+    <div class="container clearfix " id="mainBox">
+        <script>
+        if(!isCookieConcision){
+            $('.main_father').removeClass('mainfather-concision')
+            $('.main_father .container').removeClass('container-concision')
+        }
+        </script>
+        <main>
+<script type="text/javascript">
+    function getQueryString(name) {   
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象  
+      var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+      if( r != null ) return decodeURIComponent( r[2] ); return '';   
+    }
+    function stripscript(s){ 
+      var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“'。，、？%]") 
+      var rs = ""; 
+      for (var i = 0; i < s.length; i++) { 
+        rs = rs+s.substr(i, 1).replace(pattern, ''); 
+      } 
+      return rs; 
+    }
+    var blogHotWords = stripscript(getQueryString('utm_term')).length > 1 ? stripscript(getQueryString('utm_term')) : ''
+</script>
+<div class="blog-content-box">
+        <div class="article-header-box">
+        <div class="article-header">
+            <div class="article-title-box">
+                <h1 class="title-article" id="articleContentId">fatal error: X11/Xlib.h: No such file or directory</h1>
+            </div>
+            <div class="article-info-box">
+                <div class="article-bar-top">
+                    <img class="article-type-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/original.png" alt="">
+                    <div class="bar-content">
+                    <a class="follow-nickName " href="https://blog.csdn.net/barry283049" target="_blank" rel="noopener">埋头</a>
+                    <img class="article-time-img article-heard-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newCurrentTime2.png" alt="">
+                    <span class="time">于&nbsp;2015-01-23 22:57:21&nbsp;发布</span>
+                    <img class="article-read-img article-heard-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/articleReadEyes2.png" alt="">
+                    <span class="read-count">17246</span>
+                    <a id="blog_detail_zk_collection" class="un-collection" data-report-click='{"mod":"popu_823","spm":"1001.2101.3001.4232","ab":"new"}'>
+                        <img class="article-collect-img article-heard-img un-collect-status isdefault" style="display:inline-block" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollect2.png" alt="">
+                        <img class="article-collect-img article-heard-img collect-status isactive" style="display:none" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive2.png" alt="">
+                        <span class="name">收藏</span>
+                        <span class="get-collection">
+                            4
+                        </span>
+                    </a>
+                    </div>
+                </div>
+                <div class="blog-tags-box">
+                    <div class="tags-box artic-tag-box">
+                            <span class="label">分类专栏：</span>
+                                <a class="tag-link" href="https://blog.csdn.net/barry283049/category_2805267.html" target="_blank" rel="noopener">linux</a>
+                    </div>
+                </div>
+                <div class="slide-content-box">
+                    <div class="article-copyright">
+                        <div class="creativecommons">
+                            版权声明：本文为博主原创文章，遵循<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener"> CC 4.0 BY-SA </a>版权协议，转载请附上原文出处链接和本声明。
+                        </div>
+                        <div class="article-source-link">
+                            本文链接：<a href="https://blog.csdn.net/barry283049/article/details/43063637" target="_blank">https://blog.csdn.net/barry283049/article/details/43063637</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="operating">
+                    <a class="href-article-edit slide-toggle">版权</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blogHuaweiyunAdvert"></div>
+        <div id="blogColumnPayAdvert">
+            <div class="column-group">
+                <div class="column-group-item column-group0 column-group-item-one">
+                    <div class="item-l">
+                        <a class="item-target" href="https://blog.csdn.net/barry283049/category_2805267.html" target="_blank" title="linux"
+                        data-report-view='{"spm":"1001.2101.3001.6332"}'
+                        data-report-click='{"spm":"1001.2101.3001.6332"}'>
+                            <img class="item-target" src="https://img-blog.csdnimg.cn/20201014180756930.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="">
+                            <span class="title item-target">
+                                <span>
+                                <span class="tit">linux</span>
+                                    <span class="dec">专栏收录该内容</span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="item-m">
+                        <span>11 篇文章</span>
+                        <span>0 订阅</span>
+                    </div>
+                    <div class="item-r">
+                            <a class="item-target article-column-bt articleColumnFreeBt" data-id="2805267">订阅专栏</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <article class="baidu_pl">
+        <div id="article_content" class="article_content clearfix">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-b3c43d3711.css">
+                <div id="content_views" class="htmledit_views">
+                    <p><span style="font-family:Verdana,&#39;Lucida Grande&#39;,Arial,Helvetica,sans-serif; line-height:18px">x11没有安装完整&#xff0c;于是先输入:sudo apt-cache search x11-dev</span></p> 
+<p><span style="font-family:Verdana,&#39;Lucida Grande&#39;,Arial,Helvetica,sans-serif; line-height:18px"><strong>libx11-dev</strong> - X11 client-side library (development headers)<br /> <strong>libxkbcommon-x11-dev</strong> - library to create keymaps with the XKB X11 protocol - development files<br /> <strong>libghc-x11-dev</strong> - Haskell X11 binding for GHC<br /> </span></p> 
+<p>输入&#xff1a;sudo apt-get install <span style="font-family:Verdana,&#39;Lucida Grande&#39;,Arial,Helvetica,sans-serif; line-height:18px">libghc-x11-dev即可</span></p>
+                </div>
+        </div>
+        <div id="treeSkill"></div>
+    </article>
+  <script>
+  $(function() {
+    setTimeout(function () {
+      var mathcodeList = document.querySelectorAll('.htmledit_views img.mathcode');
+      if (mathcodeList.length > 0) {
+        var testImg = new Image();
+        testImg.onerror = function () {
+          mathcodeList.forEach(function (item) {
+            $(item).before('<span class="img-codecogs">\\(' + item.alt + '\\)</span>');
+            $(item).remove();
+          })
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        }
+        testImg.src = mathcodeList[0].src;
+      }
+    }, 1000)
+  })
+  </script>
+</div>
+<div class="more-toolbox-new" id="toolBarBox">
+    <div class="left-toolbox">
+        <div class="toolbox-left">
+            <div class="profile-box"><a class="profile-href" target="_blank" href="https://blog.csdn.net/barry283049"><img class="profile-img" src="https://profile.csdnimg.cn/0/0/4/3_barry283049"><span class="profile-name">埋头</span></a></div>
+            <div class="profile-attend">
+                    <a class="tool-attend tool-bt-button tool-bt-attend" href="javascript:;" data-report-view='{"mod":"1592215036_002","spm":"1001.2101.3001.4232","extend1":"关注"}'>关注</a>
+                <a class="tool-item-follow active-animation" style="display:none;">关注</a>
+            </div>
+        </div>
+        <div class="toolbox-middle">
+        <ul class="toolbox-list">
+            <li class="tool-item tool-item-size tool-active is-like" id="is-like">
+            <a class="tool-item-href">
+                <img style="display:none;" id="is-like-imgactive-animation-like" class="animation-dom active-animation" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarThumbUpactive.png" alt="">
+                <img class="isactive" style="display:none" id="is-like-imgactive" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newHeart2021Active.png" alt="">
+                <img class="isdefault" style="display:block" id="is-like-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newHeart2021Black.png" alt="">  
+                <span id="spanCount" class="count ">
+                        0
+                </span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">点赞</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active is-unlike" id="is-unlike">
+            <a class="tool-item-href">
+                <img class="isactive" style="margin-right:0px;display:none" id="is-unlike-imgactive" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newUnHeart2021Active.png" alt="">
+                <img class="isdefault" style="margin-right:0px;display:block" id="is-unlike-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newUnHeart2021Black.png" alt="">
+                <span id="unlikeCount" class="count "></span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">踩</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active is-collection ">
+            <a class="tool-item-href" href="javascript:;" data-report-click='{"mod":"popu_824","spm":"1001.2101.3001.4130","ab":"new"}'>
+                <img style="display:none" id="is-collection-img-collection" class="animation-dom active-animation" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive.png" alt="">
+                <img class="isdefault" id="is-collection-img" style="display:block" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newCollectBlack.png" alt="">
+                <img class="isactive" id="is-collection-imgactive" style="display:none" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newCollectActive.png" alt="">
+                <span class="count get-collection " id="get-collection">
+                    4
+                </span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">收藏</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active tool-item-reward">
+                <a class="tool-item-href" href="javascript:;" data-report-click='{"mod":"popu_830","spm":"1001.2101.3001.4237","dest":"","ab":"new"}'>
+                <img class="isdefault reward-bt" id="rewardBtNew" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newRewardBlack.png" alt="打赏">
+                <span class="count"></span>
+                </a>
+                <div class="tool-hover-tip"><span class="text space">打赏</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active tool-item-comment">
+            <a class="tool-item-href" href="#commentBox" data-report-click='{"spm":"1001.2101.3001.7009"}'>
+                <img class="isdefault" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newComment2021Black.png" alt="">
+                <span class="count">
+                    1
+                </span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">评论</span></div>
+            </li>
+            <li class="tool-item tool-item-bar">
+            </li>
+            <li class="tool-item tool-item-size tool-active tool-QRcode" id="tool-share">
+                <a class="tool-item-href" href="javascript:;" data-report-click='{"mod":"1582594662_002","spm":"1001.2101.3001.4129","ab":"new"}'>
+                    <img class="isdefault" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newShareBlack.png" alt="">
+                </a>
+                <div class="QRcode" id="tool-QRcode">
+                    <div class="share-bg-icon icon1" id="shareBgIcon"></div>
+                    <div class="share-bg-box">
+                        <div class="share-content">
+                            <img class="share-avatar" src="https://profile.csdnimg.cn/0/0/4/3_barry283049" alt="">
+                            <div class="share-tit">fatal error: X11/Xlib.h: No such file or directory</div>
+                            <div class="share-dec">x11没有安装完整，于是先输入:sudo apt-cache search x11-devlibx11-dev - X11 client-side library (development headers)libxkbcommon-x11-dev - library to create keymaps with the XKB X11 protocol - development file</div>
+                            <a id="copyPosterUrl" class="url" data-report-click='{"spm":"1001.2101.3001.7493"}' data-report-view='{"spm":"1001.2101.3001.7493"}'>复制链接</a>
+                        </div>
+                        <div class="share-code">
+                            <div class="share-code-box" id='shareCode'></div>
+                            <div class="share-code-text">扫一扫</div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="toolbox-right">
+                <div class="tool-directory">
+                    <a class="bt-columnlist-show"
+                    data-id="2805267"
+                    data-free="true"
+                    data-subscribe="false"
+                    data-title="linux"
+                    data-img="https://img-blog.csdnimg.cn/20201014180756930.png?x-oss-process=image/resize,m_fixed,h_64,w_64"
+                    data-url="https://blog.csdn.net/barry283049/category_2805267.html"
+                    data-sum="11"
+                    data-people="0"
+                    data-price="0"
+                    data-oldprice="0"
+                    data-join="false"
+                    data-studyvip="false"
+                    data-studysubscribe="false"
+                    data-report-view='{"spm":"1001.2101.3001.6334","extend1":"专栏目录"}'
+                    data-report-click='{"spm":"1001.2101.3001.6334","extend1":"专栏目录"}'
+                    >专栏目录</a>
+                </div>
+        </div>
+    </div>  
+</div>
+<script type=text/javascript crossorigin src="https://csdnimg.cn/release/phoenix/production/qrcode-7c90a92189.min.js"></script>
+<script src="//g.csdnimg.cn/??sharewx/1.2.1/sharewx.js" type="text/javascript"></script>
+<script type="text/javascript" crossorigin src="https://g.csdnimg.cn/user-login/3.0.1/user-login.js"></script>
+<script type="text/javascript" crossorigin src="https://g.csdnimg.cn/collection-box/2.1.0/collection-box.js"></script>
+                <div class="first-recommend-box recommend-box ">
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/dongkai0918/article/details/101171741"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6661.1","mod":"popu_871","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-101171741-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"1","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/dongkai0918/article/details/101171741"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/dongkai0918/article/details/101171741" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6661.1","mod":"popu_871","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-101171741-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"1","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/dongkai0918/article/details/101171741"}'  data-report-query='spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-101171741-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-101171741-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>X11</em>/<em>Xlib</em><em>.</em>h：没有该文件或目录</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/dongkai0918" target="_blank"><span class="blog-title">dongkai0918的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">09-22</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					6976
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/dongkai0918/article/details/101171741" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6661.1","mod":"popu_871","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-101171741-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"1","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/dongkai0918/article/details/101171741"}'  data-report-query='spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-101171741-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-101171741-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">编译程序时出现的错误，在安装日志上发现一句：<em>x11</em>/<em>xlib</em><em>.</em>h <em>no</em><em>such</em> <em>file</em> <em>or</em> <em>directory</em> 在网上查阅了资料，原来是<em>x11</em>M没有装。解决方案：先安装<em>X11</em>，命令为 sudo apt -get install lib<em>x11</em>-dev结果仍然出错如下：checking f<em>or</em> main in -lXbsd<em>.</em><em>.</em><em>.</em> <em>no</em>checking f<em>or</em> socket in <em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+                </div>
+            <script src="https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_commontools-452728399d.min.js" type="text/javascript" async></script>
+            <div class="second-recommend-box recommend-box ">
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/bedisdover/article/details/51840639"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.1","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1-51840639-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"1","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/bedisdover/article/details/51840639"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/bedisdover/article/details/51840639" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.1","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1-51840639-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"1","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/bedisdover/article/details/51840639"}'  data-report-query='spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-51840639-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-51840639-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">【解决】<em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/XXXX<em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em></div>
+					<div class="tag">热门推荐</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/bedisdover" target="_blank"><span class="blog-title">bedisdover的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-06</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1万+
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/bedisdover/article/details/51840639" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.1","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1-51840639-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"1","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/bedisdover/article/details/51840639"}'  data-report-query='spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-51840639-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-51840639-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">linux系统源码安装软件经常会遇到库文件不存在，错误信息大多如下：BBoard<em>.</em>c<em>:</em>27<em>:</em>28<em>:</em> <em>error</em><em>:</em> <em>X11</em>/IntrinsicP<em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+BBoard<em>.</em>c<em>:</em>28<em>:</em>27<em>:</em> <em>error</em><em>:</em> <em>X11</em>/Intrinsic<em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+BBoard<em>.</em>c<em>:</em>29<em>:</em>23<em>:</em> <em>error</em><em>:</em> <em>X11</em>/Xutil<em>.</em>h</div>
+			</a>
+		</div>
+	</div>
+</div>
+            </div>
+<a id="commentBox" name="commentBox"></a>
+<div id="pcCommentBox" class="comment-box comment-box-new2  unlogin-comment-box-new" style="display:none">
+	<div class="unlogin-comment-model">
+			<span class="unlogin-comment-tit">评论&nbsp;1</span>
+			<span class="unlogin-comment-text">您还未登录，请先</span>
+			<span class="unlogin-comment-bt">登录</span>
+			<span class="unlogin-comment-text">后发表或查看评论</span>
+	</div>
+</div>
+            <div class="recommend-box insert-baidu-box recommend-box-style ">
+                <div class="recommend-item-box no-index" style="display:none"></div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_28814119/article/details/116875556"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.2","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-116875556-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"2","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/weixin_28814119/article/details/116875556"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_28814119/article/details/116875556" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.2","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-116875556-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"2","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/weixin_28814119/article/details/116875556"}'  data-report-query='spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-116875556-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-116875556-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">linux <em>x11</em> 错误,出现致命错误：<em>X11</em>/<em>Xlib</em><em>.</em>h：没有那个文件或目录</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_28814119" target="_blank"><span class="blog-title">weixin_28814119的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-12</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					596
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_28814119/article/details/116875556" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.2","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-116875556-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"2","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/weixin_28814119/article/details/116875556"}'  data-report-query='spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-116875556-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-116875556-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">NS2<em>.</em>3在Fed<em>or</em>a上的安装出现致命错误：<em>X11</em>/<em>Xlib</em><em>.</em>h：没有那个文件或目录一、问题在总目录下 <em>.</em>/install 出现以下问题：ns-alli<em>no</em>ne-2<em>.</em>35/tk8<em>.</em>5<em>.</em>10/unix/<em>.</em><em>.</em>/generic/tk<em>.</em>h<em>:</em>76<em>:</em>23<em>:</em>致命错误：<em>X11</em>/<em>Xlib</em><em>.</em>h：没有那个文件或目录二、解决办法之前一直想直接 yum install lib<em>x11</em>-devel , 但是不行非常有用的是<em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/u012140133/article/details/51944655"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.3","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-51944655-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"3","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/u012140133/article/details/51944655"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/u012140133/article/details/51944655" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.3","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-51944655-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"3","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/u012140133/article/details/51944655"}'  data-report-query='spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-51944655-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-51944655-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>Xlib</em><em>.</em>h <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em> 问题解决</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/u012140133" target="_blank"><span class="blog-title">u012140133的专栏</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-18</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					7664
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/u012140133/article/details/51944655" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.3","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-51944655-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"3","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/u012140133/article/details/51944655"}'  data-report-query='spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-51944655-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-51944655-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1"><em>Xlib</em><em>.</em>h 和 <em>x11</em>/extensions/XShm<em>.</em>h <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em> 问题解决
+
+
+是因为没有安装 <em>x11</em>。<em>x11</em> 是 linux 界面底层库：
+
+sudo apt-get install lib<em>x11</em>-dev</div>
+			</a>
+		</div>
+	</div>
+</div>
+		<dl id="recommend-item-box-tow" class="recommend-item-box type_blog clearfix">
+			
+		</dl>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/vbLittleBoy/article/details/36865931"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.4","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-4-36865931-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"4","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/vbLittleBoy/article/details/36865931"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/vbLittleBoy/article/details/36865931" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.4","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-4-36865931-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"4","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/vbLittleBoy/article/details/36865931"}'  data-report-query='spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-36865931-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-36865931-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">ubuntu安装SDL报<em>x11</em>安装错误解决办法</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/vbLittleBoy" target="_blank"><span class="blog-title">暂时为空</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-04</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					4089
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/vbLittleBoy/article/details/36865931" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.4","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-4-36865931-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"4","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/vbLittleBoy/article/details/36865931"}'  data-report-query='spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-36865931-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-36865931-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">1&nbsp;<em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+安装lib<em>x11</em>-dev包
+
+2</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_31041583/article/details/117146366"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.5","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-5-117146366-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"5","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_31041583/article/details/117146366"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_31041583/article/details/117146366" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.5","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-5-117146366-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"5","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_31041583/article/details/117146366"}'  data-report-query='spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5-117146366-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5-117146366-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">c语言+<em>x11</em>/<em>xlib</em><em>.</em>h,交叉编译为什么配置脚本&mdash;无法找到 <em>X11</em>/<em>xlib</em> h？_wxwidgets_开发99编程知识库<em>.</em><em>.</em><em>.</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_31041583" target="_blank"><span class="blog-title">weixin_31041583的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-20</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					107
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_31041583/article/details/117146366" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.5","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-5-117146366-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"5","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_31041583/article/details/117146366"}'  data-report-query='spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5-117146366-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5-117146366-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">在 Ubantu ---上交叉編譯wxGTK為什麼配置腳本--無法找到 <em>X11</em>/<em>xlib</em> 。h？我已經為linux安裝了 -- gtk+ 。我已經安裝：-----sudo apt獲取安裝 wx2<em>.</em>8-headers libwxgtk2<em>.</em>8-0 libwxgtk2<em>.</em>8-dev的更新這裡有 -------/usr/include/gtk-2<em>.</em>0/<em>Xlib</em><em>.</em>h 在這裡：-------------測試 -<em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/ZMS_JAMES/article/details/79724387"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.6","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-6-79724387-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"6","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/ZMS_JAMES/article/details/79724387"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/ZMS_JAMES/article/details/79724387" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.6","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-6-79724387-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"6","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/ZMS_JAMES/article/details/79724387"}'  data-report-query='spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-79724387-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-79724387-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">Centos编译软件提示：<em>X11</em>/<em>Xlib</em><em>.</em>h：没有那个文件或目录</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/ZMS_JAMES" target="_blank"><span class="blog-title">ZMS_JAMES的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">03-28</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					5197
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/ZMS_JAMES/article/details/79724387" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.6","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-6-79724387-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"6","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/ZMS_JAMES/article/details/79724387"}'  data-report-query='spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-79724387-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-79724387-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">解决办法：yum install libX*然后选择全部安装即可解决</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/xinran0703/article/details/116759097"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.7","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-7-116759097-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"7","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/xinran0703/article/details/116759097"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/xinran0703/article/details/116759097" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.7","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-7-116759097-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"7","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/xinran0703/article/details/116759097"}'  data-report-query='spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7-116759097-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7-116759097-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>X11</em>/<em>Xlib</em><em>.</em>h 的安装--ubuntu20<em>.</em>04</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/xinran0703" target="_blank"><span class="blog-title">xinran0703的专栏</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-13</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1539
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/xinran0703/article/details/116759097" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.7","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-7-116759097-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"7","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/xinran0703/article/details/116759097"}'  data-report-query='spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7-116759097-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7-116759097-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">在ubuntu中使用X window 构建窗口时，若在编译过程中提示<em>X11</em>/<em>Xlib</em><em>.</em>h <em>:</em>没有该文件或目录。 则可能是没有安装lib<em>X11</em>, 在终端执行如下指令：
+
+
+sudo apt-get install lib<em>X11</em>-dev
+
+
+#include &lt;stdlib<em>.</em>h&gt;
+#include &lt;stdio<em>.</em>h&gt;
+#include &lt;<em>X11</em>/<em>Xlib</em><em>.</em>h&gt;
+
+int main()
+{
+    return 0;
+}
+
+
+<em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/qq_36647105/article/details/114501973"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.8","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-8-114501973-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"8","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/qq_36647105/article/details/114501973"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/qq_36647105/article/details/114501973" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.8","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-8-114501973-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"8","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/qq_36647105/article/details/114501973"}'  data-report-query='spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-114501973-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-114501973-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>fatal</em> <em>error</em><em>:</em> &lsquo;<em>X11</em>/<em>Xlib</em><em>.</em>h&lsquo; <em>file</em> <em>no</em>t found</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/qq_36647105" target="_blank"><span class="blog-title">qq_36647105的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">03-07</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1474
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/qq_36647105/article/details/114501973" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.8","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-8-114501973-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"8","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/qq_36647105/article/details/114501973"}'  data-report-query='spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-114501973-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-114501973-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1"><em>fatal</em> <em>error</em><em>:</em> &#39;<em>X11</em>/<em>Xlib</em><em>.</em>h&#39; <em>file</em> <em>no</em>t found
+
+在mac做C++项目引入CImg<em>.</em>h文件时会出现如下错误（以Clion为例）
+
+
+
+问题原因
+
+出现这个问题就是缺少<em>X11</em><em>.</em>app的支持
+
+
+XQuartz（<em>X11</em><em>.</em>app）是苹果电脑为Mac OS X/OS X/macOS上X窗口系统的实现。
+
+苹果的<em>X11</em>是以XFree86为基础（自OS X 10<em>.</em>5开始使用 X<em>.</em><em>or</em>g 的实现），加上硬件加速的2D绘图支持，硬件OpenGL加速，以及与macOS的GUI Aqua集成在</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_30408675/article/details/97805091"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.9","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-97805091-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"9","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/weixin_30408675/article/details/97805091"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_30408675/article/details/97805091" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.9","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-97805091-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"9","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/weixin_30408675/article/details/97805091"}'  data-report-query='spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-9-97805091-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-9-97805091-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">Ubuntu--编译android常见问题(转载)</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_30408675" target="_blank"><span class="blog-title">weixin_30408675的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">01-19</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					90
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_30408675/article/details/97805091" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.9","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-97805091-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"9","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/weixin_30408675/article/details/97805091"}'  data-report-query='spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-9-97805091-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-9-97805091-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">1、在ubuntu中，如果在编译时出现如下错误：　　错误：<em>X11</em>/<em>Xlib</em><em>.</em>h：没有那个文件或目录　　错误：<em>X11</em>/Xutil<em>.</em>h：没有那个文件或目录　　错误：<em>X11</em>/Xos<em>.</em>h：没有那个文件或目录　　错误：<em>X11</em>/Xatom<em>.</em>h：没有那个文件或目录　　错误：<em>X11</em>/keysym<em>.</em>h：没有那个文件或目录　　修正的方法：　　$ sudo apt-get install lib<em>x11</em>-dev 　　错误<em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://wingrez.blog.csdn.net/article/details/107169423"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.10","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-10-107169423-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"10","strategy":"2~default~CTRLIST~Rate","dest":"https://wingrez.blog.csdn.net/article/details/107169423"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://wingrez.blog.csdn.net/article/details/107169423" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.10","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-10-107169423-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"10","strategy":"2~default~CTRLIST~Rate","dest":"https://wingrez.blog.csdn.net/article/details/107169423"}'  data-report-query='spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10-107169423-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10-107169423-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">【已解决】<em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/Intrinsic<em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/wingrez" target="_blank"><span class="blog-title">WINGREZ&lsquo;S BLOG</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-06</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					2946
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://wingrez.blog.csdn.net/article/details/107169423" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.10","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-10-107169423-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"10","strategy":"2~default~CTRLIST~Rate","dest":"https://wingrez.blog.csdn.net/article/details/107169423"}'  data-report-query='spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10-107169423-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-10-107169423-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">环境
+
+
+Ubuntu16<em>.</em>04 64位
+
+
+出现问题
+
+
+编译C文件时，出现如下错误：<em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/Intrinsic<em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+
+
+解决问题
+
+
+安装 libxt-dev，具体过程如下。
+在终端中输入命令：sudo apt-get install libxt-dev
+
+如果提示一些依赖没有安装或者需要降级，请按照相关说明进行操作。
+在我的机器上，需要安装的依赖及顺序如下，仅供参考。sudo apt-get install libx1<em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/qq_37232329/article/details/109406809"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.11","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-11-109406809-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"11","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/qq_37232329/article/details/109406809"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/qq_37232329/article/details/109406809" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.11","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-11-109406809-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"11","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/qq_37232329/article/details/109406809"}'  data-report-query='spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11-109406809-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11-109406809-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">Ubuntu16<em>.</em>4下安装bochs遇到的问题</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/qq_37232329" target="_blank"><span class="blog-title">专注软件安全</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">10-31</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					810
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/qq_37232329/article/details/109406809" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.11","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-11-109406809-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"11","strategy":"2~default~CTRLIST~Rate","dest":"https://blog.csdn.net/qq_37232329/article/details/109406809"}'  data-report-query='spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11-109406809-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-11-109406809-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">1<em>.</em> <em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+
+<em>x11</em>没有安装完整，于是先输入<em>:</em>sudo apt-cache search <em>x11</em>-dev
+
+lib<em>x11</em>-dev - <em>X11</em> client-side library (development headers)libxkbcommon-<em>x11</em>-dev - library to create keymaps with the XKB <em>X11</em> protocol - development <em>file</em>sli</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/chijiandao3197/article/details/100930117"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.12","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-12-100930117-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"12","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/chijiandao3197/article/details/100930117"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/chijiandao3197/article/details/100930117" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.12","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-12-100930117-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"12","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/chijiandao3197/article/details/100930117"}'  data-report-query='spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-100930117-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-100930117-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">Problem 60 关于解决<em>X11</em>的错误的问题?</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/chijiandao3197" target="_blank"><span class="blog-title">chijiandao3197的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">09-17</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					96
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/chijiandao3197/article/details/100930117" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.12","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-12-100930117-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"12","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/chijiandao3197/article/details/100930117"}'  data-report-query='spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-100930117-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-100930117-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">Problem60 关于解决<em>X11</em>的错误的问题? 
+Ans<em>:</em> 
+在ubuntu中，如果在编译时出现如下错误：   错误：<em>X11</em>/<em>Xlib</em><em>.</em>h：没有那个文件或目录 错误：<em>X11</em>/Xutil<em>.</em>h：没有那个文件或目录 错误：<em>X11</em>/Xos<em>.</em>h：没有那个文件或目录 错误：<em>X11</em>/Xatom<em>.</em>h：没有那<em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://fanjufei.blog.csdn.net/article/details/125014066"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.13","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-13-125014066-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"13","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://fanjufei.blog.csdn.net/article/details/125014066"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://fanjufei.blog.csdn.net/article/details/125014066" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.13","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-13-125014066-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"13","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://fanjufei.blog.csdn.net/article/details/125014066"}'  data-report-query='spm=1001.2101.3001.6650.13&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-13-125014066-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-13-125014066-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">【Qt】<em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/Xcurs<em>or</em>/Xcurs<em>or</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em></div>
+					<div class="tag">最新发布</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/fanjufei123456" target="_blank"><span class="blog-title">Fanjufei的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-28</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					232
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://fanjufei.blog.csdn.net/article/details/125014066" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.13","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-13-125014066-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"13","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://fanjufei.blog.csdn.net/article/details/125014066"}'  data-report-query='spm=1001.2101.3001.6650.13&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-13-125014066-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-13-125014066-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">目录
+
+1、遇到问题
+
+2、问题解决
+
+
+
+1、遇到问题
+
+
+<em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/Xcurs<em>or</em>/Xcurs<em>or</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+
+
+
+
+
+http<em>:</em>//www<em>.</em>cnblogs<em>.</em>com/include/QtGui/private/http<em>:</em>//www<em>.</em>cnblogs<em>.</em>com/<em>.</em><em>.</em>/src/gui/kernel/qt_<em>x11</em>_p<em>.</em>h<em>:</em>69<em>:</em>22<em>:</em> <em>error</em><em>:</em> <em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>
+http<em>:</em>//ww</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/mengzhengjie/article/details/51026926"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.14","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-14-51026926-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"14","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/mengzhengjie/article/details/51026926"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/mengzhengjie/article/details/51026926" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.14","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-14-51026926-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"14","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/mengzhengjie/article/details/51026926"}'  data-report-query='spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14-51026926-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14-51026926-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">Ubuntu  <em>X11</em>/<em>Xlib</em><em>.</em>h 找不到</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/mengzhengjie" target="_blank"><span class="blog-title">mengzhengjie的专栏</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">03-31</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1万+
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/mengzhengjie/article/details/51026926" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.14","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-14-51026926-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"14","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/mengzhengjie/article/details/51026926"}'  data-report-query='spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14-51026926-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14-51026926-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">gwin_x1 &nbsp; 1<em>.</em>c<em>:</em>22<em>:</em>22<em>:</em> <em>fatal</em> <em>error</em><em>:</em> <em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em>
+
+
+
+解决<em>:</em> apt-get install lib<em>x11</em>-dev</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/zhoulinshijie/article/details/76512751"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.15","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-15-76512751-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"15","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/zhoulinshijie/article/details/76512751"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/zhoulinshijie/article/details/76512751" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.15","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-15-76512751-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"15","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/zhoulinshijie/article/details/76512751"}'  data-report-query='spm=1001.2101.3001.6650.15&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-15-76512751-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-15-76512751-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>  <em>X11</em>/xpm<em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/zhoulinshijie" target="_blank"><span class="blog-title">abcque的专栏</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">08-01</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					3324
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/zhoulinshijie/article/details/76512751" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.15","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-15-76512751-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"15","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/zhoulinshijie/article/details/76512751"}'  data-report-query='spm=1001.2101.3001.6650.15&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-15-76512751-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-15-76512751-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">在开发的过程中需要使用<em>X11</em>方面的内容，但CentOS系统上面默认没有安装。
+尝试很多方法，发现很多yum install 软件包根本找不到，最后尝试使用一条命令解决
+yum install libXt-devel
+
+
+
+当然，你也可能需要执行命令
+yum&nbsp;install&nbsp;libXpm-devel
+来针对&nbsp;&nbsp;<em>X11</em>/xpm<em>.</em>h<em>:</em>&nbsp;<em>No</em>&nbsp;<em>such</em>&nbsp;<em>file</em>&nbsp;<em>or</em>&nbsp;<em>directory</em>&nbsp;</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_34413579/article/details/117146361"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.16","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-16-117146361-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"16","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_34413579/article/details/117146361"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_34413579/article/details/117146361" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.16","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-16-117146361-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"16","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_34413579/article/details/117146361"}'  data-report-query='spm=1001.2101.3001.6650.16&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-16-117146361-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-16-117146361-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">c语言+<em>x11</em>/<em>xlib</em><em>.</em>h,c &ndash; 如何使用<em>xlib</em>识别顶级的<em>X11</em>窗口？</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_34413579" target="_blank"><span class="blog-title">weixin_34413579的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-20</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					275
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_34413579/article/details/117146361" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.16","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-16-117146361-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"16","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_34413579/article/details/117146361"}'  data-report-query='spm=1001.2101.3001.6650.16&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-16-117146361-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-16-117146361-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">我试图在<em>X11</em>会话中获取所有顶级桌面窗口的列表<em>.</em>基本上,我想获取窗口管理器应用程序切换UI中显示的所有窗口的列表(通常在用户按ALT TAB时打开)<em>.</em>我从来没有做过任何<em>X11</em>编程,但到目前为止,我已经设法通过整个窗口列表枚举,代码如下所示：void CSoftwareInfoLinux<em>:</em><em>:</em>enumerateWindows(Display *display,Window rootWindow){Wi<em>.</em><em>.</em><em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_30908103/article/details/97118074"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.17","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-17-97118074-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"17","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_30908103/article/details/97118074"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_30908103/article/details/97118074" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.17","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-17-97118074-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"17","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_30908103/article/details/97118074"}'  data-report-query='spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17-97118074-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17-97118074-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_30908103" target="_blank"><span class="blog-title">weixin_30908103的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">02-15</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					279
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_30908103/article/details/97118074" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.17","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-17-97118074-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"17","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/weixin_30908103/article/details/97118074"}'  data-report-query='spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17-97118074-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17-97118074-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">CentOS 编译一些开源项目提示<em>:</em><em>X11</em>/<em>Xlib</em><em>.</em>h<em>:</em> <em>No</em> <em>such</em> <em>file</em> <em>or</em> <em>directory</em>。
+运行命令<em>:</em>yum install lib<em>X11</em>-devel就可以了。
+转载于<em>:</em>https<em>:</em>//www<em>.</em>cnblogs<em>.</em>com/kocpp/p/4293202<em>.</em>html</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/m0_37419599/article/details/114783722"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.18","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-18-114783722-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"18","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/m0_37419599/article/details/114783722"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/m0_37419599/article/details/114783722" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.18","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-18-114783722-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"18","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/m0_37419599/article/details/114783722"}'  data-report-query='spm=1001.2101.3001.6650.18&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-18-114783722-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-18-114783722-blog-43063637.t5_refersearch_landing'>
+					<div class="left ellipsis-online ellipsis-online-1">OS篇-Bochs在Ubuntu下的安装教程</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/m0_37419599" target="_blank"><span class="blog-title">麦奇的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">03-14</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1002
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/m0_37419599/article/details/114783722" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.18","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-18-114783722-blog-43063637.t5_refersearch_landing\",\"dist_request_id\":\"1663656485975_06637\"}","dist_request_id":"1663656485975_06637","ab_strategy":"featuressortv4","index":"18","strategy":"2~default~BlogCommendFromBaidu~Rate","dest":"https://blog.csdn.net/m0_37419599/article/details/114783722"}'  data-report-query='spm=1001.2101.3001.6650.18&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-18-114783722-blog-43063637.t5_refersearch_landing&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-18-114783722-blog-43063637.t5_refersearch_landing'>
+				<div class="desc ellipsis-online ellipsis-online-1">title<em>:</em> OS篇-Bochs在Ubuntu下的安装教程
+index_img<em>:</em> &lsquo;https<em>:</em>//cdn<em>.</em>jsdelivr<em>.</em>net/gh/mikeygithub/jsDeliver@master/resource/img/bochs<em>.</em>png&rsquo;
+hide<em>:</em> false
+date<em>:</em> 2021-02-26 11<em>:</em>19<em>:</em>41
+categ<em>or</em>y<em>:</em> 操作系统
+tags<em>:</em> Bochs
+
+最近在看《操作系统真相还原》这本书，打算跟着做一个微型操作系统，就有了这篇教程
+
+环境准备
+OS篇-Bochs在Ubuntu下的安装<em>.</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+            </div>
+<div id="recommendNps" class="recommend-nps-box common-nps-box">
+  <h3 class="aside-title">“相关推荐”对你有帮助么？</h3>
+  <div class="aside-content">
+      <ul class="newnps-list">
+          <li class="newnps-item" data-type="非常没帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel1.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey1.png" alt="">
+              </div>
+              <div class="newnps-text">非常没帮助</div>
+          </li>
+          <li class="newnps-item" data-type="没帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel2.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey2.png" alt="">
+              </div>
+              <div class="newnps-text">没帮助</div>
+          </li>
+          <li class="newnps-item" data-type="一般">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel3.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey3.png" alt="">
+              </div>
+              <div class="newnps-text">一般</div>
+          </li>
+          <li class="newnps-item" data-type="有帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel4.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey4.png" alt="">
+              </div>
+              <div class="newnps-text">有帮助</div>
+          </li>
+          <li class="newnps-item" data-type="非常有帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey5.png" alt="">
+              </div>
+              <div class="newnps-text">非常有帮助</div>
+          </li>
+      </ul>
+      <div class="newnps-form-box">
+      <div class="newnps-form">
+          <input type="text" placeholder="请输入建议或反馈后点击提交" class="newnps-input">
+          <span class="newnps-btn">提交</span>
+      </div>
+      </div>
+  </div>
+</div>            <div class="template-box">
+                <span>©️2022 CSDN</span>
+                <span>皮肤主题：大白</span>
+                <span> 设计师：CSDN官方博客</span>
+                <span>
+                    <a href="https://blog.csdn.net/" class="back-home c-blue c-blue-hover c-blue-focus">返回首页</a>
+                </span>
+            </div>
+<div class="blog-footer-bottom" style="margin-top:10px;"></div>
+<script src="https://g.csdnimg.cn/common/csdn-footer/csdn-footer.js" data-isfootertrack="false" type="text/javascript"></script>
+<script type="text/javascript">
+    window.csdn.csdnFooter.options = {
+        el: '.blog-footer-bottom',
+        type: 2
+    }
+</script>        </main>
+<aside class="blog_container_aside">
+<div id="asideProfile" class="aside-box">
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/barry283049" target="_blank" data-report-click='{"mod":"popu_379","spm":"1001.2101.3001.4121","dest":"https://blog.csdn.net/barry283049","ab":"new"}'>
+                <img src="https://profile.csdnimg.cn/0/0/4/3_barry283049" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex flex-column profile-intro-name-box">
+            <div class="profile-intro-name-boxTop">
+                <a href="https://blog.csdn.net/barry283049" target="_blank" class="" id="uid" title="埋头" data-report-click='{"mod":"popu_379","spm":"1001.2101.3001.4122","dest":"https://blog.csdn.net/barry283049","ab":"new"}'>
+                    <span class="name " username="barry283049">埋头</span>
+                </a>
+                <span>
+                </span>
+                <span class="flag expert-blog">
+                <span class="bubble">CSDN认证博客专家</span>
+                </span>
+                <span class="flag company-blog">
+                <span class="bubble">CSDN认证企业博客</span>
+                </span>
+            </div>
+            <div class="profile-intro-name-boxFooter">
+                <span class="personal-home-page personal-home-years" title="已加入 CSDN 12年">码龄12年</span>
+                    <span class="personal-home-page">
+                    <a class="personal-home-certification" href="https://i.csdn.net/#/uc/profile?utm_source=14998968" target="_blank" title="暂无认证">
+                    <img src="https://csdnimg.cn/identity/nocErtification.png" alt="">
+                    暂无认证
+                    </a>
+                    </span>
+            </div>
+        </div>
+    </div>
+    <div class="data-info d-flex item-tiling">
+        <dl class="text-center" title="60">
+            <a href="https://blog.csdn.net/barry283049" data-report-click='{"mod":"1598321000_001","spm":"1001.2101.3001.4310"}' data-report-query="t=1">  
+                <dt><span class="count">60</span></dt>
+                <dd class="font">原创</dd>
+            </a>
+        </dl>
+        <dl class="text-center" data-report-click='{"mod":"1598321000_002","spm":"1001.2101.3001.4311"}' title="168753">
+            <a href="https://blog.csdn.net/rank/list/weekly" target="_blank">
+                <dt><span class="count">16万+</span></dt>
+                <dd class="font">周排名</dd>
+            </a>
+        </dl>
+        <dl class="text-center" title="887333">
+            <a href="https://blog.csdn.net/rank/list/total" data-report-click='{"mod":"1598321000_003","spm":"1001.2101.3001.4312"}' target="_blank">
+                <dt><span class="count">88万+</span></dt>
+                <dd class="font">总排名</dd>
+            </a>
+        </dl>
+        <dl class="text-center" style="min-width:58px" title="111881">  
+            <dt><span class="count">11万+</span></dt>
+            <dd>访问</dd>
+        </dl>
+        <dl class="text-center" title="5级,点击查看等级说明">
+            <dt><a href="https://blog.csdn.net/blogdevteam/article/details/103478461" target="_blank">
+                <img class="level" src="https://csdnimg.cn/identity/blog5.png">
+            </a>
+            </dt>
+            <dd>等级</dd>
+        </dl>
+    </div>
+    <div class="item-rank"></div>
+    <div class="data-info d-flex item-tiling">
+        <dl class="text-center" title="1668">
+            <dt><span class="count">1668</span></dt>
+            <dd>积分</dd>
+        </dl>
+         <dl class="text-center" id="fanBox" title="13">
+            <dt><span class="count" id="fan">13</span></dt>
+            <dd>粉丝</dd>
+        </dl>
+        <dl class="text-center" title="22">
+            <dt><span class="count">22</span></dt>
+            <dd>获赞</dd>
+        </dl>
+        <dl class="text-center" title="14">
+            <dt><span class="count">14</span></dt>
+            <dd>评论</dd>
+        </dl>
+        <dl class="text-center" title="25">
+            <dt><span class="count">25</span></dt>
+            <dd>收藏</dd>
+        </dl>
+    </div>
+    <div class="aside-box-footer" data-report-view='{"spm":"3001.4296"}'>
+        <div class="badge-box d-flex">
+            <div class="badge d-flex">
+                <div class="icon-badge" title="持之以恒">
+                    <div class="mouse-box">
+                        <img class="medal-img" data-report-click='{"spm":"3001.4296"}' src="https://csdnimg.cn/medal/chizhiyiheng@240.png" alt="持之以恒">
+                    </div>
+                </div>
+                <div class="icon-badge" title="笔耕不辍">
+                    <div class="mouse-box">
+                        <img class="medal-img" data-report-click='{"spm":"3001.4296"}' src="https://csdnimg.cn/70592b2299594e37aedcaa91fc52a294.png" alt="笔耕不辍">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-intro-name-boxOpration">
+        <div class="opt-letter-watch-box">
+        <a class="bt-button personal-letter" href="https://im.csdn.net/chat/barry283049" target="_blank" rel="noopener">私信</a>
+        </div>
+        <div class="opt-letter-watch-box"> 
+            <a class="personal-watch bt-button" id="btnAttent" >关注</a>  
+        </div>
+    </div>
+</div>
+ <div id="asideSearchArticle" class="aside-box">
+	<div class="aside-content search-comter">
+    <div class="aside-search aside-search-blog">         
+        <input type="text" class="input-serch-blog" name="" autocomplete="off" value="" id="search-blog-words" placeholder="搜博主文章">
+        <a class="btn-search-blog">
+                    <img src="//csdnimg.cn/cdn/content-toolbar/csdn-sou.png?v=1587021042">
+        </a>
+    </div>
+    </div>
+</div>
+
+
+<div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list">
+			<li>
+				<a href="https://blog.csdn.net/barry283049/article/details/43063637" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/barry283049/article/details/43063637","ab":"new"}'>
+				fatal error: X11/Xlib.h: No such file or directory
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">17244</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/barry283049/article/details/42679317" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/barry283049/article/details/42679317","ab":"new"}'>
+				关于Time Limit Exceeded可能的原因
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">9592</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/barry283049/article/details/42263227" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/barry283049/article/details/42263227","ab":"new"}'>
+				sudo apt-get update 和 sudo apt-get dist -upgrade作用
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">9268</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/barry283049/article/details/47657615" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/barry283049/article/details/47657615","ab":"new"}'>
+				2016校招华为机试题目回忆1
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">6977</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/barry283049/article/details/42265491" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/barry283049/article/details/42265491","ab":"new"}'>
+				ubuntu14.04下手动更换linux内核为3.10.58
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">6503</span>
+                </a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">分类专栏</h3>
+    <div class="aside-content">
+        <ul>
+            <li>
+                <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3050951.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3050951.html","ab":"new"}'>
+                    <div class="special-column-bar "></div>
+                    <img src="https://img-blog.csdnimg.cn/20201014180756927.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                    <span class="title oneline">
+                        Online Judge
+                    </span>
+                </a>
+                <span class="special-column-num">41篇</span>
+            </li>
+            <li>
+                <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3186601.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3186601.html","ab":"new"}'>
+                    <div class="special-column-bar "></div>
+                    <img src="https://img-blog.csdnimg.cn/20201014180756928.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                    <span class="title oneline">
+                        求职经验
+                    </span>
+                </a>
+                <span class="special-column-num">5篇</span>
+            </li>
+            <li>
+                <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_2805267.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_2805267.html","ab":"new"}'>
+                    <div class="special-column-bar "></div>
+                    <img src="https://img-blog.csdnimg.cn/20201014180756930.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                    <span class="title oneline">
+                        linux
+                    </span>
+                </a>
+                <span class="special-column-num">11篇</span>
+            </li>
+            <li>
+                <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_2838303.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_2838303.html","ab":"new"}'>
+                    <div class="special-column-bar "></div>
+                    <img src="https://img-blog.csdnimg.cn/20201014180756927.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                    <span class="title oneline">
+                        algorithm
+                    </span>
+                </a>
+                <span class="special-column-num">22篇</span>
+            </li>
+            <li>
+                <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3055275.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3055275.html","ab":"new"}'>
+                    <div class="special-column-bar "></div>
+                    <img src="https://img-blog.csdnimg.cn/20201014180756780.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                    <span class="title oneline">
+                        c&amp;c++
+                    </span>
+                </a>
+                <span class="special-column-num">2篇</span>
+            </li>
+            <li>
+                <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3207431.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3207431.html","ab":"new"}'>
+                    <div class="special-column-bar "></div>
+                    <img src="https://img-blog.csdnimg.cn/20201014180756927.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                    <span class="title oneline">
+                        工具
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p class="text-center">
+        <a class="flexible-btn" data-fbox="aside-archive"><img class="look-more" src="https://csdnimg.cn/release/blogv2/dist/pc/img/arrowDownWhite.png" alt=""></a>
+    </p>
+</div>
+<div id="asideNewComments" class="aside-box">
+    <h3 class="aside-title">最新评论</h3>
+    <div class="aside-content">
+        <ul class="newcomment-list">
+            <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/barry283049/article/details/42970739#comments_15961669" data-report-click='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/42970739#comments_15961669","ab":"new"}' data-report-view='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/42970739#comments_15961669","ab":"new"}'>ubuntu14.04下qemu调试linux内核</a>
+                <p class="comment ellipsis">
+                    <a href="https://blog.csdn.net/weixin_48184612" class="user-name" target="_blank">byerose: </a>
+                    <span class="code-comments">如果提示configure: error: no termcap library found，可以参考这篇文章https://blog.csdn.net/shengerjianku/article/details/83869566</span>
+                </p>
+            </li>
+            <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/barry283049/article/details/42265491#comments_10951910" data-report-click='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/42265491#comments_10951910","ab":"new"}' data-report-view='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/42265491#comments_10951910","ab":"new"}'>ubuntu14.04下手动更换linux内核为3.10.58</a>
+                <p class="comment ellipsis">
+                    <a href="https://blog.csdn.net/evarei" class="user-name" target="_blank">evarei: </a>
+                    <span class="code-comments">太糙了  估计只是给自己写的记录</span>
+                </p>
+            </li>
+            <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/barry283049/article/details/42679317#comments_9647553" data-report-click='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/42679317#comments_9647553","ab":"new"}' data-report-view='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/42679317#comments_9647553","ab":"new"}'>关于Time Limit Exceeded可能的原因</a>
+                <p class="comment ellipsis">
+                    <a href="https://blog.csdn.net/cxhttt" class="user-name" target="_blank">cxhttt: </a>
+                    <span class="code-comments">如果需要将cin改成sprintf才能通过，只能说明你的算法有问题</span>
+                </p>
+            </li>
+            <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/barry283049/article/details/45842247#comments_9409997" data-report-click='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/45842247#comments_9409997","ab":"new"}' data-report-view='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/45842247#comments_9409997","ab":"new"}'>最近公共祖先（LCA）：离线&amp;在线算法</a>
+                <p class="comment ellipsis">
+                    <a href="https://blog.csdn.net/qq_32112469" class="user-name" target="_blank">qq_32112469</a>
+                    <span class="reply"> 回复 </span>
+                    <span class="code-comments">qq_32112469: 
+用图说话，染色很好理解！比起那些絮絮叨叨陷入代码细节的不知道高到哪里去了</span>
+                </p>
+            </li>
+            <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/barry283049/article/details/45842247#comments_9409969" data-report-click='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/45842247#comments_9409969","ab":"new"}' data-report-view='{"mod":"popu_542","spm":"1001.2101.3001.4231","dest":"https://blog.csdn.net/barry283049/article/details/45842247#comments_9409969","ab":"new"}'>最近公共祖先（LCA）：离线&amp;在线算法</a>
+                <p class="comment ellipsis">
+                    <a href="https://blog.csdn.net/qq_32112469" class="user-name" target="_blank">qq_32112469: </a>
+                    <span class="code-comments">好看不火啊！</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="asideNewNps" class="aside-box common-nps-box">
+    <h3 class="aside-title">您愿意向朋友推荐“博客详情页”吗？</h3>
+    <div class="aside-content">
+        <ul class="newnps-list">
+            <li class="newnps-item" data-type="强烈不推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel1.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey1.png" alt="">
+                </div>
+                <div class="newnps-text">强烈不推荐</div>
+            </li>
+            <li class="newnps-item" data-type="不推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel2.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey2.png" alt="">
+                </div>
+                <div class="newnps-text">不推荐</div>
+            </li>
+            <li class="newnps-item" data-type="一般般">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel3.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey3.png" alt="">
+                </div>
+                <div class="newnps-text">一般般</div>
+            </li>
+            <li class="newnps-item" data-type="推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel4.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey4.png" alt="">
+                </div>
+                <div class="newnps-text">推荐</div>
+            </li>
+            <li class="newnps-item" data-type="强烈推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey5.png" alt="">
+                </div>
+                <div class="newnps-text">强烈推荐</div>
+            </li>
+        </ul>
+        <div class="newnps-form-box">
+        <div class="newnps-form">
+            <input type="text" placeholder="请输入建议或反馈后点击提交" class="newnps-input">
+            <span class="newnps-btn">提交</span>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="asideArchive" class="aside-box" style="display:block!important; width:300px;">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix">
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/barry283049/article/details/48973649" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/barry283049/article/details/48973649","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/barry283049/article/details/48973649","ab":"new"}'>最长公共子序列&amp;最长公共子串</a>
+            </li>
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/barry283049/article/details/48971729" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/barry283049/article/details/48971729","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/barry283049/article/details/48971729","ab":"new"}'>最长递增子序列</a>
+            </li>
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/barry283049/article/details/48137033" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/barry283049/article/details/48137033","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/barry283049/article/details/48137033","ab":"new"}'>数据结构基础笔记（三）【严蔚敏】</a>
+            </li>
+        </ul>
+        <div class="archive-bar"></div>
+        <div class="archive-box">
+                <div class="archive-list-item"><a href="https://blog.csdn.net/barry283049?type=blog&amp;year=2015&amp;month=10" target="_blank" data-report-click='{"mod":"popu_538","spm":"1001.2101.3001.4138","ab":"new","dest":"https://blog.csdn.net/barry283049?type=blog&amp;year=2015&amp;month=10"}'><span class="year">2015年</span><span class="num">63篇</span></a></div>
+                <div class="archive-list-item"><a href="https://blog.csdn.net/barry283049?type=blog&amp;year=2014&amp;month=12" target="_blank" data-report-click='{"mod":"popu_538","spm":"1001.2101.3001.4138","ab":"new","dest":"https://blog.csdn.net/barry283049?type=blog&amp;year=2014&amp;month=12"}'><span class="year">2014年</span><span class="num">6篇</span></a></div>
+        </div>
+    </div>
+</div>
+    <!-- 详情页显示目录 -->
+<!--文章目录-->
+<div id="asidedirectory" class="aside-box">
+    <div class='groupfile' id="directory">
+        <h3 class="aside-title">目录</h3>
+        <div class="align-items-stretch group_item">
+            <div class="pos-box">
+            <div class="scroll-box">
+                <div class="toc-box"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</aside>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).parents("p.text-center").remove();
+	})
+</script>
+<script type="text/javascript"  src="https://g.csdnimg.cn/user-tooltip/2.7/user-tooltip.js"></script>
+<script type="text/javascript"  src="https://g.csdnimg.cn/user-medal/2.0.0/user-medal.js"></script>    </div>
+<div class="recommend-right align-items-stretch clearfix" id="rightAside" data-type="recommend">
+    <aside class="recommend-right_aside">
+        <div id="recommend-right" >
+                        <div class='flex-column aside-box groupfile' id="groupfile">
+                <div class="groupfile-div">
+                <h3 class="aside-title">目录</h3>
+                <div class="align-items-stretch group_item">
+                    <div class="pos-box">
+                        <div class="scroll-box">
+                            <div class="toc-box"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class='aside-box kind_person d-flex flex-column'>
+                    <h3 class="aside-title">分类专栏</h3>
+                    <div class="align-items-stretch kindof_item" id="kind_person_column">
+                        <div class="aside-content">
+                            <ul>
+                                <li>
+                                    <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3050951.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3050951.html","ab":"new"}'>
+                                        <div class="special-column-bar "></div>
+                                        <img src="https://img-blog.csdnimg.cn/20201014180756927.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                                        <span class="">
+                                            Online Judge
+                                        </span>
+                                    </a>
+                                    <span class="special-column-num">41篇</span>
+                                </li>
+                                <li>
+                                    <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3186601.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3186601.html","ab":"new"}'>
+                                        <div class="special-column-bar "></div>
+                                        <img src="https://img-blog.csdnimg.cn/20201014180756928.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                                        <span class="">
+                                            求职经验
+                                        </span>
+                                    </a>
+                                    <span class="special-column-num">5篇</span>
+                                </li>
+                                <li>
+                                    <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_2805267.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_2805267.html","ab":"new"}'>
+                                        <div class="special-column-bar "></div>
+                                        <img src="https://img-blog.csdnimg.cn/20201014180756930.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                                        <span class="">
+                                            linux
+                                        </span>
+                                    </a>
+                                    <span class="special-column-num">11篇</span>
+                                </li>
+                                <li>
+                                    <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_2838303.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_2838303.html","ab":"new"}'>
+                                        <div class="special-column-bar "></div>
+                                        <img src="https://img-blog.csdnimg.cn/20201014180756927.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                                        <span class="">
+                                            algorithm
+                                        </span>
+                                    </a>
+                                    <span class="special-column-num">22篇</span>
+                                </li>
+                                <li>
+                                    <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3055275.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3055275.html","ab":"new"}'>
+                                        <div class="special-column-bar "></div>
+                                        <img src="https://img-blog.csdnimg.cn/20201014180756780.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                                        <span class="">
+                                            c&amp;c++
+                                        </span>
+                                    </a>
+                                    <span class="special-column-num">2篇</span>
+                                </li>
+                                <li>
+                                    <a class="clearfix special-column-name" target="_blank" href="https://blog.csdn.net/barry283049/category_3207431.html" data-report-click='{"mod":"popu_537","spm":"1001.2101.3001.4137","strategy":"pc付费专栏左侧入口","dest":"https://blog.csdn.net/barry283049/category_3207431.html","ab":"new"}'>
+                                        <div class="special-column-bar "></div>
+                                        <img src="https://img-blog.csdnimg.cn/20201014180756927.png?x-oss-process=image/resize,m_fixed,h_64,w_64" alt="" onerror="this.src='https://img-blog.csdnimg.cn/20201014180756922.png?x-oss-process=image/resize,m_fixed,h_64,w_64'">
+                                        <span class="">
+                                            工具
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </aside>
+</div>
+
+<div class="recommend-right1  align-items-stretch clearfix" id="rightAsideConcision" data-type="recommend">
+    <aside class="recommend-right_aside">
+        <div id="recommend-right-concision" >
+            <div class='flex-column aside-box groupfile' id="groupfileConcision">
+                <div class="groupfile-div1">
+                <h3 class="aside-title">目录</h3>
+                <div class="align-items-stretch group_item">
+                    <div class="pos-box">
+                        <div class="scroll-box">
+                            <div class="toc-box"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>
+
+</div>
+<div class="mask-dark"></div>
+<script type="text/javascript">
+    var timert = setInterval(function() {
+      sideToolbar = $(".csdn-side-toolbar");
+      if (sideToolbar.length > 0) {
+        sideToolbar.css('cssText','bottom:64px !important;')
+        clearInterval(timert);
+      }
+    }, 200);
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.4/js/sandalstrap.min.js"></script>
+<div class="skin-boxshadow"></div>
+<div class="directory-boxshadow"></div>
+<div class="comment-side-box-shadow comment-side-tit-close" id="commentSideBoxshadow">
+<div class="comment-side-content">
+	<div class="comment-side-tit">
+	<div class="comment-side-tit-count">评论&nbsp;<span class="count">1</span></div>
+	<img class="comment-side-tit-close" src="https://csdnimg.cn/release/blogv2/dist/pc/img/closeBt.png"></div>
+	<div id="pcCommentSideBox" class="comment-box comment-box-new2 unlogin-comment-box-new" style="display:none">
+	</div>
+	<div id="pcFlodCommentSideBox" class="pc-flodcomment-sidebox">
+		<div class="comment-fold-tit"><span id="lookUnFlodComment" class="back"><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/commentArrowLeftWhite.png" alt=""></span>被折叠的&nbsp;<span class="count"></span>&nbsp;条评论
+		 <a href="https://blogdev.blog.csdn.net/article/details/122245662" class="tip" target="_blank">为什么被折叠?</a>
+		 <a href="https://bbs.csdn.net/forums/FreeZone" class="park" target="_blank">
+		 <img src="https://csdnimg.cn/release/blogv2/dist/pc/img/iconPark.png">到【灌水乐园】发言</a>                                
+		</div>
+		<div class="comment-fold-content"></div>
+		<div id="lookBadComment" class="look-bad-comment side-look-comment">
+			<a class="look-more-comment">查看更多评论<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/commentArrowDownWhite.png" alt=""></a>
+		</div>
+	</div>
+</div>
+</div>
+<div id="rewardNew" class="reward-popupbox-new">
+	<p class="rewad-title">打赏作者<span class="reward-close"><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/closeBt.png"></span></p>
+	<dl class="profile-box">
+		<dd>
+		<a href="https://blog.csdn.net/barry283049" data-report-click='{"mod":"popu_379","dest":"https://blog.csdn.net/barry283049","ab":"new"}'>
+			<img src="https://profile.csdnimg.cn/0/0/4/3_barry283049" class="avatar_pic">
+		</a>
+		</dd>
+		<dt>
+			<p class="blog-name">埋头</p>
+			<p class="blog-discript">你的鼓励将是我创作的最大动力</p>
+		</dt>
+	</dl>
+	<div class="reward-box-new">
+			<div class="reward-content"><div class="reward-right"></div></div>
+	</div>
+	<div class="money-box">
+				<span class="choose-money choosed" data-id="2">¥2</span>
+				<span class="choose-money " data-id="4">¥4</span>
+				<span class="choose-money " data-id="6">¥6</span>
+				<span class="choose-money " data-id="10">¥10</span>
+				<span class="choose-money " data-id="20">¥20</span>
+				<input id="customizeMoney" class="customize-money" name="" type="" value="" placeholder="自定义"/>
+				<div class="customize-tip">输入1-500的整数</div>
+	</div>
+	<div class="pay-box">
+		<div class="pay-type-blance pay-type active" data-type="blance">
+			<img class="unchoose" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newUnChoose.png" alt="">
+			<img class="choose"src="https://csdnimg.cn/release/blogv2/dist/pc/img/newChoose.png" alt="">
+			<span class="pay-type-name">余额支付</span>
+			<span class="pay-type-num">(余额：-- )</span>
+		</div>
+		<div class="pay-type-money pay-type" data-type="money">
+			<img class="unchoose" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newUnChoose.png" alt="">
+			<img class="choose"src="https://csdnimg.cn/release/blogv2/dist/pc/img/newChoose.png" alt="">
+			<span class="pay-type-name">扫码支付</span>
+		</div>
+	</div>
+	<div class="sure-box">
+		<div class="sure-box-money">
+			<div class="code-box">
+				<div class="code-num-box">
+					<span class="code-name">扫码支付：</span><span class="code-num">¥2</span>
+				</div>
+				<div class="code-img-box">
+					<div class="renovate">
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/pay-time-out.png">
+					<span>获取中</span>
+					</div>
+				</div>
+				<div class="code-pay-box">
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/newWeiXin.png" alt="">
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/newZhiFuBao.png" alt="">
+					<span>扫码支付</span>
+				</div>
+			</div>
+		</div>
+		<div class="sure-box-blance">
+			<p class="tip">您的余额不足，请更换扫码支付或<a target="_blank" data-report-click='{"mod":"1597646289_003","spm":"1001.2101.3001.4302"}' href="https://i.csdn.net/#/wallet/balance/recharge?utm_source=RewardVip" class="go-invest">充值</a></p>
+			<p class="is-have-money"><a class="reward-sure">打赏作者</a></p>
+		</div>
+	</div>
+</div>
+<div class="pay-code">
+    <div class="pay-money">实付<span class="pay-money-span" data-nowprice='' data-oldprice=''>元</span></div>
+    <div class="content-blance"><a class="blance-bt" href="javascript:;">使用余额支付</a></div>
+    <div class="content-code">
+    <div id="payCode" data-id="">
+            <div class="renovate">
+                <img src="https://csdnimg.cn/release/blogv2/dist/pc/img/pay-time-out.png">
+                <span>点击重新获取</span>
+            </div>
+        </div>
+        <div class="pay-style"><span><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/weixin.png"></span><span><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/zhifubao.png"></span><span><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/jingdong.png"></span><span class="text">扫码支付</span></div>
+    </div>
+    <div class="bt-close"><svg t="1567152543821" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10924" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12"><defs><style type="text/css"></style></defs><path d="M512 438.378667L806.506667 143.893333a52.032 52.032 0 1 1 73.6 73.621334L585.621333 512l294.485334 294.485333a52.074667 52.074667 0 0 1-73.6 73.642667L512 585.621333 217.514667 880.128a52.053333 52.053333 0 1 1-73.621334-73.642667L438.378667 512 143.893333 217.514667a52.053333 52.053333 0 1 1 73.621334-73.621334L512 438.378667z" fill="" p-id="10925"></path></svg></div>
+    <!-- <p style="margin-top: 8px;font-size: 14px;" class="text-center">支付成功即可阅读</p> -->
+    <div class="pay-balance">
+    <input type="radio" class="pay-code-radio" data-type="details"> 
+    <span class="span">钱包余额</span>
+    <span class="balance" style="color:#FC5531;font-size:14px;">0</span>  
+    <div class="pay-code-tile">
+        <img src="https://csdnimg.cn/release/blogv2/dist/pc/img/pay-help.png" alt="">
+        <div class="pay-code-content">
+            <div class="span">
+                <p class="title">抵扣说明：</p>
+                <p> 1.余额是钱包充值的虚拟货币，按照1:1的比例进行支付金额的抵扣。<br> 2.余额无法直接购买下载，可以购买VIP、C币套餐、付费专栏及课程。</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <a class="pay-balance-con" href="https://i.csdn.net/#/wallet/balance/recharge" target="_blank"><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/recharge.png" alt=""><span  >余额充值</span></a>
+</div>
+<div style="display:none;">
+	<img src="" onerror='setTimeout(function(){if(!/(csdn.net|iteye.com|baiducontent.com|googleusercontent.com|360webcache.com|sogoucdn.com|bingj.com|baidu.com)$/.test(window.location.hostname)){window.location.href="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x63\x73\x64\x6e\x2e\x6e\x65\x74"}},3000);'>
+</div>
+<div class="keyword-dec-box" id="keywordDecBox"></div>
+</body>
+    <!-- 富文本柱状图  -->
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/chart/chart.css"/>
+	<script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/chart/lib/chart.min.js"></script>
+    <script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/chart/widget2chart.js"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_highlight-2a2586c533.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/components/js/edit_copy_code-ce0f06f94b.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/codesnippet/lib/highlight/styles/atom-one-light.css">
+<script src="https://g.csdnimg.cn/user-accusation/1.0.5/user-accusation.js" type="text/javascript" ></script>
+<script>
+ // 全局声明
+ if (window.csdn === undefined) {
+      window.csdn = {};
+    }
+    window.csdn.sideToolbar = {
+        options: {
+            report:{
+                isShow: true,
+            },
+            qr: {
+                isShow: false,
+            },
+            guide: {
+                isShow: true
+            }
+        }
+    }
+    $(function(){
+        $(document).on('click',"a.option-box[data-type='report']",function() {
+            window.csdn.userLogin.loadAjax(function(res){
+                window.csdn.feedback({
+                    "type":'blog',
+                    "rtype":'article',
+                    "rid":articleId,
+                    "reportedName":username,
+                    "submitOptions":{
+                        "title":articleTitle,
+                        "contentUrl":articleDetailUrl
+                    },
+                    "callback":function(){
+                        showToast({
+                            text: "感谢您的举报，我们会尽快审核！",
+                            bottom: '10%', 
+                            zindex: 9000, 
+                            speed: 500,
+                            time: 1500
+                        });
+                    }
+                })
+            })
+        });
+    })
+</script>
+    <script src="https://g.csdnimg.cn/baidu-search/1.0.12/baidu-search.js"  type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/download/old_static/js/qrcode.js"></script>
+<script src="https://g.csdnimg.cn/lib/qrcode/1.0.0/qrcode.min.js"></script>
+<script src="https://g.csdnimg.cn/user-ordercart/3.0.1/user-ordercart.js" type="text/javascript"></script>
+<script src="https://g.csdnimg.cn/user-ordertip/5.0.1/user-ordertip.js" type="text/javascript" ></script>
+<script src="https://g.csdnimg.cn/order-payment/4.0.1/order-payment.js" type="text/javascript" ></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/pc/js/common-a1dfbf1dc3.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/pc/js/detail-aebc62af7d.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/pc/js/column-2e5cf567c5.min.js" type="text/javascript"></script>
+<script src="https://g.csdnimg.cn/side-toolbar/3.4/side-toolbar.js" type="text/javascript"></script>
+<script src="https://g.csdnimg.cn/copyright/1.0.4/copyright.js" type="text/javascript"></script>
+<script>
+    $(".MathJax").remove();
+    if ($('div.markdown_views pre.prettyprint code.hljs').length > 0) {
+        $('div.markdown_views')[0].className = 'markdown_views';
+    }
+</script>
+<script type="text/javascript" src="https://csdnimg.cn/release/blog_mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            "HTML-CSS": {
+                    linebreaks: { automatic: true, width: "94%container" },
+                    imageFont: null
+            },
+            tex2jax: {
+                preview: "none",
+                ignoreClass:"title-article"
+            },
+            mml2jax: {
+                preview: 'none'
+            }
+    });
+</script>
+<script type="text/javascript" crossorigin src="https://g.csdnimg.cn/common/csdn-login-box/csdn-login-box.js"></script></html>

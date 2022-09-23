@@ -1,0 +1,3 @@
+TotalEnvSteps,Evaluation/AverageDiscountedReturn,Evaluation/StdReturn,Evaluation/MaxReturn,Evaluation/Iteration,Evaluation/NumEpisodes,Evaluation/AverageReturn,Evaluation/TerminationRate,Evaluation/MinReturn
+4007,47.280729177690766,15.280692390391133,119.35320759813844,0,749,48.4245274447002,1.0,26.75882229244919
+8007,48.08232898092971,15.871377944158505,128.93738567786744,1,735,49.27524681431281,1.0,26.809599146364768

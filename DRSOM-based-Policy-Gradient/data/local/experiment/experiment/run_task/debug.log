@@ -1,0 +1,3002 @@
+2022-09-22 06:25:19 | [run_task] Logging to /home/lw/shanshu/MBPG/data/local/experiment/run_task
+2022-09-22 06:25:20 | [run_task] Obtaining samples...
+2022-09-22 06:25:24 | [run_task] epoch #0 | Saving snapshot...
+2022-09-22 06:25:24 | [run_task] epoch #0 | Saved
+2022-09-22 06:25:24 | [run_task] epoch #0 | Time 3.95 s
+2022-09-22 06:25:24 | [run_task] epoch #0 | EpochTime 3.95 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    41.2421
+Evaluation/AverageReturn              41.6414
+Evaluation/Iteration                   0
+Evaluation/MaxReturn                 100.916
+Evaluation/MinReturn                  26.724
+Evaluation/NumEpisodes               866
+Evaluation/StdReturn                  10.8107
+Evaluation/TerminationRate             1
+TotalEnvSteps                       4003
+----------------------------------  ---------
+2022-09-22 06:25:27 | [run_task] epoch #1 | Saving snapshot...
+2022-09-22 06:25:27 | [run_task] epoch #1 | Saved
+2022-09-22 06:25:27 | [run_task] epoch #1 | Time 7.06 s
+2022-09-22 06:25:27 | [run_task] epoch #1 | EpochTime 3.11 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    61.3949
+Evaluation/AverageReturn              62.394
+Evaluation/Iteration                   1
+Evaluation/MaxReturn                 146.387
+Evaluation/MinReturn                  26.856
+Evaluation/NumEpisodes               585
+Evaluation/StdReturn                  20.2055
+Evaluation/TerminationRate             1
+TotalEnvSteps                       8011
+----------------------------------  ---------
+2022-09-22 06:25:30 | [run_task] epoch #2 | Saving snapshot...
+2022-09-22 06:25:30 | [run_task] epoch #2 | Saved
+2022-09-22 06:25:30 | [run_task] epoch #2 | Time 9.91 s
+2022-09-22 06:25:30 | [run_task] epoch #2 | EpochTime 2.85 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     85.2717
+Evaluation/AverageReturn               87.2587
+Evaluation/Iteration                    2
+Evaluation/MaxReturn                  222.075
+Evaluation/MinReturn                   53.9586
+Evaluation/NumEpisodes                421
+Evaluation/StdReturn                   25.9299
+Evaluation/TerminationRate              1
+TotalEnvSteps                       12013
+----------------------------------  ----------
+2022-09-22 06:25:33 | [run_task] epoch #3 | Saving snapshot...
+2022-09-22 06:25:33 | [run_task] epoch #3 | Saved
+2022-09-22 06:25:33 | [run_task] epoch #3 | Time 12.76 s
+2022-09-22 06:25:33 | [run_task] epoch #3 | EpochTime 2.85 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     86.2786
+Evaluation/AverageReturn               88.2527
+Evaluation/Iteration                    3
+Evaluation/MaxReturn                  222.037
+Evaluation/MinReturn                   54.6893
+Evaluation/NumEpisodes                417
+Evaluation/StdReturn                   21.27
+Evaluation/TerminationRate              1
+TotalEnvSteps                       16020
+----------------------------------  ----------
+2022-09-22 06:25:35 | [run_task] epoch #4 | Saving snapshot...
+2022-09-22 06:25:36 | [run_task] epoch #4 | Saved
+2022-09-22 06:25:36 | [run_task] epoch #4 | Time 15.57 s
+2022-09-22 06:25:36 | [run_task] epoch #4 | EpochTime 2.81 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     88.4171
+Evaluation/AverageReturn               90.5528
+Evaluation/Iteration                    4
+Evaluation/MaxReturn                  259.646
+Evaluation/MinReturn                   54.7286
+Evaluation/NumEpisodes                406
+Evaluation/StdReturn                   26.1952
+Evaluation/TerminationRate              1
+TotalEnvSteps                       20021
+----------------------------------  ----------
+2022-09-22 06:25:38 | [run_task] epoch #5 | Saving snapshot...
+2022-09-22 06:25:38 | [run_task] epoch #5 | Saved
+2022-09-22 06:25:38 | [run_task] epoch #5 | Time 18.44 s
+2022-09-22 06:25:38 | [run_task] epoch #5 | EpochTime 2.86 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     87.6454
+Evaluation/AverageReturn               89.6701
+Evaluation/Iteration                    5
+Evaluation/MaxReturn                  166.378
+Evaluation/MinReturn                   54.8842
+Evaluation/NumEpisodes                411
+Evaluation/StdReturn                   20.0574
+Evaluation/TerminationRate              1
+TotalEnvSteps                       24032
+----------------------------------  ----------
+2022-09-22 06:25:41 | [run_task] epoch #6 | Saving snapshot...
+2022-09-22 06:25:41 | [run_task] epoch #6 | Saved
+2022-09-22 06:25:41 | [run_task] epoch #6 | Time 21.21 s
+2022-09-22 06:25:41 | [run_task] epoch #6 | EpochTime 2.77 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     88.5153
+Evaluation/AverageReturn               90.6126
+Evaluation/Iteration                    6
+Evaluation/MaxReturn                  193.721
+Evaluation/MinReturn                   54.8779
+Evaluation/NumEpisodes                406
+Evaluation/StdReturn                   22.8216
+Evaluation/TerminationRate              1
+TotalEnvSteps                       28036
+----------------------------------  ----------
+2022-09-22 06:25:44 | [run_task] epoch #7 | Saving snapshot...
+2022-09-22 06:25:44 | [run_task] epoch #7 | Saved
+2022-09-22 06:25:44 | [run_task] epoch #7 | Time 24.03 s
+2022-09-22 06:25:44 | [run_task] epoch #7 | EpochTime 2.82 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     90.2136
+Evaluation/AverageReturn               92.3958
+Evaluation/Iteration                    7
+Evaluation/MaxReturn                  249.324
+Evaluation/MinReturn                   63.7822
+Evaluation/NumEpisodes                398
+Evaluation/StdReturn                   23.1425
+Evaluation/TerminationRate              1
+TotalEnvSteps                       32037
+----------------------------------  ----------
+2022-09-22 06:25:47 | [run_task] epoch #8 | Saving snapshot...
+2022-09-22 06:25:47 | [run_task] epoch #8 | Saved
+2022-09-22 06:25:47 | [run_task] epoch #8 | Time 26.85 s
+2022-09-22 06:25:47 | [run_task] epoch #8 | EpochTime 2.83 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     89.0242
+Evaluation/AverageReturn               91.1435
+Evaluation/Iteration                    8
+Evaluation/MaxReturn                  202.203
+Evaluation/MinReturn                   63.6423
+Evaluation/NumEpisodes                404
+Evaluation/StdReturn                   22.6859
+Evaluation/TerminationRate              1
+TotalEnvSteps                       36043
+----------------------------------  ----------
+2022-09-22 06:25:50 | [run_task] epoch #9 | Saving snapshot...
+2022-09-22 06:25:50 | [run_task] epoch #9 | Saved
+2022-09-22 06:25:50 | [run_task] epoch #9 | Time 29.73 s
+2022-09-22 06:25:50 | [run_task] epoch #9 | EpochTime 2.88 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     93.9968
+Evaluation/AverageReturn               96.3951
+Evaluation/Iteration                    9
+Evaluation/MaxReturn                  228.909
+Evaluation/MinReturn                   63.5935
+Evaluation/NumEpisodes                382
+Evaluation/StdReturn                   25.3879
+Evaluation/TerminationRate              1
+TotalEnvSteps                       40047
+----------------------------------  ----------
+2022-09-22 06:25:52 | [run_task] epoch #10 | Saving snapshot...
+2022-09-22 06:25:53 | [run_task] epoch #10 | Saved
+2022-09-22 06:25:53 | [run_task] epoch #10 | Time 32.55 s
+2022-09-22 06:25:53 | [run_task] epoch #10 | EpochTime 2.81 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     95.8245
+Evaluation/AverageReturn               98.3432
+Evaluation/Iteration                   10
+Evaluation/MaxReturn                  231.238
+Evaluation/MinReturn                   63.8766
+Evaluation/NumEpisodes                375
+Evaluation/StdReturn                   27.2413
+Evaluation/TerminationRate              1
+TotalEnvSteps                       44059
+----------------------------------  ----------
+2022-09-22 06:25:55 | [run_task] epoch #11 | Saving snapshot...
+2022-09-22 06:25:55 | [run_task] epoch #11 | Saved
+2022-09-22 06:25:55 | [run_task] epoch #11 | Time 35.33 s
+2022-09-22 06:25:55 | [run_task] epoch #11 | EpochTime 2.78 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn    104.543
+Evaluation/AverageReturn              107.765
+Evaluation/Iteration                   11
+Evaluation/MaxReturn                  249.208
+Evaluation/MinReturn                   54.1274
+Evaluation/NumEpisodes                341
+Evaluation/StdReturn                   39.7912
+Evaluation/TerminationRate              1
+TotalEnvSteps                       48065
+----------------------------------  ----------
+2022-09-22 06:25:58 | [run_task] epoch #12 | Saving snapshot...
+2022-09-22 06:25:58 | [run_task] epoch #12 | Saved
+2022-09-22 06:25:58 | [run_task] epoch #12 | Time 38.33 s
+2022-09-22 06:25:58 | [run_task] epoch #12 | EpochTime 3.00 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     67.2645
+Evaluation/AverageReturn               68.4732
+Evaluation/Iteration                   12
+Evaluation/MaxReturn                  184.374
+Evaluation/MinReturn                   26.877
+Evaluation/NumEpisodes                531
+Evaluation/StdReturn                   21.357
+Evaluation/TerminationRate              1
+TotalEnvSteps                       52068
+----------------------------------  ----------
+2022-09-22 06:26:02 | [run_task] epoch #13 | Saving snapshot...
+2022-09-22 06:26:02 | [run_task] epoch #13 | Saved
+2022-09-22 06:26:02 | [run_task] epoch #13 | Time 41.92 s
+2022-09-22 06:26:02 | [run_task] epoch #13 | EpochTime 3.59 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     37.2991
+Evaluation/AverageReturn               37.6104
+Evaluation/Iteration                   13
+Evaluation/MaxReturn                   81.6931
+Evaluation/MinReturn                   26.7268
+Evaluation/NumEpisodes                954
+Evaluation/StdReturn                    8.28732
+Evaluation/TerminationRate              1
+TotalEnvSteps                       56070
+----------------------------------  -----------
+2022-09-22 06:26:06 | [run_task] epoch #14 | Saving snapshot...
+2022-09-22 06:26:06 | [run_task] epoch #14 | Saved
+2022-09-22 06:26:06 | [run_task] epoch #14 | Time 45.60 s
+2022-09-22 06:26:06 | [run_task] epoch #14 | EpochTime 3.68 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     34.2842
+Evaluation/AverageReturn               34.5316
+Evaluation/Iteration                   14
+Evaluation/MaxReturn                   54.8013
+Evaluation/MinReturn                   26.7434
+Evaluation/NumEpisodes               1036
+Evaluation/StdReturn                    4.78964
+Evaluation/TerminationRate              1
+TotalEnvSteps                       60072
+----------------------------------  -----------
+2022-09-22 06:26:09 | [run_task] epoch #15 | Saving snapshot...
+2022-09-22 06:26:09 | [run_task] epoch #15 | Saved
+2022-09-22 06:26:09 | [run_task] epoch #15 | Time 49.30 s
+2022-09-22 06:26:09 | [run_task] epoch #15 | EpochTime 3.70 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     33.6491
+Evaluation/AverageReturn               33.8857
+Evaluation/Iteration                   15
+Evaluation/MaxReturn                   54.8194
+Evaluation/MinReturn                   26.7186
+Evaluation/NumEpisodes               1055
+Evaluation/StdReturn                    4.54345
+Evaluation/TerminationRate              1
+TotalEnvSteps                       64075
+----------------------------------  -----------
+2022-09-22 06:26:13 | [run_task] epoch #16 | Saving snapshot...
+2022-09-22 06:26:13 | [run_task] epoch #16 | Saved
+2022-09-22 06:26:13 | [run_task] epoch #16 | Time 53.02 s
+2022-09-22 06:26:13 | [run_task] epoch #16 | EpochTime 3.72 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     33.9148
+Evaluation/AverageReturn               34.156
+Evaluation/Iteration                   16
+Evaluation/MaxReturn                   63.3277
+Evaluation/MinReturn                   26.7324
+Evaluation/NumEpisodes               1048
+Evaluation/StdReturn                    4.73725
+Evaluation/TerminationRate              1
+TotalEnvSteps                       68079
+----------------------------------  -----------
+2022-09-22 06:26:17 | [run_task] epoch #17 | Saving snapshot...
+2022-09-22 06:26:17 | [run_task] epoch #17 | Saved
+2022-09-22 06:26:17 | [run_task] epoch #17 | Time 56.81 s
+2022-09-22 06:26:17 | [run_task] epoch #17 | EpochTime 3.79 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     33.4201
+Evaluation/AverageReturn               33.653
+Evaluation/Iteration                   17
+Evaluation/MaxReturn                   53.9458
+Evaluation/MinReturn                   26.7227
+Evaluation/NumEpisodes               1062
+Evaluation/StdReturn                    4.52776
+Evaluation/TerminationRate              1
+TotalEnvSteps                       72081
+----------------------------------  -----------
+2022-09-22 06:26:20 | [run_task] epoch #18 | Saving snapshot...
+2022-09-22 06:26:21 | [run_task] epoch #18 | Saved
+2022-09-22 06:26:21 | [run_task] epoch #18 | Time 60.52 s
+2022-09-22 06:26:21 | [run_task] epoch #18 | EpochTime 3.71 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     33.6302
+Evaluation/AverageReturn               33.8663
+Evaluation/Iteration                   18
+Evaluation/MaxReturn                   53.7999
+Evaluation/MinReturn                   26.723
+Evaluation/NumEpisodes               1055
+Evaluation/StdReturn                    4.41474
+Evaluation/TerminationRate              1
+TotalEnvSteps                       76083
+----------------------------------  -----------
+2022-09-22 06:26:25 | [run_task] epoch #19 | Saving snapshot...
+2022-09-22 06:26:25 | [run_task] epoch #19 | Saved
+2022-09-22 06:26:25 | [run_task] epoch #19 | Time 65.00 s
+2022-09-22 06:26:25 | [run_task] epoch #19 | EpochTime 4.48 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     33.2579
+Evaluation/AverageReturn               33.4883
+Evaluation/Iteration                   19
+Evaluation/MaxReturn                   45.5393
+Evaluation/MinReturn                   26.7555
+Evaluation/NumEpisodes               1066
+Evaluation/StdReturn                    4.4602
+Evaluation/TerminationRate              1
+TotalEnvSteps                       80084
+----------------------------------  ----------
+2022-09-22 06:26:29 | [run_task] epoch #20 | Saving snapshot...
+2022-09-22 06:26:29 | [run_task] epoch #20 | Saved
+2022-09-22 06:26:29 | [run_task] epoch #20 | Time 68.76 s
+2022-09-22 06:26:29 | [run_task] epoch #20 | EpochTime 3.76 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     32.9736
+Evaluation/AverageReturn               33.1995
+Evaluation/Iteration                   20
+Evaluation/MaxReturn                   53.9682
+Evaluation/MinReturn                   26.7233
+Evaluation/NumEpisodes               1074
+Evaluation/StdReturn                    4.33154
+Evaluation/TerminationRate              1
+TotalEnvSteps                       84084
+----------------------------------  -----------
+2022-09-22 06:26:32 | [run_task] epoch #21 | Saving snapshot...
+2022-09-22 06:26:33 | [run_task] epoch #21 | Saved
+2022-09-22 06:26:33 | [run_task] epoch #21 | Time 72.49 s
+2022-09-22 06:26:33 | [run_task] epoch #21 | EpochTime 3.73 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     33.0055
+Evaluation/AverageReturn               33.2318
+Evaluation/Iteration                   21
+Evaluation/MaxReturn                   45.5417
+Evaluation/MinReturn                   26.7147
+Evaluation/NumEpisodes               1074
+Evaluation/StdReturn                    4.40273
+Evaluation/TerminationRate              1
+TotalEnvSteps                       88084
+----------------------------------  -----------
+2022-09-22 06:26:36 | [run_task] epoch #22 | Saving snapshot...
+2022-09-22 06:26:36 | [run_task] epoch #22 | Saved
+2022-09-22 06:26:36 | [run_task] epoch #22 | Time 76.46 s
+2022-09-22 06:26:36 | [run_task] epoch #22 | EpochTime 3.96 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     31.1239
+Evaluation/AverageReturn               31.3223
+Evaluation/Iteration                   22
+Evaluation/MaxReturn                   45.4409
+Evaluation/MinReturn                   26.7414
+Evaluation/NumEpisodes               1134
+Evaluation/StdReturn                    4.25977
+Evaluation/TerminationRate              1
+TotalEnvSteps                       92084
+----------------------------------  -----------
+2022-09-22 06:26:40 | [run_task] epoch #23 | Saving snapshot...
+2022-09-22 06:26:40 | [run_task] epoch #23 | Saved
+2022-09-22 06:26:40 | [run_task] epoch #23 | Time 80.22 s
+2022-09-22 06:26:40 | [run_task] epoch #23 | EpochTime 3.76 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn     31.0713
+Evaluation/AverageReturn               31.2688
+Evaluation/Iteration                   23
+Evaluation/MaxReturn                   35.4152
+Evaluation/MinReturn                   26.7348
+Evaluation/NumEpisodes               1135
+Evaluation/StdReturn                    4.16952
+Evaluation/TerminationRate              1
+TotalEnvSteps                       96084
+----------------------------------  -----------
+2022-09-22 06:26:44 | [run_task] epoch #24 | Saving snapshot...
+2022-09-22 06:26:44 | [run_task] epoch #24 | Saved
+2022-09-22 06:26:44 | [run_task] epoch #24 | Time 84.07 s
+2022-09-22 06:26:44 | [run_task] epoch #24 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.8753
+Evaluation/AverageReturn                32.085
+Evaluation/Iteration                    24
+Evaluation/MaxReturn                    45.3939
+Evaluation/MinReturn                    26.7053
+Evaluation/NumEpisodes                1109
+Evaluation/StdReturn                     4.42301
+Evaluation/TerminationRate               1
+TotalEnvSteps                       100087
+----------------------------------  ------------
+2022-09-22 06:26:48 | [run_task] epoch #25 | Saving snapshot...
+2022-09-22 06:26:48 | [run_task] epoch #25 | Saved
+2022-09-22 06:26:48 | [run_task] epoch #25 | Time 87.84 s
+2022-09-22 06:26:48 | [run_task] epoch #25 | EpochTime 3.77 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      31.9066
+Evaluation/AverageReturn                32.1167
+Evaluation/Iteration                    25
+Evaluation/MaxReturn                    45.5131
+Evaluation/MinReturn                    26.734
+Evaluation/NumEpisodes                1108
+Evaluation/StdReturn                     4.4475
+Evaluation/TerminationRate               1
+TotalEnvSteps                       104087
+----------------------------------  -----------
+2022-09-22 06:26:52 | [run_task] epoch #26 | Saving snapshot...
+2022-09-22 06:26:52 | [run_task] epoch #26 | Saved
+2022-09-22 06:26:52 | [run_task] epoch #26 | Time 91.71 s
+2022-09-22 06:26:52 | [run_task] epoch #26 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.3807
+Evaluation/AverageReturn                31.5828
+Evaluation/Iteration                    26
+Evaluation/MaxReturn                    53.9669
+Evaluation/MinReturn                    26.728
+Evaluation/NumEpisodes                1126
+Evaluation/StdReturn                     4.32796
+Evaluation/TerminationRate               1
+TotalEnvSteps                       108089
+----------------------------------  ------------
+2022-09-22 06:26:55 | [run_task] epoch #27 | Saving snapshot...
+2022-09-22 06:26:56 | [run_task] epoch #27 | Saved
+2022-09-22 06:26:56 | [run_task] epoch #27 | Time 95.48 s
+2022-09-22 06:26:56 | [run_task] epoch #27 | EpochTime 3.76 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9941
+Evaluation/AverageReturn                31.1904
+Evaluation/Iteration                    27
+Evaluation/MaxReturn                    35.4298
+Evaluation/MinReturn                    26.7215
+Evaluation/NumEpisodes                1139
+Evaluation/StdReturn                     4.17203
+Evaluation/TerminationRate               1
+TotalEnvSteps                       112092
+----------------------------------  ------------
+2022-09-22 06:26:59 | [run_task] epoch #28 | Saving snapshot...
+2022-09-22 06:26:59 | [run_task] epoch #28 | Saved
+2022-09-22 06:26:59 | [run_task] epoch #28 | Time 99.26 s
+2022-09-22 06:26:59 | [run_task] epoch #28 | EpochTime 3.78 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.4719
+Evaluation/AverageReturn                31.6753
+Evaluation/Iteration                    28
+Evaluation/MaxReturn                    45.0258
+Evaluation/MinReturn                    26.7297
+Evaluation/NumEpisodes                1122
+Evaluation/StdReturn                     4.27528
+Evaluation/TerminationRate               1
+TotalEnvSteps                       116093
+----------------------------------  ------------
+2022-09-22 06:27:03 | [run_task] epoch #29 | Saving snapshot...
+2022-09-22 06:27:03 | [run_task] epoch #29 | Saved
+2022-09-22 06:27:03 | [run_task] epoch #29 | Time 103.06 s
+2022-09-22 06:27:03 | [run_task] epoch #29 | EpochTime 3.80 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.7621
+Evaluation/AverageReturn                31.9699
+Evaluation/Iteration                    29
+Evaluation/MaxReturn                    54.3245
+Evaluation/MinReturn                    26.6988
+Evaluation/NumEpisodes                1113
+Evaluation/StdReturn                     4.35755
+Evaluation/TerminationRate               1
+TotalEnvSteps                       120095
+----------------------------------  ------------
+2022-09-22 06:27:07 | [run_task] epoch #30 | Saving snapshot...
+2022-09-22 06:27:07 | [run_task] epoch #30 | Saved
+2022-09-22 06:27:07 | [run_task] epoch #30 | Time 106.90 s
+2022-09-22 06:27:07 | [run_task] epoch #30 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.3473
+Evaluation/AverageReturn                31.5489
+Evaluation/Iteration                    30
+Evaluation/MaxReturn                    45.3347
+Evaluation/MinReturn                    26.7374
+Evaluation/NumEpisodes                1126
+Evaluation/StdReturn                     4.27812
+Evaluation/TerminationRate               1
+TotalEnvSteps                       124095
+----------------------------------  ------------
+2022-09-22 06:27:11 | [run_task] epoch #31 | Saving snapshot...
+2022-09-22 06:27:12 | [run_task] epoch #31 | Saved
+2022-09-22 06:27:12 | [run_task] epoch #31 | Time 111.52 s
+2022-09-22 06:27:12 | [run_task] epoch #31 | EpochTime 4.62 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.8948
+Evaluation/AverageReturn                31.0897
+Evaluation/Iteration                    31
+Evaluation/MaxReturn                    35.4172
+Evaluation/MinReturn                    26.704
+Evaluation/NumEpisodes                1142
+Evaluation/StdReturn                     4.17471
+Evaluation/TerminationRate               1
+TotalEnvSteps                       128095
+----------------------------------  ------------
+2022-09-22 06:27:16 | [run_task] epoch #32 | Saving snapshot...
+2022-09-22 06:27:16 | [run_task] epoch #32 | Saved
+2022-09-22 06:27:16 | [run_task] epoch #32 | Time 115.87 s
+2022-09-22 06:27:16 | [run_task] epoch #32 | EpochTime 4.35 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.2942
+Evaluation/AverageReturn                31.495
+Evaluation/Iteration                    32
+Evaluation/MaxReturn                    45.5439
+Evaluation/MinReturn                    26.7333
+Evaluation/NumEpisodes                1129
+Evaluation/StdReturn                     4.30996
+Evaluation/TerminationRate               1
+TotalEnvSteps                       132097
+----------------------------------  ------------
+2022-09-22 06:27:20 | [run_task] epoch #33 | Saving snapshot...
+2022-09-22 06:27:20 | [run_task] epoch #33 | Saved
+2022-09-22 06:27:20 | [run_task] epoch #33 | Time 119.72 s
+2022-09-22 06:27:20 | [run_task] epoch #33 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.1736
+Evaluation/AverageReturn                31.3725
+Evaluation/Iteration                    33
+Evaluation/MaxReturn                    45.481
+Evaluation/MinReturn                    26.7183
+Evaluation/NumEpisodes                1134
+Evaluation/StdReturn                     4.33051
+Evaluation/TerminationRate               1
+TotalEnvSteps                       136099
+----------------------------------  ------------
+2022-09-22 06:27:24 | [run_task] epoch #34 | Saving snapshot...
+2022-09-22 06:27:24 | [run_task] epoch #34 | Saved
+2022-09-22 06:27:24 | [run_task] epoch #34 | Time 123.68 s
+2022-09-22 06:27:24 | [run_task] epoch #34 | EpochTime 3.96 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.5753
+Evaluation/AverageReturn                31.7804
+Evaluation/Iteration                    34
+Evaluation/MaxReturn                    45.1726
+Evaluation/MinReturn                    26.717
+Evaluation/NumEpisodes                1120
+Evaluation/StdReturn                     4.41452
+Evaluation/TerminationRate               1
+TotalEnvSteps                       140102
+----------------------------------  ------------
+2022-09-22 06:27:27 | [run_task] epoch #35 | Saving snapshot...
+2022-09-22 06:27:28 | [run_task] epoch #35 | Saved
+2022-09-22 06:27:28 | [run_task] epoch #35 | Time 127.48 s
+2022-09-22 06:27:28 | [run_task] epoch #35 | EpochTime 3.80 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      31.0683
+Evaluation/AverageReturn                31.2657
+Evaluation/Iteration                    35
+Evaluation/MaxReturn                    35.4205
+Evaluation/MinReturn                    26.7364
+Evaluation/NumEpisodes                1136
+Evaluation/StdReturn                     4.1667
+Evaluation/TerminationRate               1
+TotalEnvSteps                       144105
+----------------------------------  -----------
+2022-09-22 06:27:31 | [run_task] epoch #36 | Saving snapshot...
+2022-09-22 06:27:31 | [run_task] epoch #36 | Saved
+2022-09-22 06:27:31 | [run_task] epoch #36 | Time 131.20 s
+2022-09-22 06:27:31 | [run_task] epoch #36 | EpochTime 3.72 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.6348
+Evaluation/AverageReturn                31.8407
+Evaluation/Iteration                    36
+Evaluation/MaxReturn                    45.6084
+Evaluation/MinReturn                    26.7268
+Evaluation/NumEpisodes                1117
+Evaluation/StdReturn                     4.34285
+Evaluation/TerminationRate               1
+TotalEnvSteps                       148107
+----------------------------------  ------------
+2022-09-22 06:27:35 | [run_task] epoch #37 | Saving snapshot...
+2022-09-22 06:27:35 | [run_task] epoch #37 | Saved
+2022-09-22 06:27:35 | [run_task] epoch #37 | Time 134.97 s
+2022-09-22 06:27:35 | [run_task] epoch #37 | EpochTime 3.76 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.2763
+Evaluation/AverageReturn                31.4769
+Evaluation/Iteration                    37
+Evaluation/MaxReturn                    45.5812
+Evaluation/MinReturn                    26.7252
+Evaluation/NumEpisodes                1130
+Evaluation/StdReturn                     4.35248
+Evaluation/TerminationRate               1
+TotalEnvSteps                       152109
+----------------------------------  ------------
+2022-09-22 06:27:39 | [run_task] epoch #38 | Saving snapshot...
+2022-09-22 06:27:39 | [run_task] epoch #38 | Saved
+2022-09-22 06:27:39 | [run_task] epoch #38 | Time 138.80 s
+2022-09-22 06:27:39 | [run_task] epoch #38 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.409
+Evaluation/AverageReturn                31.6115
+Evaluation/Iteration                    38
+Evaluation/MaxReturn                    44.7331
+Evaluation/MinReturn                    26.7282
+Evaluation/NumEpisodes                1125
+Evaluation/StdReturn                     4.32977
+Evaluation/TerminationRate               1
+TotalEnvSteps                       156110
+----------------------------------  ------------
+2022-09-22 06:27:43 | [run_task] epoch #39 | Saving snapshot...
+2022-09-22 06:27:43 | [run_task] epoch #39 | Saved
+2022-09-22 06:27:43 | [run_task] epoch #39 | Time 142.63 s
+2022-09-22 06:27:43 | [run_task] epoch #39 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9569
+Evaluation/AverageReturn                31.1527
+Evaluation/Iteration                    39
+Evaluation/MaxReturn                    35.4422
+Evaluation/MinReturn                    26.7159
+Evaluation/NumEpisodes                1140
+Evaluation/StdReturn                     4.17376
+Evaluation/TerminationRate               1
+TotalEnvSteps                       160112
+----------------------------------  ------------
+2022-09-22 06:27:46 | [run_task] epoch #40 | Saving snapshot...
+2022-09-22 06:27:47 | [run_task] epoch #40 | Saved
+2022-09-22 06:27:47 | [run_task] epoch #40 | Time 146.52 s
+2022-09-22 06:27:47 | [run_task] epoch #40 | EpochTime 3.89 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.2215
+Evaluation/AverageReturn                31.4211
+Evaluation/Iteration                    40
+Evaluation/MaxReturn                    53.8031
+Evaluation/MinReturn                    26.7048
+Evaluation/NumEpisodes                1133
+Evaluation/StdReturn                     4.38869
+Evaluation/TerminationRate               1
+TotalEnvSteps                       164113
+----------------------------------  ------------
+2022-09-22 06:27:50 | [run_task] epoch #41 | Saving snapshot...
+2022-09-22 06:27:50 | [run_task] epoch #41 | Saved
+2022-09-22 06:27:50 | [run_task] epoch #41 | Time 150.40 s
+2022-09-22 06:27:50 | [run_task] epoch #41 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.3401
+Evaluation/AverageReturn                31.5416
+Evaluation/Iteration                    41
+Evaluation/MaxReturn                    45.5825
+Evaluation/MinReturn                    26.7232
+Evaluation/NumEpisodes                1128
+Evaluation/StdReturn                     4.41753
+Evaluation/TerminationRate               1
+TotalEnvSteps                       168114
+----------------------------------  ------------
+2022-09-22 06:27:55 | [run_task] epoch #42 | Saving snapshot...
+2022-09-22 06:27:55 | [run_task] epoch #42 | Saved
+2022-09-22 06:27:55 | [run_task] epoch #42 | Time 154.77 s
+2022-09-22 06:27:55 | [run_task] epoch #42 | EpochTime 4.37 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.2583
+Evaluation/AverageReturn                31.4586
+Evaluation/Iteration                    42
+Evaluation/MaxReturn                    44.5875
+Evaluation/MinReturn                    26.7227
+Evaluation/NumEpisodes                1131
+Evaluation/StdReturn                     4.34183
+Evaluation/TerminationRate               1
+TotalEnvSteps                       172116
+----------------------------------  ------------
+2022-09-22 06:27:59 | [run_task] epoch #43 | Saving snapshot...
+2022-09-22 06:27:59 | [run_task] epoch #43 | Saved
+2022-09-22 06:27:59 | [run_task] epoch #43 | Time 159.10 s
+2022-09-22 06:27:59 | [run_task] epoch #43 | EpochTime 4.33 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0347
+Evaluation/AverageReturn                31.2317
+Evaluation/Iteration                    43
+Evaluation/MaxReturn                    36.1637
+Evaluation/MinReturn                    26.7317
+Evaluation/NumEpisodes                1137
+Evaluation/StdReturn                     4.16981
+Evaluation/TerminationRate               1
+TotalEnvSteps                       176118
+----------------------------------  ------------
+2022-09-22 06:28:03 | [run_task] epoch #44 | Saving snapshot...
+2022-09-22 06:28:03 | [run_task] epoch #44 | Saved
+2022-09-22 06:28:03 | [run_task] epoch #44 | Time 163.40 s
+2022-09-22 06:28:03 | [run_task] epoch #44 | EpochTime 4.31 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.3659
+Evaluation/AverageReturn                31.5677
+Evaluation/Iteration                    44
+Evaluation/MaxReturn                    45.5849
+Evaluation/MinReturn                    26.7197
+Evaluation/NumEpisodes                1127
+Evaluation/StdReturn                     4.34606
+Evaluation/TerminationRate               1
+TotalEnvSteps                       180120
+----------------------------------  ------------
+2022-09-22 06:28:07 | [run_task] epoch #45 | Saving snapshot...
+2022-09-22 06:28:07 | [run_task] epoch #45 | Saved
+2022-09-22 06:28:07 | [run_task] epoch #45 | Time 167.21 s
+2022-09-22 06:28:07 | [run_task] epoch #45 | EpochTime 3.80 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.1254
+Evaluation/AverageReturn                31.3238
+Evaluation/Iteration                    45
+Evaluation/MaxReturn                    45.491
+Evaluation/MinReturn                    26.7271
+Evaluation/NumEpisodes                1136
+Evaluation/StdReturn                     4.45565
+Evaluation/TerminationRate               1
+TotalEnvSteps                       184121
+----------------------------------  ------------
+2022-09-22 06:28:11 | [run_task] epoch #46 | Saving snapshot...
+2022-09-22 06:28:11 | [run_task] epoch #46 | Saved
+2022-09-22 06:28:11 | [run_task] epoch #46 | Time 171.06 s
+2022-09-22 06:28:11 | [run_task] epoch #46 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.1529
+Evaluation/AverageReturn                31.3515
+Evaluation/Iteration                    46
+Evaluation/MaxReturn                    44.7724
+Evaluation/MinReturn                    26.7195
+Evaluation/NumEpisodes                1135
+Evaluation/StdReturn                     4.38153
+Evaluation/TerminationRate               1
+TotalEnvSteps                       188121
+----------------------------------  ------------
+2022-09-22 06:28:15 | [run_task] epoch #47 | Saving snapshot...
+2022-09-22 06:28:15 | [run_task] epoch #47 | Saved
+2022-09-22 06:28:15 | [run_task] epoch #47 | Time 174.98 s
+2022-09-22 06:28:15 | [run_task] epoch #47 | EpochTime 3.91 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0682
+Evaluation/AverageReturn                31.2657
+Evaluation/Iteration                    47
+Evaluation/MaxReturn                    35.666
+Evaluation/MinReturn                    26.7307
+Evaluation/NumEpisodes                1136
+Evaluation/StdReturn                     4.16907
+Evaluation/TerminationRate               1
+TotalEnvSteps                       192124
+----------------------------------  ------------
+2022-09-22 06:28:19 | [run_task] epoch #48 | Saving snapshot...
+2022-09-22 06:28:19 | [run_task] epoch #48 | Saved
+2022-09-22 06:28:19 | [run_task] epoch #48 | Time 179.02 s
+2022-09-22 06:28:19 | [run_task] epoch #48 | EpochTime 4.04 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.1665
+Evaluation/AverageReturn                31.3654
+Evaluation/Iteration                    48
+Evaluation/MaxReturn                    44.8364
+Evaluation/MinReturn                    26.7166
+Evaluation/NumEpisodes                1134
+Evaluation/StdReturn                     4.33875
+Evaluation/TerminationRate               1
+TotalEnvSteps                       196126
+----------------------------------  ------------
+2022-09-22 06:28:23 | [run_task] epoch #49 | Saving snapshot...
+2022-09-22 06:28:23 | [run_task] epoch #49 | Saved
+2022-09-22 06:28:23 | [run_task] epoch #49 | Time 182.92 s
+2022-09-22 06:28:23 | [run_task] epoch #49 | EpochTime 3.90 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.1446
+Evaluation/AverageReturn                31.3429
+Evaluation/Iteration                    49
+Evaluation/MaxReturn                    44.5698
+Evaluation/MinReturn                    26.7199
+Evaluation/NumEpisodes                1136
+Evaluation/StdReturn                     4.38356
+Evaluation/TerminationRate               1
+TotalEnvSteps                       200126
+----------------------------------  ------------
+2022-09-22 06:28:27 | [run_task] epoch #50 | Saving snapshot...
+2022-09-22 06:28:27 | [run_task] epoch #50 | Saved
+2022-09-22 06:28:27 | [run_task] epoch #50 | Time 186.76 s
+2022-09-22 06:28:27 | [run_task] epoch #50 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.8249
+Evaluation/AverageReturn                31.0186
+Evaluation/Iteration                    50
+Evaluation/MaxReturn                    44.5246
+Evaluation/MinReturn                    26.7245
+Evaluation/NumEpisodes                1147
+Evaluation/StdReturn                     4.28773
+Evaluation/TerminationRate               1
+TotalEnvSteps                       204128
+----------------------------------  ------------
+2022-09-22 06:28:31 | [run_task] epoch #51 | Saving snapshot...
+2022-09-22 06:28:31 | [run_task] epoch #51 | Saved
+2022-09-22 06:28:31 | [run_task] epoch #51 | Time 190.56 s
+2022-09-22 06:28:31 | [run_task] epoch #51 | EpochTime 3.80 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.201
+Evaluation/AverageReturn                31.4004
+Evaluation/Iteration                    51
+Evaluation/MaxReturn                    35.6101
+Evaluation/MinReturn                    26.7272
+Evaluation/NumEpisodes                1130
+Evaluation/StdReturn                     4.16371
+Evaluation/TerminationRate               1
+TotalEnvSteps                       208128
+----------------------------------  ------------
+2022-09-22 06:28:34 | [run_task] epoch #52 | Saving snapshot...
+2022-09-22 06:28:35 | [run_task] epoch #52 | Saved
+2022-09-22 06:28:35 | [run_task] epoch #52 | Time 194.56 s
+2022-09-22 06:28:35 | [run_task] epoch #52 | EpochTime 4.00 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0703
+Evaluation/AverageReturn                31.2678
+Evaluation/Iteration                    52
+Evaluation/MaxReturn                    45.4823
+Evaluation/MinReturn                    26.7196
+Evaluation/NumEpisodes                1137
+Evaluation/StdReturn                     4.35624
+Evaluation/TerminationRate               1
+TotalEnvSteps                       212128
+----------------------------------  ------------
+2022-09-22 06:28:38 | [run_task] epoch #53 | Saving snapshot...
+2022-09-22 06:28:38 | [run_task] epoch #53 | Saved
+2022-09-22 06:28:38 | [run_task] epoch #53 | Time 198.36 s
+2022-09-22 06:28:38 | [run_task] epoch #53 | EpochTime 3.79 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0909
+Evaluation/AverageReturn                31.2883
+Evaluation/Iteration                    53
+Evaluation/MaxReturn                    44.7233
+Evaluation/MinReturn                    26.7216
+Evaluation/NumEpisodes                1139
+Evaluation/StdReturn                     4.39662
+Evaluation/TerminationRate               1
+TotalEnvSteps                       216130
+----------------------------------  ------------
+2022-09-22 06:28:42 | [run_task] epoch #54 | Saving snapshot...
+2022-09-22 06:28:42 | [run_task] epoch #54 | Saved
+2022-09-22 06:28:42 | [run_task] epoch #54 | Time 202.16 s
+2022-09-22 06:28:42 | [run_task] epoch #54 | EpochTime 3.80 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0609
+Evaluation/AverageReturn                31.2581
+Evaluation/Iteration                    54
+Evaluation/MaxReturn                    45.5716
+Evaluation/MinReturn                    26.7025
+Evaluation/NumEpisodes                1138
+Evaluation/StdReturn                     4.29404
+Evaluation/TerminationRate               1
+TotalEnvSteps                       220132
+----------------------------------  ------------
+2022-09-22 06:28:46 | [run_task] epoch #55 | Saving snapshot...
+2022-09-22 06:28:46 | [run_task] epoch #55 | Saved
+2022-09-22 06:28:46 | [run_task] epoch #55 | Time 205.92 s
+2022-09-22 06:28:46 | [run_task] epoch #55 | EpochTime 3.76 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      31.0513
+Evaluation/AverageReturn                31.2485
+Evaluation/Iteration                    55
+Evaluation/MaxReturn                    35.9084
+Evaluation/MinReturn                    26.7203
+Evaluation/NumEpisodes                1136
+Evaluation/StdReturn                     4.1693
+Evaluation/TerminationRate               1
+TotalEnvSteps                       224133
+----------------------------------  -----------
+2022-09-22 06:28:50 | [run_task] epoch #56 | Saving snapshot...
+2022-09-22 06:28:50 | [run_task] epoch #56 | Saved
+2022-09-22 06:28:50 | [run_task] epoch #56 | Time 209.79 s
+2022-09-22 06:28:50 | [run_task] epoch #56 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9956
+Evaluation/AverageReturn                31.1918
+Evaluation/Iteration                    56
+Evaluation/MaxReturn                    44.4427
+Evaluation/MinReturn                    26.7272
+Evaluation/NumEpisodes                1140
+Evaluation/StdReturn                     4.27127
+Evaluation/TerminationRate               1
+TotalEnvSteps                       228134
+----------------------------------  ------------
+2022-09-22 06:28:54 | [run_task] epoch #57 | Saving snapshot...
+2022-09-22 06:28:54 | [run_task] epoch #57 | Saved
+2022-09-22 06:28:54 | [run_task] epoch #57 | Time 213.66 s
+2022-09-22 06:28:54 | [run_task] epoch #57 | EpochTime 3.87 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.7478
+Evaluation/AverageReturn                30.9402
+Evaluation/Iteration                    57
+Evaluation/MaxReturn                    44.6437
+Evaluation/MinReturn                    26.7241
+Evaluation/NumEpisodes                1152
+Evaluation/StdReturn                     4.4182
+Evaluation/TerminationRate               1
+TotalEnvSteps                       232136
+----------------------------------  -----------
+2022-09-22 06:28:57 | [run_task] epoch #58 | Saving snapshot...
+2022-09-22 06:28:57 | [run_task] epoch #58 | Saved
+2022-09-22 06:28:57 | [run_task] epoch #58 | Time 217.44 s
+2022-09-22 06:28:57 | [run_task] epoch #58 | EpochTime 3.78 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9545
+Evaluation/AverageReturn                31.1501
+Evaluation/Iteration                    58
+Evaluation/MaxReturn                    44.5834
+Evaluation/MinReturn                    26.7454
+Evaluation/NumEpisodes                1142
+Evaluation/StdReturn                     4.32788
+Evaluation/TerminationRate               1
+TotalEnvSteps                       236137
+----------------------------------  ------------
+2022-09-22 06:29:01 | [run_task] epoch #59 | Saving snapshot...
+2022-09-22 06:29:01 | [run_task] epoch #59 | Saved
+2022-09-22 06:29:01 | [run_task] epoch #59 | Time 221.21 s
+2022-09-22 06:29:01 | [run_task] epoch #59 | EpochTime 3.77 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9039
+Evaluation/AverageReturn                31.0989
+Evaluation/Iteration                    59
+Evaluation/MaxReturn                    35.959
+Evaluation/MinReturn                    26.732
+Evaluation/NumEpisodes                1142
+Evaluation/StdReturn                     4.17375
+Evaluation/TerminationRate               1
+TotalEnvSteps                       240138
+----------------------------------  ------------
+2022-09-22 06:29:05 | [run_task] epoch #60 | Saving snapshot...
+2022-09-22 06:29:05 | [run_task] epoch #60 | Saved
+2022-09-22 06:29:05 | [run_task] epoch #60 | Time 225.07 s
+2022-09-22 06:29:05 | [run_task] epoch #60 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6769
+Evaluation/AverageReturn                30.8683
+Evaluation/Iteration                    60
+Evaluation/MaxReturn                    44.5684
+Evaluation/MinReturn                    26.721
+Evaluation/NumEpisodes                1153
+Evaluation/StdReturn                     4.28615
+Evaluation/TerminationRate               1
+TotalEnvSteps                       244139
+----------------------------------  ------------
+2022-09-22 06:29:09 | [run_task] epoch #61 | Saving snapshot...
+2022-09-22 06:29:09 | [run_task] epoch #61 | Saved
+2022-09-22 06:29:09 | [run_task] epoch #61 | Time 228.90 s
+2022-09-22 06:29:09 | [run_task] epoch #61 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.8432
+Evaluation/AverageReturn                31.0371
+Evaluation/Iteration                    61
+Evaluation/MaxReturn                    45.4365
+Evaluation/MinReturn                    26.7225
+Evaluation/NumEpisodes                1148
+Evaluation/StdReturn                     4.41944
+Evaluation/TerminationRate               1
+TotalEnvSteps                       248140
+----------------------------------  ------------
+2022-09-22 06:29:13 | [run_task] epoch #62 | Saving snapshot...
+2022-09-22 06:29:13 | [run_task] epoch #62 | Saved
+2022-09-22 06:29:13 | [run_task] epoch #62 | Time 232.78 s
+2022-09-22 06:29:13 | [run_task] epoch #62 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0085
+Evaluation/AverageReturn                31.2049
+Evaluation/Iteration                    62
+Evaluation/MaxReturn                    44.7547
+Evaluation/MinReturn                    26.7211
+Evaluation/NumEpisodes                1140
+Evaluation/StdReturn                     4.30851
+Evaluation/TerminationRate               1
+TotalEnvSteps                       252142
+----------------------------------  ------------
+2022-09-22 06:29:17 | [run_task] epoch #63 | Saving snapshot...
+2022-09-22 06:29:17 | [run_task] epoch #63 | Saved
+2022-09-22 06:29:17 | [run_task] epoch #63 | Time 236.78 s
+2022-09-22 06:29:17 | [run_task] epoch #63 | EpochTime 3.99 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.9078
+Evaluation/AverageReturn                31.1029
+Evaluation/Iteration                    63
+Evaluation/MaxReturn                    44.5444
+Evaluation/MinReturn                    26.7169
+Evaluation/NumEpisodes                1142
+Evaluation/StdReturn                     4.1954
+Evaluation/TerminationRate               1
+TotalEnvSteps                       256143
+----------------------------------  -----------
+2022-09-22 06:29:21 | [run_task] epoch #64 | Saving snapshot...
+2022-09-22 06:29:21 | [run_task] epoch #64 | Saved
+2022-09-22 06:29:21 | [run_task] epoch #64 | Time 240.66 s
+2022-09-22 06:29:21 | [run_task] epoch #64 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6672
+Evaluation/AverageReturn                30.8585
+Evaluation/Iteration                    64
+Evaluation/MaxReturn                    44.5637
+Evaluation/MinReturn                    26.722
+Evaluation/NumEpisodes                1153
+Evaluation/StdReturn                     4.28674
+Evaluation/TerminationRate               1
+TotalEnvSteps                       260143
+----------------------------------  ------------
+2022-09-22 06:29:24 | [run_task] epoch #65 | Saving snapshot...
+2022-09-22 06:29:25 | [run_task] epoch #65 | Saved
+2022-09-22 06:29:25 | [run_task] epoch #65 | Time 244.50 s
+2022-09-22 06:29:25 | [run_task] epoch #65 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6621
+Evaluation/AverageReturn                30.8532
+Evaluation/Iteration                    65
+Evaluation/MaxReturn                    44.5081
+Evaluation/MinReturn                    26.7203
+Evaluation/NumEpisodes                1156
+Evaluation/StdReturn                     4.39066
+Evaluation/TerminationRate               1
+TotalEnvSteps                       264146
+----------------------------------  ------------
+2022-09-22 06:29:29 | [run_task] epoch #66 | Saving snapshot...
+2022-09-22 06:29:29 | [run_task] epoch #66 | Saved
+2022-09-22 06:29:29 | [run_task] epoch #66 | Time 248.64 s
+2022-09-22 06:29:29 | [run_task] epoch #66 | EpochTime 4.15 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0264
+Evaluation/AverageReturn                31.2231
+Evaluation/Iteration                    66
+Evaluation/MaxReturn                    44.6452
+Evaluation/MinReturn                    26.7213
+Evaluation/NumEpisodes                1139
+Evaluation/StdReturn                     4.30454
+Evaluation/TerminationRate               1
+TotalEnvSteps                       268146
+----------------------------------  ------------
+2022-09-22 06:29:33 | [run_task] epoch #67 | Saving snapshot...
+2022-09-22 06:29:33 | [run_task] epoch #67 | Saved
+2022-09-22 06:29:33 | [run_task] epoch #67 | Time 252.79 s
+2022-09-22 06:29:33 | [run_task] epoch #67 | EpochTime 4.15 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0822
+Evaluation/AverageReturn                31.2798
+Evaluation/Iteration                    67
+Evaluation/MaxReturn                    44.4595
+Evaluation/MinReturn                    26.7196
+Evaluation/NumEpisodes                1135
+Evaluation/StdReturn                     4.19259
+Evaluation/TerminationRate               1
+TotalEnvSteps                       272147
+----------------------------------  ------------
+2022-09-22 06:29:37 | [run_task] epoch #68 | Saving snapshot...
+2022-09-22 06:29:37 | [run_task] epoch #68 | Saved
+2022-09-22 06:29:37 | [run_task] epoch #68 | Time 257.31 s
+2022-09-22 06:29:37 | [run_task] epoch #68 | EpochTime 4.51 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6653
+Evaluation/AverageReturn                30.8568
+Evaluation/Iteration                    68
+Evaluation/MaxReturn                    45.0611
+Evaluation/MinReturn                    26.6952
+Evaluation/NumEpisodes                1154
+Evaluation/StdReturn                     4.40427
+Evaluation/TerminationRate               1
+TotalEnvSteps                       276149
+----------------------------------  ------------
+2022-09-22 06:29:42 | [run_task] epoch #69 | Saving snapshot...
+2022-09-22 06:29:42 | [run_task] epoch #69 | Saved
+2022-09-22 06:29:42 | [run_task] epoch #69 | Time 261.67 s
+2022-09-22 06:29:42 | [run_task] epoch #69 | EpochTime 4.36 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.4932
+Evaluation/AverageReturn                30.6818
+Evaluation/Iteration                    69
+Evaluation/MaxReturn                    45.3039
+Evaluation/MinReturn                    26.7269
+Evaluation/NumEpisodes                1162
+Evaluation/StdReturn                     4.42181
+Evaluation/TerminationRate               1
+TotalEnvSteps                       280149
+----------------------------------  ------------
+2022-09-22 06:29:46 | [run_task] epoch #70 | Saving snapshot...
+2022-09-22 06:29:46 | [run_task] epoch #70 | Saved
+2022-09-22 06:29:46 | [run_task] epoch #70 | Time 265.56 s
+2022-09-22 06:29:46 | [run_task] epoch #70 | EpochTime 3.88 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.4161
+Evaluation/AverageReturn                30.6036
+Evaluation/Iteration                    70
+Evaluation/MaxReturn                    44.4973
+Evaluation/MinReturn                    26.7265
+Evaluation/NumEpisodes                1163
+Evaluation/StdReturn                     4.2374
+Evaluation/TerminationRate               1
+TotalEnvSteps                       284150
+----------------------------------  -----------
+2022-09-22 06:29:49 | [run_task] epoch #71 | Saving snapshot...
+2022-09-22 06:29:49 | [run_task] epoch #71 | Saved
+2022-09-22 06:29:49 | [run_task] epoch #71 | Time 269.40 s
+2022-09-22 06:29:49 | [run_task] epoch #71 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9614
+Evaluation/AverageReturn                31.1572
+Evaluation/Iteration                    71
+Evaluation/MaxReturn                    36.0426
+Evaluation/MinReturn                    26.7436
+Evaluation/NumEpisodes                1140
+Evaluation/StdReturn                     4.17463
+Evaluation/TerminationRate               1
+TotalEnvSteps                       288152
+----------------------------------  ------------
+2022-09-22 06:29:53 | [run_task] epoch #72 | Saving snapshot...
+2022-09-22 06:29:53 | [run_task] epoch #72 | Saved
+2022-09-22 06:29:53 | [run_task] epoch #72 | Time 273.21 s
+2022-09-22 06:29:53 | [run_task] epoch #72 | EpochTime 3.81 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.838
+Evaluation/AverageReturn                31.032
+Evaluation/Iteration                    72
+Evaluation/MaxReturn                    45.1882
+Evaluation/MinReturn                    26.7192
+Evaluation/NumEpisodes                1146
+Evaluation/StdReturn                     4.35469
+Evaluation/TerminationRate               1
+TotalEnvSteps                       292152
+----------------------------------  ------------
+2022-09-22 06:29:57 | [run_task] epoch #73 | Saving snapshot...
+2022-09-22 06:29:57 | [run_task] epoch #73 | Saved
+2022-09-22 06:29:57 | [run_task] epoch #73 | Time 277.06 s
+2022-09-22 06:29:57 | [run_task] epoch #73 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.4273
+Evaluation/AverageReturn                30.6148
+Evaluation/Iteration                    73
+Evaluation/MaxReturn                    44.5334
+Evaluation/MinReturn                    26.6971
+Evaluation/NumEpisodes                1164
+Evaluation/StdReturn                     4.33424
+Evaluation/TerminationRate               1
+TotalEnvSteps                       296152
+----------------------------------  ------------
+2022-09-22 06:30:01 | [run_task] epoch #74 | Saving snapshot...
+2022-09-22 06:30:01 | [run_task] epoch #74 | Saved
+2022-09-22 06:30:01 | [run_task] epoch #74 | Time 280.93 s
+2022-09-22 06:30:01 | [run_task] epoch #74 | EpochTime 3.88 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.5377
+Evaluation/AverageReturn                30.7271
+Evaluation/Iteration                    74
+Evaluation/MaxReturn                    44.6059
+Evaluation/MinReturn                    26.7463
+Evaluation/NumEpisodes                1159
+Evaluation/StdReturn                     4.3487
+Evaluation/TerminationRate               1
+TotalEnvSteps                       300153
+----------------------------------  -----------
+2022-09-22 06:30:05 | [run_task] epoch #75 | Saving snapshot...
+2022-09-22 06:30:05 | [run_task] epoch #75 | Saved
+2022-09-22 06:30:05 | [run_task] epoch #75 | Time 284.89 s
+2022-09-22 06:30:05 | [run_task] epoch #75 | EpochTime 3.96 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.7685
+Evaluation/AverageReturn                30.9616
+Evaluation/Iteration                    75
+Evaluation/MaxReturn                    44.5942
+Evaluation/MinReturn                    26.7081
+Evaluation/NumEpisodes                1148
+Evaluation/StdReturn                     4.25006
+Evaluation/TerminationRate               1
+TotalEnvSteps                       304155
+----------------------------------  ------------
+2022-09-22 06:30:09 | [run_task] epoch #76 | Saving snapshot...
+2022-09-22 06:30:09 | [run_task] epoch #76 | Saved
+2022-09-22 06:30:09 | [run_task] epoch #76 | Time 288.81 s
+2022-09-22 06:30:09 | [run_task] epoch #76 | EpochTime 3.91 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.7102
+Evaluation/AverageReturn                30.9022
+Evaluation/Iteration                    76
+Evaluation/MaxReturn                    44.718
+Evaluation/MinReturn                    26.7157
+Evaluation/NumEpisodes                1153
+Evaluation/StdReturn                     4.39124
+Evaluation/TerminationRate               1
+TotalEnvSteps                       308158
+----------------------------------  ------------
+2022-09-22 06:30:13 | [run_task] epoch #77 | Saving snapshot...
+2022-09-22 06:30:13 | [run_task] epoch #77 | Saved
+2022-09-22 06:30:13 | [run_task] epoch #77 | Time 292.90 s
+2022-09-22 06:30:13 | [run_task] epoch #77 | EpochTime 4.09 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1466
+Evaluation/AverageReturn                30.3298
+Evaluation/Iteration                    77
+Evaluation/MaxReturn                    44.6371
+Evaluation/MinReturn                    26.7044
+Evaluation/NumEpisodes                1176
+Evaluation/StdReturn                     4.20785
+Evaluation/TerminationRate               1
+TotalEnvSteps                       312160
+----------------------------------  ------------
+2022-09-22 06:30:17 | [run_task] epoch #78 | Saving snapshot...
+2022-09-22 06:30:17 | [run_task] epoch #78 | Saved
+2022-09-22 06:30:17 | [run_task] epoch #78 | Time 296.74 s
+2022-09-22 06:30:17 | [run_task] epoch #78 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.5046
+Evaluation/AverageReturn                30.6935
+Evaluation/Iteration                    78
+Evaluation/MaxReturn                    44.6371
+Evaluation/MinReturn                    26.7337
+Evaluation/NumEpisodes                1160
+Evaluation/StdReturn                     4.30187
+Evaluation/TerminationRate               1
+TotalEnvSteps                       316162
+----------------------------------  ------------
+2022-09-22 06:30:20 | [run_task] epoch #79 | Saving snapshot...
+2022-09-22 06:30:21 | [run_task] epoch #79 | Saved
+2022-09-22 06:30:21 | [run_task] epoch #79 | Time 300.53 s
+2022-09-22 06:30:21 | [run_task] epoch #79 | EpochTime 3.79 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      31.0766
+Evaluation/AverageReturn                31.2743
+Evaluation/Iteration                    79
+Evaluation/MaxReturn                    44.7243
+Evaluation/MinReturn                    26.7288
+Evaluation/NumEpisodes                1136
+Evaluation/StdReturn                     4.26879
+Evaluation/TerminationRate               1
+TotalEnvSteps                       320164
+----------------------------------  ------------
+2022-09-22 06:30:24 | [run_task] epoch #80 | Saving snapshot...
+2022-09-22 06:30:24 | [run_task] epoch #80 | Saved
+2022-09-22 06:30:24 | [run_task] epoch #80 | Time 304.39 s
+2022-09-22 06:30:24 | [run_task] epoch #80 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.415
+Evaluation/AverageReturn                30.6024
+Evaluation/Iteration                    80
+Evaluation/MaxReturn                    45.115
+Evaluation/MinReturn                    26.735
+Evaluation/NumEpisodes                1164
+Evaluation/StdReturn                     4.30461
+Evaluation/TerminationRate               1
+TotalEnvSteps                       324164
+----------------------------------  ------------
+2022-09-22 06:30:29 | [run_task] epoch #81 | Saving snapshot...
+2022-09-22 06:30:29 | [run_task] epoch #81 | Saved
+2022-09-22 06:30:29 | [run_task] epoch #81 | Time 309.04 s
+2022-09-22 06:30:29 | [run_task] epoch #81 | EpochTime 4.65 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0118
+Evaluation/AverageReturn                30.1932
+Evaluation/Iteration                    81
+Evaluation/MaxReturn                    45.3994
+Evaluation/MinReturn                    26.7119
+Evaluation/NumEpisodes                1182
+Evaluation/StdReturn                     4.38593
+Evaluation/TerminationRate               1
+TotalEnvSteps                       328165
+----------------------------------  ------------
+2022-09-22 06:30:33 | [run_task] epoch #82 | Saving snapshot...
+2022-09-22 06:30:34 | [run_task] epoch #82 | Saved
+2022-09-22 06:30:34 | [run_task] epoch #82 | Time 313.49 s
+2022-09-22 06:30:34 | [run_task] epoch #82 | EpochTime 4.45 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.4918
+Evaluation/AverageReturn                30.6805
+Evaluation/Iteration                    82
+Evaluation/MaxReturn                    44.6217
+Evaluation/MinReturn                    26.6876
+Evaluation/NumEpisodes                1161
+Evaluation/StdReturn                     4.36299
+Evaluation/TerminationRate               1
+TotalEnvSteps                       332167
+----------------------------------  ------------
+2022-09-22 06:30:37 | [run_task] epoch #83 | Saving snapshot...
+2022-09-22 06:30:37 | [run_task] epoch #83 | Saved
+2022-09-22 06:30:37 | [run_task] epoch #83 | Time 317.32 s
+2022-09-22 06:30:37 | [run_task] epoch #83 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6306
+Evaluation/AverageReturn                30.8214
+Evaluation/Iteration                    83
+Evaluation/MaxReturn                    44.6723
+Evaluation/MinReturn                    26.7148
+Evaluation/NumEpisodes                1153
+Evaluation/StdReturn                     4.19567
+Evaluation/TerminationRate               1
+TotalEnvSteps                       336167
+----------------------------------  ------------
+2022-09-22 06:30:41 | [run_task] epoch #84 | Saving snapshot...
+2022-09-22 06:30:41 | [run_task] epoch #84 | Saved
+2022-09-22 06:30:41 | [run_task] epoch #84 | Time 321.17 s
+2022-09-22 06:30:41 | [run_task] epoch #84 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.439
+Evaluation/AverageReturn                30.6267
+Evaluation/Iteration                    84
+Evaluation/MaxReturn                    44.4828
+Evaluation/MinReturn                    26.7067
+Evaluation/NumEpisodes                1163
+Evaluation/StdReturn                     4.24249
+Evaluation/TerminationRate               1
+TotalEnvSteps                       340169
+----------------------------------  ------------
+2022-09-22 06:30:45 | [run_task] epoch #85 | Saving snapshot...
+2022-09-22 06:30:45 | [run_task] epoch #85 | Saved
+2022-09-22 06:30:45 | [run_task] epoch #85 | Time 324.98 s
+2022-09-22 06:30:45 | [run_task] epoch #85 | EpochTime 3.80 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0436
+Evaluation/AverageReturn                30.2254
+Evaluation/Iteration                    85
+Evaluation/MaxReturn                    44.5997
+Evaluation/MinReturn                    26.7227
+Evaluation/NumEpisodes                1180
+Evaluation/StdReturn                     4.30112
+Evaluation/TerminationRate               1
+TotalEnvSteps                       344169
+----------------------------------  ------------
+2022-09-22 06:30:49 | [run_task] epoch #86 | Saving snapshot...
+2022-09-22 06:30:49 | [run_task] epoch #86 | Saved
+2022-09-22 06:30:49 | [run_task] epoch #86 | Time 328.76 s
+2022-09-22 06:30:49 | [run_task] epoch #86 | EpochTime 3.78 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2863
+Evaluation/AverageReturn                30.4718
+Evaluation/Iteration                    86
+Evaluation/MaxReturn                    45.1376
+Evaluation/MinReturn                    26.7375
+Evaluation/NumEpisodes                1169
+Evaluation/StdReturn                     4.25176
+Evaluation/TerminationRate               1
+TotalEnvSteps                       348170
+----------------------------------  ------------
+2022-09-22 06:30:53 | [run_task] epoch #87 | Saving snapshot...
+2022-09-22 06:30:53 | [run_task] epoch #87 | Saved
+2022-09-22 06:30:53 | [run_task] epoch #87 | Time 332.58 s
+2022-09-22 06:30:53 | [run_task] epoch #87 | EpochTime 3.82 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.9545
+Evaluation/AverageReturn                31.1501
+Evaluation/Iteration                    87
+Evaluation/MaxReturn                    36.2285
+Evaluation/MinReturn                    26.7288
+Evaluation/NumEpisodes                1141
+Evaluation/StdReturn                     4.19627
+Evaluation/TerminationRate               1
+TotalEnvSteps                       352172
+----------------------------------  ------------
+2022-09-22 06:30:56 | [run_task] epoch #88 | Saving snapshot...
+2022-09-22 06:30:57 | [run_task] epoch #88 | Saved
+2022-09-22 06:30:57 | [run_task] epoch #88 | Time 336.52 s
+2022-09-22 06:30:57 | [run_task] epoch #88 | EpochTime 3.94 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.3849
+Evaluation/AverageReturn                30.572
+Evaluation/Iteration                    88
+Evaluation/MaxReturn                    44.6648
+Evaluation/MinReturn                    26.707
+Evaluation/NumEpisodes                1165
+Evaluation/StdReturn                     4.275
+Evaluation/TerminationRate               1
+TotalEnvSteps                       356174
+----------------------------------  -----------
+2022-09-22 06:31:00 | [run_task] epoch #89 | Saving snapshot...
+2022-09-22 06:31:00 | [run_task] epoch #89 | Saved
+2022-09-22 06:31:00 | [run_task] epoch #89 | Time 340.43 s
+2022-09-22 06:31:00 | [run_task] epoch #89 | EpochTime 3.91 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0489
+Evaluation/AverageReturn                30.2306
+Evaluation/Iteration                    89
+Evaluation/MaxReturn                    44.7609
+Evaluation/MinReturn                    26.6997
+Evaluation/NumEpisodes                1180
+Evaluation/StdReturn                     4.25498
+Evaluation/TerminationRate               1
+TotalEnvSteps                       360175
+----------------------------------  ------------
+2022-09-22 06:31:04 | [run_task] epoch #90 | Saving snapshot...
+2022-09-22 06:31:04 | [run_task] epoch #90 | Saved
+2022-09-22 06:31:04 | [run_task] epoch #90 | Time 344.34 s
+2022-09-22 06:31:04 | [run_task] epoch #90 | EpochTime 3.90 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.529
+Evaluation/AverageReturn                30.7184
+Evaluation/Iteration                    90
+Evaluation/MaxReturn                    44.6063
+Evaluation/MinReturn                    26.7238
+Evaluation/NumEpisodes                1159
+Evaluation/StdReturn                     4.41516
+Evaluation/TerminationRate               1
+TotalEnvSteps                       364175
+----------------------------------  ------------
+2022-09-22 06:31:08 | [run_task] epoch #91 | Saving snapshot...
+2022-09-22 06:31:08 | [run_task] epoch #91 | Saved
+2022-09-22 06:31:08 | [run_task] epoch #91 | Time 348.13 s
+2022-09-22 06:31:08 | [run_task] epoch #91 | EpochTime 3.79 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.8107
+Evaluation/AverageReturn                31.0043
+Evaluation/Iteration                    91
+Evaluation/MaxReturn                    44.7848
+Evaluation/MinReturn                    26.7195
+Evaluation/NumEpisodes                1146
+Evaluation/StdReturn                     4.24066
+Evaluation/TerminationRate               1
+TotalEnvSteps                       368175
+----------------------------------  ------------
+2022-09-22 06:31:12 | [run_task] epoch #92 | Saving snapshot...
+2022-09-22 06:31:12 | [run_task] epoch #92 | Saved
+2022-09-22 06:31:12 | [run_task] epoch #92 | Time 352.18 s
+2022-09-22 06:31:12 | [run_task] epoch #92 | EpochTime 4.06 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.251
+Evaluation/AverageReturn                30.4361
+Evaluation/Iteration                    92
+Evaluation/MaxReturn                    45.5381
+Evaluation/MinReturn                    26.7286
+Evaluation/NumEpisodes                1170
+Evaluation/StdReturn                     4.31163
+Evaluation/TerminationRate               1
+TotalEnvSteps                       372175
+----------------------------------  ------------
+2022-09-22 06:31:16 | [run_task] epoch #93 | Saving snapshot...
+2022-09-22 06:31:16 | [run_task] epoch #93 | Saved
+2022-09-22 06:31:16 | [run_task] epoch #93 | Time 356.09 s
+2022-09-22 06:31:16 | [run_task] epoch #93 | EpochTime 3.91 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.6433
+Evaluation/AverageReturn                29.8191
+Evaluation/Iteration                    93
+Evaluation/MaxReturn                    44.6218
+Evaluation/MinReturn                    26.7197
+Evaluation/NumEpisodes                1196
+Evaluation/StdReturn                     4.11
+Evaluation/TerminationRate               1
+TotalEnvSteps                       376175
+----------------------------------  -----------
+2022-09-22 06:31:20 | [run_task] epoch #94 | Saving snapshot...
+2022-09-22 06:31:20 | [run_task] epoch #94 | Saved
+2022-09-22 06:31:20 | [run_task] epoch #94 | Time 360.00 s
+2022-09-22 06:31:20 | [run_task] epoch #94 | EpochTime 3.91 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.3164
+Evaluation/AverageReturn                30.5024
+Evaluation/Iteration                    94
+Evaluation/MaxReturn                    45.2921
+Evaluation/MinReturn                    26.718
+Evaluation/NumEpisodes                1168
+Evaluation/StdReturn                     4.27456
+Evaluation/TerminationRate               1
+TotalEnvSteps                       380177
+----------------------------------  ------------
+2022-09-22 06:31:24 | [run_task] epoch #95 | Saving snapshot...
+2022-09-22 06:31:24 | [run_task] epoch #95 | Saved
+2022-09-22 06:31:24 | [run_task] epoch #95 | Time 363.82 s
+2022-09-22 06:31:24 | [run_task] epoch #95 | EpochTime 3.81 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6924
+Evaluation/AverageReturn                30.8842
+Evaluation/Iteration                    95
+Evaluation/MaxReturn                    44.5669
+Evaluation/MinReturn                    26.7265
+Evaluation/NumEpisodes                1151
+Evaluation/StdReturn                     4.24694
+Evaluation/TerminationRate               1
+TotalEnvSteps                       384177
+----------------------------------  ------------
+2022-09-22 06:31:28 | [run_task] epoch #96 | Saving snapshot...
+2022-09-22 06:31:28 | [run_task] epoch #96 | Saved
+2022-09-22 06:31:28 | [run_task] epoch #96 | Time 367.64 s
+2022-09-22 06:31:28 | [run_task] epoch #96 | EpochTime 3.82 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1307
+Evaluation/AverageReturn                30.314
+Evaluation/Iteration                    96
+Evaluation/MaxReturn                    45.1745
+Evaluation/MinReturn                    26.69
+Evaluation/NumEpisodes                1175
+Evaluation/StdReturn                     4.23221
+Evaluation/TerminationRate               1
+TotalEnvSteps                       388178
+----------------------------------  ------------
+2022-09-22 06:31:31 | [run_task] epoch #97 | Saving snapshot...
+2022-09-22 06:31:32 | [run_task] epoch #97 | Saved
+2022-09-22 06:31:32 | [run_task] epoch #97 | Time 371.49 s
+2022-09-22 06:31:32 | [run_task] epoch #97 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0135
+Evaluation/AverageReturn                30.195
+Evaluation/Iteration                    97
+Evaluation/MaxReturn                    44.8792
+Evaluation/MinReturn                    26.7167
+Evaluation/NumEpisodes                1181
+Evaluation/StdReturn                     4.31146
+Evaluation/TerminationRate               1
+TotalEnvSteps                       392179
+----------------------------------  ------------
+2022-09-22 06:31:35 | [run_task] epoch #98 | Saving snapshot...
+2022-09-22 06:31:35 | [run_task] epoch #98 | Saved
+2022-09-22 06:31:35 | [run_task] epoch #98 | Time 375.43 s
+2022-09-22 06:31:35 | [run_task] epoch #98 | EpochTime 3.93 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.1864
+Evaluation/AverageReturn                30.3705
+Evaluation/Iteration                    98
+Evaluation/MaxReturn                    45.257
+Evaluation/MinReturn                    26.7248
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.3034
+Evaluation/TerminationRate               1
+TotalEnvSteps                       396179
+----------------------------------  -----------
+2022-09-22 06:31:39 | [run_task] epoch #99 | Saving snapshot...
+2022-09-22 06:31:39 | [run_task] epoch #99 | Saved
+2022-09-22 06:31:39 | [run_task] epoch #99 | Time 379.27 s
+2022-09-22 06:31:39 | [run_task] epoch #99 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.4881
+Evaluation/AverageReturn                30.6767
+Evaluation/Iteration                    99
+Evaluation/MaxReturn                    44.573
+Evaluation/MinReturn                    26.7139
+Evaluation/NumEpisodes                1160
+Evaluation/StdReturn                     4.23633
+Evaluation/TerminationRate               1
+TotalEnvSteps                       400181
+----------------------------------  ------------
+2022-09-22 06:31:43 | [run_task] epoch #100 | Saving snapshot...
+2022-09-22 06:31:43 | [run_task] epoch #100 | Saved
+2022-09-22 06:31:43 | [run_task] epoch #100 | Time 383.13 s
+2022-09-22 06:31:43 | [run_task] epoch #100 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2932
+Evaluation/AverageReturn                30.4789
+Evaluation/Iteration                   100
+Evaluation/MaxReturn                    45.1089
+Evaluation/MinReturn                    26.7317
+Evaluation/NumEpisodes                1169
+Evaluation/StdReturn                     4.33032
+Evaluation/TerminationRate               1
+TotalEnvSteps                       404182
+----------------------------------  ------------
+2022-09-22 06:31:47 | [run_task] epoch #101 | Saving snapshot...
+2022-09-22 06:31:47 | [run_task] epoch #101 | Saved
+2022-09-22 06:31:47 | [run_task] epoch #101 | Time 387.01 s
+2022-09-22 06:31:47 | [run_task] epoch #101 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8036
+Evaluation/AverageReturn                29.9818
+Evaluation/Iteration                   101
+Evaluation/MaxReturn                    44.6338
+Evaluation/MinReturn                    26.7237
+Evaluation/NumEpisodes                1190
+Evaluation/StdReturn                     4.19599
+Evaluation/TerminationRate               1
+TotalEnvSteps                       408184
+----------------------------------  ------------
+2022-09-22 06:31:51 | [run_task] epoch #102 | Saving snapshot...
+2022-09-22 06:31:51 | [run_task] epoch #102 | Saved
+2022-09-22 06:31:51 | [run_task] epoch #102 | Time 390.89 s
+2022-09-22 06:31:51 | [run_task] epoch #102 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1882
+Evaluation/AverageReturn                30.3723
+Evaluation/Iteration                   102
+Evaluation/MaxReturn                    45.4352
+Evaluation/MinReturn                    26.7224
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.25671
+Evaluation/TerminationRate               1
+TotalEnvSteps                       412185
+----------------------------------  ------------
+2022-09-22 06:31:55 | [run_task] epoch #103 | Saving snapshot...
+2022-09-22 06:31:55 | [run_task] epoch #103 | Saved
+2022-09-22 06:31:55 | [run_task] epoch #103 | Time 394.86 s
+2022-09-22 06:31:55 | [run_task] epoch #103 | EpochTime 3.98 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.7445
+Evaluation/AverageReturn                30.9371
+Evaluation/Iteration                   103
+Evaluation/MaxReturn                    44.5815
+Evaluation/MinReturn                    26.7084
+Evaluation/NumEpisodes                1149
+Evaluation/StdReturn                     4.27898
+Evaluation/TerminationRate               1
+TotalEnvSteps                       416185
+----------------------------------  ------------
+2022-09-22 06:31:59 | [run_task] epoch #104 | Saving snapshot...
+2022-09-22 06:31:59 | [run_task] epoch #104 | Saved
+2022-09-22 06:31:59 | [run_task] epoch #104 | Time 398.91 s
+2022-09-22 06:31:59 | [run_task] epoch #104 | EpochTime 4.04 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2003
+Evaluation/AverageReturn                30.3845
+Evaluation/Iteration                   104
+Evaluation/MaxReturn                    45.4176
+Evaluation/MinReturn                    26.7282
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.26665
+Evaluation/TerminationRate               1
+TotalEnvSteps                       420188
+----------------------------------  ------------
+2022-09-22 06:32:03 | [run_task] epoch #105 | Saving snapshot...
+2022-09-22 06:32:03 | [run_task] epoch #105 | Saved
+2022-09-22 06:32:03 | [run_task] epoch #105 | Time 402.80 s
+2022-09-22 06:32:03 | [run_task] epoch #105 | EpochTime 3.89 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8777
+Evaluation/AverageReturn                30.0572
+Evaluation/Iteration                   105
+Evaluation/MaxReturn                    44.7229
+Evaluation/MinReturn                    26.7167
+Evaluation/NumEpisodes                1187
+Evaluation/StdReturn                     4.24211
+Evaluation/TerminationRate               1
+TotalEnvSteps                       424191
+----------------------------------  ------------
+2022-09-22 06:32:07 | [run_task] epoch #106 | Saving snapshot...
+2022-09-22 06:32:07 | [run_task] epoch #106 | Saved
+2022-09-22 06:32:07 | [run_task] epoch #106 | Time 406.64 s
+2022-09-22 06:32:07 | [run_task] epoch #106 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1566
+Evaluation/AverageReturn                30.3403
+Evaluation/Iteration                   106
+Evaluation/MaxReturn                    44.6613
+Evaluation/MinReturn                    26.736
+Evaluation/NumEpisodes                1174
+Evaluation/StdReturn                     4.27694
+Evaluation/TerminationRate               1
+TotalEnvSteps                       428191
+----------------------------------  ------------
+2022-09-22 06:32:11 | [run_task] epoch #107 | Saving snapshot...
+2022-09-22 06:32:11 | [run_task] epoch #107 | Saved
+2022-09-22 06:32:11 | [run_task] epoch #107 | Time 410.62 s
+2022-09-22 06:32:11 | [run_task] epoch #107 | EpochTime 3.98 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.6414
+Evaluation/AverageReturn                30.8323
+Evaluation/Iteration                   107
+Evaluation/MaxReturn                    44.5572
+Evaluation/MinReturn                    26.7074
+Evaluation/NumEpisodes                1154
+Evaluation/StdReturn                     4.2565
+Evaluation/TerminationRate               1
+TotalEnvSteps                       432193
+----------------------------------  -----------
+2022-09-22 06:32:14 | [run_task] epoch #108 | Saving snapshot...
+2022-09-22 06:32:15 | [run_task] epoch #108 | Saved
+2022-09-22 06:32:15 | [run_task] epoch #108 | Time 414.52 s
+2022-09-22 06:32:15 | [run_task] epoch #108 | EpochTime 3.90 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9811
+Evaluation/AverageReturn                30.162
+Evaluation/Iteration                   108
+Evaluation/MaxReturn                    44.5829
+Evaluation/MinReturn                    26.7149
+Evaluation/NumEpisodes                1182
+Evaluation/StdReturn                     4.22906
+Evaluation/TerminationRate               1
+TotalEnvSteps                       436195
+----------------------------------  ------------
+2022-09-22 06:32:18 | [run_task] epoch #109 | Saving snapshot...
+2022-09-22 06:32:18 | [run_task] epoch #109 | Saved
+2022-09-22 06:32:18 | [run_task] epoch #109 | Time 418.38 s
+2022-09-22 06:32:18 | [run_task] epoch #109 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.944
+Evaluation/AverageReturn                30.1243
+Evaluation/Iteration                   109
+Evaluation/MaxReturn                    45.6232
+Evaluation/MinReturn                    26.7286
+Evaluation/NumEpisodes                1184
+Evaluation/StdReturn                     4.23158
+Evaluation/TerminationRate               1
+TotalEnvSteps                       440197
+----------------------------------  ------------
+2022-09-22 06:32:22 | [run_task] epoch #110 | Saving snapshot...
+2022-09-22 06:32:22 | [run_task] epoch #110 | Saved
+2022-09-22 06:32:22 | [run_task] epoch #110 | Time 422.26 s
+2022-09-22 06:32:22 | [run_task] epoch #110 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2344
+Evaluation/AverageReturn                30.4192
+Evaluation/Iteration                   110
+Evaluation/MaxReturn                    44.5502
+Evaluation/MinReturn                    26.725
+Evaluation/NumEpisodes                1171
+Evaluation/StdReturn                     4.30703
+Evaluation/TerminationRate               1
+TotalEnvSteps                       444197
+----------------------------------  ------------
+2022-09-22 06:32:26 | [run_task] epoch #111 | Saving snapshot...
+2022-09-22 06:32:26 | [run_task] epoch #111 | Saved
+2022-09-22 06:32:26 | [run_task] epoch #111 | Time 426.08 s
+2022-09-22 06:32:26 | [run_task] epoch #111 | EpochTime 3.82 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.6185
+Evaluation/AverageReturn                30.8091
+Evaluation/Iteration                   111
+Evaluation/MaxReturn                    45.0739
+Evaluation/MinReturn                    26.7256
+Evaluation/NumEpisodes                1154
+Evaluation/StdReturn                     4.23175
+Evaluation/TerminationRate               1
+TotalEnvSteps                       448198
+----------------------------------  ------------
+2022-09-22 06:32:30 | [run_task] epoch #112 | Saving snapshot...
+2022-09-22 06:32:30 | [run_task] epoch #112 | Saved
+2022-09-22 06:32:30 | [run_task] epoch #112 | Time 429.87 s
+2022-09-22 06:32:30 | [run_task] epoch #112 | EpochTime 3.78 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2566
+Evaluation/AverageReturn                30.4417
+Evaluation/Iteration                   112
+Evaluation/MaxReturn                    44.8647
+Evaluation/MinReturn                    26.7107
+Evaluation/NumEpisodes                1170
+Evaluation/StdReturn                     4.29632
+Evaluation/TerminationRate               1
+TotalEnvSteps                       452198
+----------------------------------  ------------
+2022-09-22 06:32:34 | [run_task] epoch #113 | Saving snapshot...
+2022-09-22 06:32:34 | [run_task] epoch #113 | Saved
+2022-09-22 06:32:34 | [run_task] epoch #113 | Time 433.71 s
+2022-09-22 06:32:34 | [run_task] epoch #113 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9497
+Evaluation/AverageReturn                30.1301
+Evaluation/Iteration                   113
+Evaluation/MaxReturn                    44.6712
+Evaluation/MinReturn                    26.7214
+Evaluation/NumEpisodes                1183
+Evaluation/StdReturn                     4.19703
+Evaluation/TerminationRate               1
+TotalEnvSteps                       456198
+----------------------------------  ------------
+2022-09-22 06:32:38 | [run_task] epoch #114 | Saving snapshot...
+2022-09-22 06:32:38 | [run_task] epoch #114 | Saved
+2022-09-22 06:32:38 | [run_task] epoch #114 | Time 437.56 s
+2022-09-22 06:32:38 | [run_task] epoch #114 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0758
+Evaluation/AverageReturn                30.2584
+Evaluation/Iteration                   114
+Evaluation/MaxReturn                    45.5636
+Evaluation/MinReturn                    26.7158
+Evaluation/NumEpisodes                1178
+Evaluation/StdReturn                     4.33565
+Evaluation/TerminationRate               1
+TotalEnvSteps                       460200
+----------------------------------  ------------
+2022-09-22 06:32:41 | [run_task] epoch #115 | Saving snapshot...
+2022-09-22 06:32:41 | [run_task] epoch #115 | Saved
+2022-09-22 06:32:41 | [run_task] epoch #115 | Time 441.44 s
+2022-09-22 06:32:41 | [run_task] epoch #115 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.5072
+Evaluation/AverageReturn                30.6962
+Evaluation/Iteration                   115
+Evaluation/MaxReturn                    45.0003
+Evaluation/MinReturn                    26.7065
+Evaluation/NumEpisodes                1159
+Evaluation/StdReturn                     4.26518
+Evaluation/TerminationRate               1
+TotalEnvSteps                       464202
+----------------------------------  ------------
+2022-09-22 06:32:45 | [run_task] epoch #116 | Saving snapshot...
+2022-09-22 06:32:45 | [run_task] epoch #116 | Saved
+2022-09-22 06:32:45 | [run_task] epoch #116 | Time 445.38 s
+2022-09-22 06:32:45 | [run_task] epoch #116 | EpochTime 3.94 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      30.2131
+Evaluation/AverageReturn                30.3975
+Evaluation/Iteration                   116
+Evaluation/MaxReturn                    44.6729
+Evaluation/MinReturn                    26.7133
+Evaluation/NumEpisodes                1172
+Evaluation/StdReturn                     4.2572
+Evaluation/TerminationRate               1
+TotalEnvSteps                       468203
+----------------------------------  -----------
+2022-09-22 06:32:49 | [run_task] epoch #117 | Saving snapshot...
+2022-09-22 06:32:49 | [run_task] epoch #117 | Saved
+2022-09-22 06:32:49 | [run_task] epoch #117 | Time 449.34 s
+2022-09-22 06:32:49 | [run_task] epoch #117 | EpochTime 3.95 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9543
+Evaluation/AverageReturn                30.135
+Evaluation/Iteration                   117
+Evaluation/MaxReturn                    53.8578
+Evaluation/MinReturn                    26.7188
+Evaluation/NumEpisodes                1183
+Evaluation/StdReturn                     4.30372
+Evaluation/TerminationRate               1
+TotalEnvSteps                       472204
+----------------------------------  ------------
+2022-09-22 06:32:53 | [run_task] epoch #118 | Saving snapshot...
+2022-09-22 06:32:53 | [run_task] epoch #118 | Saved
+2022-09-22 06:32:53 | [run_task] epoch #118 | Time 453.42 s
+2022-09-22 06:32:53 | [run_task] epoch #118 | EpochTime 4.08 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8484
+Evaluation/AverageReturn                30.0274
+Evaluation/Iteration                   118
+Evaluation/MaxReturn                    45.4824
+Evaluation/MinReturn                    26.7249
+Evaluation/NumEpisodes                1187
+Evaluation/StdReturn                     4.18442
+Evaluation/TerminationRate               1
+TotalEnvSteps                       476205
+----------------------------------  ------------
+2022-09-22 06:32:57 | [run_task] epoch #119 | Saving snapshot...
+2022-09-22 06:32:57 | [run_task] epoch #119 | Saved
+2022-09-22 06:32:57 | [run_task] epoch #119 | Time 457.30 s
+2022-09-22 06:32:57 | [run_task] epoch #119 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.5362
+Evaluation/AverageReturn                30.7255
+Evaluation/Iteration                   119
+Evaluation/MaxReturn                    44.5203
+Evaluation/MinReturn                    26.7209
+Evaluation/NumEpisodes                1158
+Evaluation/StdReturn                     4.20579
+Evaluation/TerminationRate               1
+TotalEnvSteps                       480207
+----------------------------------  ------------
+2022-09-22 06:33:01 | [run_task] epoch #120 | Saving snapshot...
+2022-09-22 06:33:01 | [run_task] epoch #120 | Saved
+2022-09-22 06:33:01 | [run_task] epoch #120 | Time 461.13 s
+2022-09-22 06:33:01 | [run_task] epoch #120 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.959
+Evaluation/AverageReturn                30.1397
+Evaluation/Iteration                   120
+Evaluation/MaxReturn                    44.7077
+Evaluation/MinReturn                    26.7165
+Evaluation/NumEpisodes                1182
+Evaluation/StdReturn                     4.21291
+Evaluation/TerminationRate               1
+TotalEnvSteps                       484207
+----------------------------------  ------------
+2022-09-22 06:33:05 | [run_task] epoch #121 | Saving snapshot...
+2022-09-22 06:33:05 | [run_task] epoch #121 | Saved
+2022-09-22 06:33:05 | [run_task] epoch #121 | Time 465.01 s
+2022-09-22 06:33:05 | [run_task] epoch #121 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0511
+Evaluation/AverageReturn                30.2331
+Evaluation/Iteration                   121
+Evaluation/MaxReturn                    44.9109
+Evaluation/MinReturn                    26.7235
+Evaluation/NumEpisodes                1180
+Evaluation/StdReturn                     4.32396
+Evaluation/TerminationRate               1
+TotalEnvSteps                       488209
+----------------------------------  ------------
+2022-09-22 06:33:09 | [run_task] epoch #122 | Saving snapshot...
+2022-09-22 06:33:09 | [run_task] epoch #122 | Saved
+2022-09-22 06:33:09 | [run_task] epoch #122 | Time 468.99 s
+2022-09-22 06:33:09 | [run_task] epoch #122 | EpochTime 3.98 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2478
+Evaluation/AverageReturn                30.4328
+Evaluation/Iteration                   122
+Evaluation/MaxReturn                    44.9309
+Evaluation/MinReturn                    26.721
+Evaluation/NumEpisodes                1170
+Evaluation/StdReturn                     4.28908
+Evaluation/TerminationRate               1
+TotalEnvSteps                       492209
+----------------------------------  ------------
+2022-09-22 06:33:13 | [run_task] epoch #123 | Saving snapshot...
+2022-09-22 06:33:13 | [run_task] epoch #123 | Saved
+2022-09-22 06:33:13 | [run_task] epoch #123 | Time 472.96 s
+2022-09-22 06:33:13 | [run_task] epoch #123 | EpochTime 3.96 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.3441
+Evaluation/AverageReturn                30.5306
+Evaluation/Iteration                   123
+Evaluation/MaxReturn                    44.6587
+Evaluation/MinReturn                    26.725
+Evaluation/NumEpisodes                1166
+Evaluation/StdReturn                     4.21847
+Evaluation/TerminationRate               1
+TotalEnvSteps                       496211
+----------------------------------  ------------
+2022-09-22 06:33:17 | [run_task] epoch #124 | Saving snapshot...
+2022-09-22 06:33:17 | [run_task] epoch #124 | Saved
+2022-09-22 06:33:17 | [run_task] epoch #124 | Time 476.93 s
+2022-09-22 06:33:17 | [run_task] epoch #124 | EpochTime 3.97 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9459
+Evaluation/AverageReturn                30.1264
+Evaluation/Iteration                   124
+Evaluation/MaxReturn                    45.2564
+Evaluation/MinReturn                    26.717
+Evaluation/NumEpisodes                1183
+Evaluation/StdReturn                     4.23627
+Evaluation/TerminationRate               1
+TotalEnvSteps                       500211
+----------------------------------  ------------
+2022-09-22 06:33:21 | [run_task] epoch #125 | Saving snapshot...
+2022-09-22 06:33:21 | [run_task] epoch #125 | Saved
+2022-09-22 06:33:21 | [run_task] epoch #125 | Time 480.78 s
+2022-09-22 06:33:21 | [run_task] epoch #125 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.886
+Evaluation/AverageReturn                30.0655
+Evaluation/Iteration                   125
+Evaluation/MaxReturn                    44.5404
+Evaluation/MinReturn                    26.7224
+Evaluation/NumEpisodes                1186
+Evaluation/StdReturn                     4.22624
+Evaluation/TerminationRate               1
+TotalEnvSteps                       504212
+----------------------------------  ------------
+2022-09-22 06:33:25 | [run_task] epoch #126 | Saving snapshot...
+2022-09-22 06:33:25 | [run_task] epoch #126 | Saved
+2022-09-22 06:33:25 | [run_task] epoch #126 | Time 484.73 s
+2022-09-22 06:33:25 | [run_task] epoch #126 | EpochTime 3.95 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.889
+Evaluation/AverageReturn                30.0686
+Evaluation/Iteration                   126
+Evaluation/MaxReturn                    45.375
+Evaluation/MinReturn                    26.7168
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.21452
+Evaluation/TerminationRate               1
+TotalEnvSteps                       508212
+----------------------------------  ------------
+2022-09-22 06:33:29 | [run_task] epoch #127 | Saving snapshot...
+2022-09-22 06:33:29 | [run_task] epoch #127 | Saved
+2022-09-22 06:33:29 | [run_task] epoch #127 | Time 488.61 s
+2022-09-22 06:33:29 | [run_task] epoch #127 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.4511
+Evaluation/AverageReturn                30.6391
+Evaluation/Iteration                   127
+Evaluation/MaxReturn                    36.2465
+Evaluation/MinReturn                    26.7149
+Evaluation/NumEpisodes                1161
+Evaluation/StdReturn                     4.17706
+Evaluation/TerminationRate               1
+TotalEnvSteps                       512213
+----------------------------------  ------------
+2022-09-22 06:33:33 | [run_task] epoch #128 | Saving snapshot...
+2022-09-22 06:33:33 | [run_task] epoch #128 | Saved
+2022-09-22 06:33:33 | [run_task] epoch #128 | Time 492.59 s
+2022-09-22 06:33:33 | [run_task] epoch #128 | EpochTime 3.97 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0193
+Evaluation/AverageReturn                30.2007
+Evaluation/Iteration                   128
+Evaluation/MaxReturn                    44.5965
+Evaluation/MinReturn                    26.7268
+Evaluation/NumEpisodes                1180
+Evaluation/StdReturn                     4.14807
+Evaluation/TerminationRate               1
+TotalEnvSteps                       516215
+----------------------------------  ------------
+2022-09-22 06:33:36 | [run_task] epoch #129 | Saving snapshot...
+2022-09-22 06:33:37 | [run_task] epoch #129 | Saved
+2022-09-22 06:33:37 | [run_task] epoch #129 | Time 496.53 s
+2022-09-22 06:33:37 | [run_task] epoch #129 | EpochTime 3.94 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.8923
+Evaluation/AverageReturn                30.0719
+Evaluation/Iteration                   129
+Evaluation/MaxReturn                    45.5823
+Evaluation/MinReturn                    26.7218
+Evaluation/NumEpisodes                1186
+Evaluation/StdReturn                     4.264
+Evaluation/TerminationRate               1
+TotalEnvSteps                       520216
+----------------------------------  -----------
+2022-09-22 06:33:40 | [run_task] epoch #130 | Saving snapshot...
+2022-09-22 06:33:41 | [run_task] epoch #130 | Saved
+2022-09-22 06:33:41 | [run_task] epoch #130 | Time 500.48 s
+2022-09-22 06:33:41 | [run_task] epoch #130 | EpochTime 3.95 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1267
+Evaluation/AverageReturn                30.3098
+Evaluation/Iteration                   130
+Evaluation/MaxReturn                    44.6377
+Evaluation/MinReturn                    26.7047
+Evaluation/NumEpisodes                1176
+Evaluation/StdReturn                     4.21617
+Evaluation/TerminationRate               1
+TotalEnvSteps                       524219
+----------------------------------  ------------
+2022-09-22 06:33:45 | [run_task] epoch #131 | Saving snapshot...
+2022-09-22 06:33:45 | [run_task] epoch #131 | Saved
+2022-09-22 06:33:45 | [run_task] epoch #131 | Time 504.64 s
+2022-09-22 06:33:45 | [run_task] epoch #131 | EpochTime 4.16 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.3037
+Evaluation/AverageReturn                30.4896
+Evaluation/Iteration                   131
+Evaluation/MaxReturn                    53.7181
+Evaluation/MinReturn                    26.722
+Evaluation/NumEpisodes                1167
+Evaluation/StdReturn                     4.24671
+Evaluation/TerminationRate               1
+TotalEnvSteps                       528219
+----------------------------------  ------------
+2022-09-22 06:33:48 | [run_task] epoch #132 | Saving snapshot...
+2022-09-22 06:33:49 | [run_task] epoch #132 | Saved
+2022-09-22 06:33:49 | [run_task] epoch #132 | Time 508.49 s
+2022-09-22 06:33:49 | [run_task] epoch #132 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1943
+Evaluation/AverageReturn                30.3785
+Evaluation/Iteration                   132
+Evaluation/MaxReturn                    44.6318
+Evaluation/MinReturn                    26.7258
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.28211
+Evaluation/TerminationRate               1
+TotalEnvSteps                       532221
+----------------------------------  ------------
+2022-09-22 06:33:52 | [run_task] epoch #133 | Saving snapshot...
+2022-09-22 06:33:52 | [run_task] epoch #133 | Saved
+2022-09-22 06:33:52 | [run_task] epoch #133 | Time 512.36 s
+2022-09-22 06:33:52 | [run_task] epoch #133 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8311
+Evaluation/AverageReturn                30.0099
+Evaluation/Iteration                   133
+Evaluation/MaxReturn                    45.5536
+Evaluation/MinReturn                    26.7108
+Evaluation/NumEpisodes                1188
+Evaluation/StdReturn                     4.26031
+Evaluation/TerminationRate               1
+TotalEnvSteps                       536221
+----------------------------------  ------------
+2022-09-22 06:33:56 | [run_task] epoch #134 | Saving snapshot...
+2022-09-22 06:33:56 | [run_task] epoch #134 | Saved
+2022-09-22 06:33:56 | [run_task] epoch #134 | Time 516.27 s
+2022-09-22 06:33:56 | [run_task] epoch #134 | EpochTime 3.90 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.96
+Evaluation/AverageReturn                30.1406
+Evaluation/Iteration                   134
+Evaluation/MaxReturn                    44.6437
+Evaluation/MinReturn                    26.7065
+Evaluation/NumEpisodes                1182
+Evaluation/StdReturn                     4.1671
+Evaluation/TerminationRate               1
+TotalEnvSteps                       540221
+----------------------------------  -----------
+2022-09-22 06:34:00 | [run_task] epoch #135 | Saving snapshot...
+2022-09-22 06:34:00 | [run_task] epoch #135 | Saved
+2022-09-22 06:34:00 | [run_task] epoch #135 | Time 520.13 s
+2022-09-22 06:34:00 | [run_task] epoch #135 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1653
+Evaluation/AverageReturn                30.3491
+Evaluation/Iteration                   135
+Evaluation/MaxReturn                    45.255
+Evaluation/MinReturn                    26.7224
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.19445
+Evaluation/TerminationRate               1
+TotalEnvSteps                       544222
+----------------------------------  ------------
+2022-09-22 06:34:04 | [run_task] epoch #136 | Saving snapshot...
+2022-09-22 06:34:04 | [run_task] epoch #136 | Saved
+2022-09-22 06:34:04 | [run_task] epoch #136 | Time 523.94 s
+2022-09-22 06:34:04 | [run_task] epoch #136 | EpochTime 3.81 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9006
+Evaluation/AverageReturn                30.0803
+Evaluation/Iteration                   136
+Evaluation/MaxReturn                    45.54
+Evaluation/MinReturn                    26.7275
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.20584
+Evaluation/TerminationRate               1
+TotalEnvSteps                       548223
+----------------------------------  ------------
+2022-09-22 06:34:08 | [run_task] epoch #137 | Saving snapshot...
+2022-09-22 06:34:08 | [run_task] epoch #137 | Saved
+2022-09-22 06:34:08 | [run_task] epoch #137 | Time 527.75 s
+2022-09-22 06:34:08 | [run_task] epoch #137 | EpochTime 3.81 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.5917
+Evaluation/AverageReturn                29.7667
+Evaluation/Iteration                   137
+Evaluation/MaxReturn                    44.9352
+Evaluation/MinReturn                    26.7114
+Evaluation/NumEpisodes                1198
+Evaluation/StdReturn                     4.07696
+Evaluation/TerminationRate               1
+TotalEnvSteps                       552223
+----------------------------------  ------------
+2022-09-22 06:34:12 | [run_task] epoch #138 | Saving snapshot...
+2022-09-22 06:34:12 | [run_task] epoch #138 | Saved
+2022-09-22 06:34:12 | [run_task] epoch #138 | Time 531.59 s
+2022-09-22 06:34:12 | [run_task] epoch #138 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1791
+Evaluation/AverageReturn                30.363
+Evaluation/Iteration                   138
+Evaluation/MaxReturn                    45.4616
+Evaluation/MinReturn                    26.7175
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.22567
+Evaluation/TerminationRate               1
+TotalEnvSteps                       556224
+----------------------------------  ------------
+2022-09-22 06:34:15 | [run_task] epoch #139 | Saving snapshot...
+2022-09-22 06:34:16 | [run_task] epoch #139 | Saved
+2022-09-22 06:34:16 | [run_task] epoch #139 | Time 535.52 s
+2022-09-22 06:34:16 | [run_task] epoch #139 | EpochTime 3.93 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.4625
+Evaluation/AverageReturn                30.6508
+Evaluation/Iteration                   139
+Evaluation/MaxReturn                    45.3088
+Evaluation/MinReturn                    26.7334
+Evaluation/NumEpisodes                1161
+Evaluation/StdReturn                     4.28837
+Evaluation/TerminationRate               1
+TotalEnvSteps                       560225
+----------------------------------  ------------
+2022-09-22 06:34:19 | [run_task] epoch #140 | Saving snapshot...
+2022-09-22 06:34:20 | [run_task] epoch #140 | Saved
+2022-09-22 06:34:20 | [run_task] epoch #140 | Time 539.49 s
+2022-09-22 06:34:20 | [run_task] epoch #140 | EpochTime 3.97 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0802
+Evaluation/AverageReturn                30.2626
+Evaluation/Iteration                   140
+Evaluation/MaxReturn                    44.6607
+Evaluation/MinReturn                    26.6964
+Evaluation/NumEpisodes                1177
+Evaluation/StdReturn                     4.20742
+Evaluation/TerminationRate               1
+TotalEnvSteps                       564225
+----------------------------------  ------------
+2022-09-22 06:34:23 | [run_task] epoch #141 | Saving snapshot...
+2022-09-22 06:34:23 | [run_task] epoch #141 | Saved
+2022-09-22 06:34:23 | [run_task] epoch #141 | Time 543.46 s
+2022-09-22 06:34:23 | [run_task] epoch #141 | EpochTime 3.97 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.5817
+Evaluation/AverageReturn                29.7565
+Evaluation/Iteration                   141
+Evaluation/MaxReturn                    44.8493
+Evaluation/MinReturn                    26.7133
+Evaluation/NumEpisodes                1199
+Evaluation/StdReturn                     4.09295
+Evaluation/TerminationRate               1
+TotalEnvSteps                       568226
+----------------------------------  ------------
+2022-09-22 06:34:27 | [run_task] epoch #142 | Saving snapshot...
+2022-09-22 06:34:27 | [run_task] epoch #142 | Saved
+2022-09-22 06:34:27 | [run_task] epoch #142 | Time 547.33 s
+2022-09-22 06:34:27 | [run_task] epoch #142 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1632
+Evaluation/AverageReturn                30.3469
+Evaluation/Iteration                   142
+Evaluation/MaxReturn                    45.5745
+Evaluation/MinReturn                    26.7235
+Evaluation/NumEpisodes                1174
+Evaluation/StdReturn                     4.30138
+Evaluation/TerminationRate               1
+TotalEnvSteps                       572226
+----------------------------------  ------------
+2022-09-22 06:34:31 | [run_task] epoch #143 | Saving snapshot...
+2022-09-22 06:34:31 | [run_task] epoch #143 | Saved
+2022-09-22 06:34:31 | [run_task] epoch #143 | Time 551.22 s
+2022-09-22 06:34:31 | [run_task] epoch #143 | EpochTime 3.89 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2251
+Evaluation/AverageReturn                30.4098
+Evaluation/Iteration                   143
+Evaluation/MaxReturn                    45.3879
+Evaluation/MinReturn                    26.7315
+Evaluation/NumEpisodes                1171
+Evaluation/StdReturn                     4.24929
+Evaluation/TerminationRate               1
+TotalEnvSteps                       576227
+----------------------------------  ------------
+2022-09-22 06:34:35 | [run_task] epoch #144 | Saving snapshot...
+2022-09-22 06:34:35 | [run_task] epoch #144 | Saved
+2022-09-22 06:34:35 | [run_task] epoch #144 | Time 555.15 s
+2022-09-22 06:34:35 | [run_task] epoch #144 | EpochTime 3.93 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.7964
+Evaluation/AverageReturn                29.9746
+Evaluation/Iteration                   144
+Evaluation/MaxReturn                    44.7212
+Evaluation/MinReturn                    26.7194
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.133
+Evaluation/TerminationRate               1
+TotalEnvSteps                       580228
+----------------------------------  -----------
+2022-09-22 06:34:39 | [run_task] epoch #145 | Saving snapshot...
+2022-09-22 06:34:39 | [run_task] epoch #145 | Saved
+2022-09-22 06:34:39 | [run_task] epoch #145 | Time 559.22 s
+2022-09-22 06:34:39 | [run_task] epoch #145 | EpochTime 4.07 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6822
+Evaluation/AverageReturn                29.8586
+Evaluation/Iteration                   145
+Evaluation/MaxReturn                    44.666
+Evaluation/MinReturn                    26.7285
+Evaluation/NumEpisodes                1195
+Evaluation/StdReturn                     4.13917
+Evaluation/TerminationRate               1
+TotalEnvSteps                       584231
+----------------------------------  ------------
+2022-09-22 06:34:43 | [run_task] epoch #146 | Saving snapshot...
+2022-09-22 06:34:43 | [run_task] epoch #146 | Saved
+2022-09-22 06:34:43 | [run_task] epoch #146 | Time 563.09 s
+2022-09-22 06:34:43 | [run_task] epoch #146 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8006
+Evaluation/AverageReturn                29.979
+Evaluation/Iteration                   146
+Evaluation/MaxReturn                    45.5409
+Evaluation/MinReturn                    26.7283
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.19551
+Evaluation/TerminationRate               1
+TotalEnvSteps                       588232
+----------------------------------  ------------
+2022-09-22 06:34:47 | [run_task] epoch #147 | Saving snapshot...
+2022-09-22 06:34:48 | [run_task] epoch #147 | Saved
+2022-09-22 06:34:48 | [run_task] epoch #147 | Time 567.52 s
+2022-09-22 06:34:48 | [run_task] epoch #147 | EpochTime 4.43 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1742
+Evaluation/AverageReturn                30.3582
+Evaluation/Iteration                   147
+Evaluation/MaxReturn                    45.3627
+Evaluation/MinReturn                    26.7017
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.25659
+Evaluation/TerminationRate               1
+TotalEnvSteps                       592232
+----------------------------------  ------------
+2022-09-22 06:34:51 | [run_task] epoch #148 | Saving snapshot...
+2022-09-22 06:34:51 | [run_task] epoch #148 | Saved
+2022-09-22 06:34:51 | [run_task] epoch #148 | Time 571.39 s
+2022-09-22 06:34:51 | [run_task] epoch #148 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9369
+Evaluation/AverageReturn                30.1172
+Evaluation/Iteration                   148
+Evaluation/MaxReturn                    44.8223
+Evaluation/MinReturn                    26.7257
+Evaluation/NumEpisodes                1184
+Evaluation/StdReturn                     4.23571
+Evaluation/TerminationRate               1
+TotalEnvSteps                       596234
+----------------------------------  ------------
+2022-09-22 06:34:55 | [run_task] epoch #149 | Saving snapshot...
+2022-09-22 06:34:55 | [run_task] epoch #149 | Saved
+2022-09-22 06:34:55 | [run_task] epoch #149 | Time 575.29 s
+2022-09-22 06:34:55 | [run_task] epoch #149 | EpochTime 3.89 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.9136
+Evaluation/AverageReturn                30.0936
+Evaluation/Iteration                   149
+Evaluation/MaxReturn                    45.4864
+Evaluation/MinReturn                    26.7198
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.2679
+Evaluation/TerminationRate               1
+TotalEnvSteps                       600235
+----------------------------------  -----------
+2022-09-22 06:34:59 | [run_task] epoch #150 | Saving snapshot...
+2022-09-22 06:34:59 | [run_task] epoch #150 | Saved
+2022-09-22 06:34:59 | [run_task] epoch #150 | Time 579.16 s
+2022-09-22 06:34:59 | [run_task] epoch #150 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8378
+Evaluation/AverageReturn                30.0165
+Evaluation/Iteration                   150
+Evaluation/MaxReturn                    45.5118
+Evaluation/MinReturn                    26.7102
+Evaluation/NumEpisodes                1187
+Evaluation/StdReturn                     4.11666
+Evaluation/TerminationRate               1
+TotalEnvSteps                       604235
+----------------------------------  ------------
+2022-09-22 06:35:03 | [run_task] epoch #151 | Saving snapshot...
+2022-09-22 06:35:03 | [run_task] epoch #151 | Saved
+2022-09-22 06:35:03 | [run_task] epoch #151 | Time 583.00 s
+2022-09-22 06:35:03 | [run_task] epoch #151 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.284
+Evaluation/AverageReturn                30.4695
+Evaluation/Iteration                   151
+Evaluation/MaxReturn                    44.4917
+Evaluation/MinReturn                    26.6909
+Evaluation/NumEpisodes                1169
+Evaluation/StdReturn                     4.23266
+Evaluation/TerminationRate               1
+TotalEnvSteps                       608238
+----------------------------------  ------------
+2022-09-22 06:35:07 | [run_task] epoch #152 | Saving snapshot...
+2022-09-22 06:35:07 | [run_task] epoch #152 | Saved
+2022-09-22 06:35:07 | [run_task] epoch #152 | Time 587.00 s
+2022-09-22 06:35:07 | [run_task] epoch #152 | EpochTime 4.00 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9002
+Evaluation/AverageReturn                30.08
+Evaluation/Iteration                   152
+Evaluation/MaxReturn                    45.4049
+Evaluation/MinReturn                    26.7282
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.19515
+Evaluation/TerminationRate               1
+TotalEnvSteps                       612240
+----------------------------------  ------------
+2022-09-22 06:35:11 | [run_task] epoch #153 | Saving snapshot...
+2022-09-22 06:35:11 | [run_task] epoch #153 | Saved
+2022-09-22 06:35:11 | [run_task] epoch #153 | Time 590.95 s
+2022-09-22 06:35:11 | [run_task] epoch #153 | EpochTime 3.95 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6275
+Evaluation/AverageReturn                29.8031
+Evaluation/Iteration                   153
+Evaluation/MaxReturn                    45.4549
+Evaluation/MinReturn                    26.7008
+Evaluation/NumEpisodes                1197
+Evaluation/StdReturn                     4.09495
+Evaluation/TerminationRate               1
+TotalEnvSteps                       616242
+----------------------------------  ------------
+2022-09-22 06:35:15 | [run_task] epoch #154 | Saving snapshot...
+2022-09-22 06:35:16 | [run_task] epoch #154 | Saved
+2022-09-22 06:35:16 | [run_task] epoch #154 | Time 595.59 s
+2022-09-22 06:35:16 | [run_task] epoch #154 | EpochTime 4.64 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1105
+Evaluation/AverageReturn                30.2933
+Evaluation/Iteration                   154
+Evaluation/MaxReturn                    44.4324
+Evaluation/MinReturn                    26.7315
+Evaluation/NumEpisodes                1176
+Evaluation/StdReturn                     4.16131
+Evaluation/TerminationRate               1
+TotalEnvSteps                       620244
+----------------------------------  ------------
+2022-09-22 06:35:20 | [run_task] epoch #155 | Saving snapshot...
+2022-09-22 06:35:20 | [run_task] epoch #155 | Saved
+2022-09-22 06:35:20 | [run_task] epoch #155 | Time 600.08 s
+2022-09-22 06:35:20 | [run_task] epoch #155 | EpochTime 4.48 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.3518
+Evaluation/AverageReturn                30.5383
+Evaluation/Iteration                   155
+Evaluation/MaxReturn                    44.8504
+Evaluation/MinReturn                    26.7103
+Evaluation/NumEpisodes                1166
+Evaluation/StdReturn                     4.22715
+Evaluation/TerminationRate               1
+TotalEnvSteps                       624246
+----------------------------------  ------------
+2022-09-22 06:35:24 | [run_task] epoch #156 | Saving snapshot...
+2022-09-22 06:35:24 | [run_task] epoch #156 | Saved
+2022-09-22 06:35:24 | [run_task] epoch #156 | Time 604.06 s
+2022-09-22 06:35:24 | [run_task] epoch #156 | EpochTime 3.98 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7405
+Evaluation/AverageReturn                29.9178
+Evaluation/Iteration                   156
+Evaluation/MaxReturn                    44.5322
+Evaluation/MinReturn                    26.7207
+Evaluation/NumEpisodes                1191
+Evaluation/StdReturn                     4.11368
+Evaluation/TerminationRate               1
+TotalEnvSteps                       628246
+----------------------------------  ------------
+2022-09-22 06:35:28 | [run_task] epoch #157 | Saving snapshot...
+2022-09-22 06:35:28 | [run_task] epoch #157 | Saved
+2022-09-22 06:35:28 | [run_task] epoch #157 | Time 608.02 s
+2022-09-22 06:35:28 | [run_task] epoch #157 | EpochTime 3.96 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9009
+Evaluation/AverageReturn                30.0807
+Evaluation/Iteration                   157
+Evaluation/MaxReturn                    44.6108
+Evaluation/MinReturn                    26.7161
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.23913
+Evaluation/TerminationRate               1
+TotalEnvSteps                       632246
+----------------------------------  ------------
+2022-09-22 06:35:32 | [run_task] epoch #158 | Saving snapshot...
+2022-09-22 06:35:32 | [run_task] epoch #158 | Saved
+2022-09-22 06:35:32 | [run_task] epoch #158 | Time 612.08 s
+2022-09-22 06:35:32 | [run_task] epoch #158 | EpochTime 4.06 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.942
+Evaluation/AverageReturn                30.1223
+Evaluation/Iteration                   158
+Evaluation/MaxReturn                    45.3675
+Evaluation/MinReturn                    26.7002
+Evaluation/NumEpisodes                1183
+Evaluation/StdReturn                     4.17023
+Evaluation/TerminationRate               1
+TotalEnvSteps                       636246
+----------------------------------  ------------
+2022-09-22 06:35:36 | [run_task] epoch #159 | Saving snapshot...
+2022-09-22 06:35:36 | [run_task] epoch #159 | Saved
+2022-09-22 06:35:36 | [run_task] epoch #159 | Time 616.07 s
+2022-09-22 06:35:36 | [run_task] epoch #159 | EpochTime 3.98 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9769
+Evaluation/AverageReturn                30.1578
+Evaluation/Iteration                   159
+Evaluation/MaxReturn                    44.5637
+Evaluation/MinReturn                    26.7134
+Evaluation/NumEpisodes                1181
+Evaluation/StdReturn                     4.15519
+Evaluation/TerminationRate               1
+TotalEnvSteps                       640247
+----------------------------------  ------------
+2022-09-22 06:35:40 | [run_task] epoch #160 | Saving snapshot...
+2022-09-22 06:35:40 | [run_task] epoch #160 | Saved
+2022-09-22 06:35:40 | [run_task] epoch #160 | Time 619.94 s
+2022-09-22 06:35:40 | [run_task] epoch #160 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9195
+Evaluation/AverageReturn                30.0995
+Evaluation/Iteration                   160
+Evaluation/MaxReturn                    44.6898
+Evaluation/MinReturn                    26.715
+Evaluation/NumEpisodes                1184
+Evaluation/StdReturn                     4.20428
+Evaluation/TerminationRate               1
+TotalEnvSteps                       644248
+----------------------------------  ------------
+2022-09-22 06:35:44 | [run_task] epoch #161 | Saving snapshot...
+2022-09-22 06:35:44 | [run_task] epoch #161 | Saved
+2022-09-22 06:35:44 | [run_task] epoch #161 | Time 623.94 s
+2022-09-22 06:35:44 | [run_task] epoch #161 | EpochTime 4.00 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8195
+Evaluation/AverageReturn                29.998
+Evaluation/Iteration                   161
+Evaluation/MaxReturn                    44.7871
+Evaluation/MinReturn                    26.7427
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.17289
+Evaluation/TerminationRate               1
+TotalEnvSteps                       648250
+----------------------------------  ------------
+2022-09-22 06:35:48 | [run_task] epoch #162 | Saving snapshot...
+2022-09-22 06:35:48 | [run_task] epoch #162 | Saved
+2022-09-22 06:35:48 | [run_task] epoch #162 | Time 627.89 s
+2022-09-22 06:35:48 | [run_task] epoch #162 | EpochTime 3.95 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7664
+Evaluation/AverageReturn                29.944
+Evaluation/Iteration                   162
+Evaluation/MaxReturn                    45.1996
+Evaluation/MinReturn                    26.7247
+Evaluation/NumEpisodes                1191
+Evaluation/StdReturn                     4.12007
+Evaluation/TerminationRate               1
+TotalEnvSteps                       652252
+----------------------------------  ------------
+2022-09-22 06:35:52 | [run_task] epoch #163 | Saving snapshot...
+2022-09-22 06:35:52 | [run_task] epoch #163 | Saved
+2022-09-22 06:35:52 | [run_task] epoch #163 | Time 632.47 s
+2022-09-22 06:35:52 | [run_task] epoch #163 | EpochTime 4.57 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8924
+Evaluation/AverageReturn                30.0719
+Evaluation/Iteration                   163
+Evaluation/MaxReturn                    44.4695
+Evaluation/MinReturn                    26.7292
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.10095
+Evaluation/TerminationRate               1
+TotalEnvSteps                       656254
+----------------------------------  ------------
+2022-09-22 06:35:56 | [run_task] epoch #164 | Saving snapshot...
+2022-09-22 06:35:56 | [run_task] epoch #164 | Saved
+2022-09-22 06:35:56 | [run_task] epoch #164 | Time 636.43 s
+2022-09-22 06:35:56 | [run_task] epoch #164 | EpochTime 3.96 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6871
+Evaluation/AverageReturn                29.8637
+Evaluation/Iteration                   164
+Evaluation/MaxReturn                    45.3159
+Evaluation/MinReturn                    26.7072
+Evaluation/NumEpisodes                1194
+Evaluation/StdReturn                     4.14294
+Evaluation/TerminationRate               1
+TotalEnvSteps                       660256
+----------------------------------  ------------
+2022-09-22 06:36:01 | [run_task] epoch #165 | Saving snapshot...
+2022-09-22 06:36:01 | [run_task] epoch #165 | Saved
+2022-09-22 06:36:01 | [run_task] epoch #165 | Time 640.96 s
+2022-09-22 06:36:01 | [run_task] epoch #165 | EpochTime 4.53 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6697
+Evaluation/AverageReturn                29.8459
+Evaluation/Iteration                   165
+Evaluation/MaxReturn                    45.5119
+Evaluation/MinReturn                    26.7316
+Evaluation/NumEpisodes                1195
+Evaluation/StdReturn                     4.10504
+Evaluation/TerminationRate               1
+TotalEnvSteps                       664258
+----------------------------------  ------------
+2022-09-22 06:36:05 | [run_task] epoch #166 | Saving snapshot...
+2022-09-22 06:36:05 | [run_task] epoch #166 | Saved
+2022-09-22 06:36:05 | [run_task] epoch #166 | Time 645.45 s
+2022-09-22 06:36:05 | [run_task] epoch #166 | EpochTime 4.49 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9813
+Evaluation/AverageReturn                30.1622
+Evaluation/Iteration                   166
+Evaluation/MaxReturn                    44.6753
+Evaluation/MinReturn                    26.7387
+Evaluation/NumEpisodes                1181
+Evaluation/StdReturn                     4.18486
+Evaluation/TerminationRate               1
+TotalEnvSteps                       668258
+----------------------------------  ------------
+2022-09-22 06:36:10 | [run_task] epoch #167 | Saving snapshot...
+2022-09-22 06:36:10 | [run_task] epoch #167 | Saved
+2022-09-22 06:36:10 | [run_task] epoch #167 | Time 649.88 s
+2022-09-22 06:36:10 | [run_task] epoch #167 | EpochTime 4.43 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2586
+Evaluation/AverageReturn                30.4437
+Evaluation/Iteration                   167
+Evaluation/MaxReturn                    45.124
+Evaluation/MinReturn                    26.7196
+Evaluation/NumEpisodes                1170
+Evaluation/StdReturn                     4.29573
+Evaluation/TerminationRate               1
+TotalEnvSteps                       672259
+----------------------------------  ------------
+2022-09-22 06:36:14 | [run_task] epoch #168 | Saving snapshot...
+2022-09-22 06:36:14 | [run_task] epoch #168 | Saved
+2022-09-22 06:36:14 | [run_task] epoch #168 | Time 653.81 s
+2022-09-22 06:36:14 | [run_task] epoch #168 | EpochTime 3.93 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8893
+Evaluation/AverageReturn                30.0689
+Evaluation/Iteration                   168
+Evaluation/MaxReturn                    44.5579
+Evaluation/MinReturn                    26.7103
+Evaluation/NumEpisodes                1186
+Evaluation/StdReturn                     4.19844
+Evaluation/TerminationRate               1
+TotalEnvSteps                       676262
+----------------------------------  ------------
+2022-09-22 06:36:18 | [run_task] epoch #169 | Saving snapshot...
+2022-09-22 06:36:18 | [run_task] epoch #169 | Saved
+2022-09-22 06:36:18 | [run_task] epoch #169 | Time 657.74 s
+2022-09-22 06:36:18 | [run_task] epoch #169 | EpochTime 3.92 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.806
+Evaluation/AverageReturn                29.9844
+Evaluation/Iteration                   169
+Evaluation/MaxReturn                    44.6678
+Evaluation/MinReturn                    26.7055
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.21215
+Evaluation/TerminationRate               1
+TotalEnvSteps                       680263
+----------------------------------  ------------
+2022-09-22 06:36:22 | [run_task] epoch #170 | Saving snapshot...
+2022-09-22 06:36:22 | [run_task] epoch #170 | Saved
+2022-09-22 06:36:22 | [run_task] epoch #170 | Time 661.58 s
+2022-09-22 06:36:22 | [run_task] epoch #170 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0606
+Evaluation/AverageReturn                30.2427
+Evaluation/Iteration                   170
+Evaluation/MaxReturn                    45.0225
+Evaluation/MinReturn                    26.7346
+Evaluation/NumEpisodes                1178
+Evaluation/StdReturn                     4.20858
+Evaluation/TerminationRate               1
+TotalEnvSteps                       684265
+----------------------------------  ------------
+2022-09-22 06:36:25 | [run_task] epoch #171 | Saving snapshot...
+2022-09-22 06:36:26 | [run_task] epoch #171 | Saved
+2022-09-22 06:36:26 | [run_task] epoch #171 | Time 665.57 s
+2022-09-22 06:36:26 | [run_task] epoch #171 | EpochTime 3.98 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1904
+Evaluation/AverageReturn                30.3745
+Evaluation/Iteration                   171
+Evaluation/MaxReturn                    44.9032
+Evaluation/MinReturn                    26.7244
+Evaluation/NumEpisodes                1172
+Evaluation/StdReturn                     4.22129
+Evaluation/TerminationRate               1
+TotalEnvSteps                       688265
+----------------------------------  ------------
+2022-09-22 06:36:29 | [run_task] epoch #172 | Saving snapshot...
+2022-09-22 06:36:30 | [run_task] epoch #172 | Saved
+2022-09-22 06:36:30 | [run_task] epoch #172 | Time 669.48 s
+2022-09-22 06:36:30 | [run_task] epoch #172 | EpochTime 3.91 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8715
+Evaluation/AverageReturn                30.0509
+Evaluation/Iteration                   172
+Evaluation/MaxReturn                    45.0962
+Evaluation/MinReturn                    26.7066
+Evaluation/NumEpisodes                1186
+Evaluation/StdReturn                     4.20482
+Evaluation/TerminationRate               1
+TotalEnvSteps                       692266
+----------------------------------  ------------
+2022-09-22 06:36:33 | [run_task] epoch #173 | Saving snapshot...
+2022-09-22 06:36:33 | [run_task] epoch #173 | Saved
+2022-09-22 06:36:33 | [run_task] epoch #173 | Time 673.34 s
+2022-09-22 06:36:33 | [run_task] epoch #173 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7942
+Evaluation/AverageReturn                29.9723
+Evaluation/Iteration                   173
+Evaluation/MaxReturn                    45.5743
+Evaluation/MinReturn                    26.7064
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.14311
+Evaluation/TerminationRate               1
+TotalEnvSteps                       696266
+----------------------------------  ------------
+2022-09-22 06:36:37 | [run_task] epoch #174 | Saving snapshot...
+2022-09-22 06:36:37 | [run_task] epoch #174 | Saved
+2022-09-22 06:36:37 | [run_task] epoch #174 | Time 677.21 s
+2022-09-22 06:36:37 | [run_task] epoch #174 | EpochTime 3.87 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7404
+Evaluation/AverageReturn                29.9178
+Evaluation/Iteration                   174
+Evaluation/MaxReturn                    44.7885
+Evaluation/MinReturn                    26.7149
+Evaluation/NumEpisodes                1192
+Evaluation/StdReturn                     4.14491
+Evaluation/TerminationRate               1
+TotalEnvSteps                       700269
+----------------------------------  ------------
+2022-09-22 06:36:41 | [run_task] epoch #175 | Saving snapshot...
+2022-09-22 06:36:41 | [run_task] epoch #175 | Saved
+2022-09-22 06:36:41 | [run_task] epoch #175 | Time 681.13 s
+2022-09-22 06:36:41 | [run_task] epoch #175 | EpochTime 3.92 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0175
+Evaluation/AverageReturn                30.199
+Evaluation/Iteration                   175
+Evaluation/MaxReturn                    44.7338
+Evaluation/MinReturn                    26.7143
+Evaluation/NumEpisodes                1180
+Evaluation/StdReturn                     4.17375
+Evaluation/TerminationRate               1
+TotalEnvSteps                       704271
+----------------------------------  ------------
+2022-09-22 06:36:45 | [run_task] epoch #176 | Saving snapshot...
+2022-09-22 06:36:45 | [run_task] epoch #176 | Saved
+2022-09-22 06:36:45 | [run_task] epoch #176 | Time 685.05 s
+2022-09-22 06:36:45 | [run_task] epoch #176 | EpochTime 3.91 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8443
+Evaluation/AverageReturn                30.0231
+Evaluation/Iteration                   176
+Evaluation/MaxReturn                    44.5077
+Evaluation/MinReturn                    26.7302
+Evaluation/NumEpisodes                1187
+Evaluation/StdReturn                     4.14524
+Evaluation/TerminationRate               1
+TotalEnvSteps                       708272
+----------------------------------  ------------
+2022-09-22 06:36:49 | [run_task] epoch #177 | Saving snapshot...
+2022-09-22 06:36:49 | [run_task] epoch #177 | Saved
+2022-09-22 06:36:49 | [run_task] epoch #177 | Time 689.04 s
+2022-09-22 06:36:49 | [run_task] epoch #177 | EpochTime 3.99 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7489
+Evaluation/AverageReturn                29.9263
+Evaluation/Iteration                   177
+Evaluation/MaxReturn                    45.0036
+Evaluation/MinReturn                    26.715
+Evaluation/NumEpisodes                1191
+Evaluation/StdReturn                     4.09362
+Evaluation/TerminationRate               1
+TotalEnvSteps                       712273
+----------------------------------  ------------
+2022-09-22 06:36:53 | [run_task] epoch #178 | Saving snapshot...
+2022-09-22 06:36:53 | [run_task] epoch #178 | Saved
+2022-09-22 06:36:53 | [run_task] epoch #178 | Time 693.08 s
+2022-09-22 06:36:53 | [run_task] epoch #178 | EpochTime 4.04 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.8983
+Evaluation/AverageReturn                30.078
+Evaluation/Iteration                   178
+Evaluation/MaxReturn                    44.6256
+Evaluation/MinReturn                    26.7248
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.1851
+Evaluation/TerminationRate               1
+TotalEnvSteps                       716274
+----------------------------------  -----------
+2022-09-22 06:36:57 | [run_task] epoch #179 | Saving snapshot...
+2022-09-22 06:36:57 | [run_task] epoch #179 | Saved
+2022-09-22 06:36:57 | [run_task] epoch #179 | Time 696.94 s
+2022-09-22 06:36:57 | [run_task] epoch #179 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0475
+Evaluation/AverageReturn                30.2295
+Evaluation/Iteration                   179
+Evaluation/MaxReturn                    45.6105
+Evaluation/MinReturn                    26.7321
+Evaluation/NumEpisodes                1178
+Evaluation/StdReturn                     4.20184
+Evaluation/TerminationRate               1
+TotalEnvSteps                       720275
+----------------------------------  ------------
+2022-09-22 06:37:01 | [run_task] epoch #180 | Saving snapshot...
+2022-09-22 06:37:01 | [run_task] epoch #180 | Saved
+2022-09-22 06:37:01 | [run_task] epoch #180 | Time 700.87 s
+2022-09-22 06:37:01 | [run_task] epoch #180 | EpochTime 3.93 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8027
+Evaluation/AverageReturn                29.981
+Evaluation/Iteration                   180
+Evaluation/MaxReturn                    45.1631
+Evaluation/MinReturn                    26.7282
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.17185
+Evaluation/TerminationRate               1
+TotalEnvSteps                       724277
+----------------------------------  ------------
+2022-09-22 06:37:05 | [run_task] epoch #181 | Saving snapshot...
+2022-09-22 06:37:05 | [run_task] epoch #181 | Saved
+2022-09-22 06:37:05 | [run_task] epoch #181 | Time 704.77 s
+2022-09-22 06:37:05 | [run_task] epoch #181 | EpochTime 3.90 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6594
+Evaluation/AverageReturn                29.8356
+Evaluation/Iteration                   181
+Evaluation/MaxReturn                    54.2108
+Evaluation/MinReturn                    26.7181
+Evaluation/NumEpisodes                1195
+Evaluation/StdReturn                     4.14924
+Evaluation/TerminationRate               1
+TotalEnvSteps                       728278
+----------------------------------  ------------
+2022-09-22 06:37:09 | [run_task] epoch #182 | Saving snapshot...
+2022-09-22 06:37:09 | [run_task] epoch #182 | Saved
+2022-09-22 06:37:09 | [run_task] epoch #182 | Time 708.58 s
+2022-09-22 06:37:09 | [run_task] epoch #182 | EpochTime 3.82 s
+----------------------------------  -----------
+Evaluation/AverageDiscountedReturn      29.8996
+Evaluation/AverageReturn                30.0795
+Evaluation/Iteration                   182
+Evaluation/MaxReturn                    44.8544
+Evaluation/MinReturn                    26.7282
+Evaluation/NumEpisodes                1185
+Evaluation/StdReturn                     4.2372
+Evaluation/TerminationRate               1
+TotalEnvSteps                       732280
+----------------------------------  -----------
+2022-09-22 06:37:12 | [run_task] epoch #183 | Saving snapshot...
+2022-09-22 06:37:12 | [run_task] epoch #183 | Saved
+2022-09-22 06:37:12 | [run_task] epoch #183 | Time 712.42 s
+2022-09-22 06:37:12 | [run_task] epoch #183 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9378
+Evaluation/AverageReturn                30.1182
+Evaluation/Iteration                   183
+Evaluation/MaxReturn                    44.6277
+Evaluation/MinReturn                    26.7155
+Evaluation/NumEpisodes                1183
+Evaluation/StdReturn                     4.19761
+Evaluation/TerminationRate               1
+TotalEnvSteps                       736282
+----------------------------------  ------------
+2022-09-22 06:37:16 | [run_task] epoch #184 | Saving snapshot...
+2022-09-22 06:37:16 | [run_task] epoch #184 | Saved
+2022-09-22 06:37:16 | [run_task] epoch #184 | Time 716.40 s
+2022-09-22 06:37:16 | [run_task] epoch #184 | EpochTime 3.98 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8834
+Evaluation/AverageReturn                30.0628
+Evaluation/Iteration                   184
+Evaluation/MaxReturn                    45.0091
+Evaluation/MinReturn                    26.7322
+Evaluation/NumEpisodes                1186
+Evaluation/StdReturn                     4.17994
+Evaluation/TerminationRate               1
+TotalEnvSteps                       740284
+----------------------------------  ------------
+2022-09-22 06:37:20 | [run_task] epoch #185 | Saving snapshot...
+2022-09-22 06:37:20 | [run_task] epoch #185 | Saved
+2022-09-22 06:37:20 | [run_task] epoch #185 | Time 720.23 s
+2022-09-22 06:37:20 | [run_task] epoch #185 | EpochTime 3.83 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6897
+Evaluation/AverageReturn                29.8663
+Evaluation/Iteration                   185
+Evaluation/MaxReturn                    44.5795
+Evaluation/MinReturn                    26.7049
+Evaluation/NumEpisodes                1194
+Evaluation/StdReturn                     4.13159
+Evaluation/TerminationRate               1
+TotalEnvSteps                       744285
+----------------------------------  ------------
+2022-09-22 06:37:24 | [run_task] epoch #186 | Saving snapshot...
+2022-09-22 06:37:24 | [run_task] epoch #186 | Saved
+2022-09-22 06:37:24 | [run_task] epoch #186 | Time 724.17 s
+2022-09-22 06:37:24 | [run_task] epoch #186 | EpochTime 3.94 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7611
+Evaluation/AverageReturn                29.9388
+Evaluation/Iteration                   186
+Evaluation/MaxReturn                    44.8312
+Evaluation/MinReturn                    26.7222
+Evaluation/NumEpisodes                1191
+Evaluation/StdReturn                     4.17331
+Evaluation/TerminationRate               1
+TotalEnvSteps                       748287
+----------------------------------  ------------
+2022-09-22 06:37:28 | [run_task] epoch #187 | Saving snapshot...
+2022-09-22 06:37:28 | [run_task] epoch #187 | Saved
+2022-09-22 06:37:28 | [run_task] epoch #187 | Time 728.05 s
+2022-09-22 06:37:28 | [run_task] epoch #187 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0495
+Evaluation/AverageReturn                30.2314
+Evaluation/Iteration                   187
+Evaluation/MaxReturn                    44.5723
+Evaluation/MinReturn                    26.7281
+Evaluation/NumEpisodes                1178
+Evaluation/StdReturn                     4.14079
+Evaluation/TerminationRate               1
+TotalEnvSteps                       752288
+----------------------------------  ------------
+2022-09-22 06:37:32 | [run_task] epoch #188 | Saving snapshot...
+2022-09-22 06:37:33 | [run_task] epoch #188 | Saved
+2022-09-22 06:37:33 | [run_task] epoch #188 | Time 732.52 s
+2022-09-22 06:37:33 | [run_task] epoch #188 | EpochTime 4.47 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.799
+Evaluation/AverageReturn                29.9773
+Evaluation/Iteration                   188
+Evaluation/MaxReturn                    53.9091
+Evaluation/MinReturn                    26.7085
+Evaluation/NumEpisodes                1189
+Evaluation/StdReturn                     4.20536
+Evaluation/TerminationRate               1
+TotalEnvSteps                       756289
+----------------------------------  ------------
+2022-09-22 06:37:37 | [run_task] epoch #189 | Saving snapshot...
+2022-09-22 06:37:37 | [run_task] epoch #189 | Saved
+2022-09-22 06:37:37 | [run_task] epoch #189 | Time 737.06 s
+2022-09-22 06:37:37 | [run_task] epoch #189 | EpochTime 4.54 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.752
+Evaluation/AverageReturn                29.9295
+Evaluation/Iteration                   189
+Evaluation/MaxReturn                    45.2748
+Evaluation/MinReturn                    26.7292
+Evaluation/NumEpisodes                1192
+Evaluation/StdReturn                     4.20485
+Evaluation/TerminationRate               1
+TotalEnvSteps                       760291
+----------------------------------  ------------
+2022-09-22 06:37:42 | [run_task] epoch #190 | Saving snapshot...
+2022-09-22 06:37:42 | [run_task] epoch #190 | Saved
+2022-09-22 06:37:42 | [run_task] epoch #190 | Time 741.58 s
+2022-09-22 06:37:42 | [run_task] epoch #190 | EpochTime 4.51 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8823
+Evaluation/AverageReturn                30.0617
+Evaluation/Iteration                   190
+Evaluation/MaxReturn                    44.6857
+Evaluation/MinReturn                    26.7091
+Evaluation/NumEpisodes                1186
+Evaluation/StdReturn                     4.14772
+Evaluation/TerminationRate               1
+TotalEnvSteps                       764293
+----------------------------------  ------------
+2022-09-22 06:37:45 | [run_task] epoch #191 | Saving snapshot...
+2022-09-22 06:37:45 | [run_task] epoch #191 | Saved
+2022-09-22 06:37:45 | [run_task] epoch #191 | Time 745.43 s
+2022-09-22 06:37:45 | [run_task] epoch #191 | EpochTime 3.85 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.2686
+Evaluation/AverageReturn                30.4541
+Evaluation/Iteration                   191
+Evaluation/MaxReturn                    45.4574
+Evaluation/MinReturn                    26.7078
+Evaluation/NumEpisodes                1169
+Evaluation/StdReturn                     4.31172
+Evaluation/TerminationRate               1
+TotalEnvSteps                       768294
+----------------------------------  ------------
+2022-09-22 06:37:49 | [run_task] epoch #192 | Saving snapshot...
+2022-09-22 06:37:49 | [run_task] epoch #192 | Saved
+2022-09-22 06:37:49 | [run_task] epoch #192 | Time 749.39 s
+2022-09-22 06:37:49 | [run_task] epoch #192 | EpochTime 3.96 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.8332
+Evaluation/AverageReturn                30.0119
+Evaluation/Iteration                   192
+Evaluation/MaxReturn                    44.6199
+Evaluation/MinReturn                    26.7294
+Evaluation/NumEpisodes                1187
+Evaluation/StdReturn                     4.12264
+Evaluation/TerminationRate               1
+TotalEnvSteps                       772294
+----------------------------------  ------------
+2022-09-22 06:37:53 | [run_task] epoch #193 | Saving snapshot...
+2022-09-22 06:37:53 | [run_task] epoch #193 | Saved
+2022-09-22 06:37:53 | [run_task] epoch #193 | Time 753.27 s
+2022-09-22 06:37:53 | [run_task] epoch #193 | EpochTime 3.88 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0198
+Evaluation/AverageReturn                30.2014
+Evaluation/Iteration                   193
+Evaluation/MaxReturn                    44.9101
+Evaluation/MinReturn                    26.7037
+Evaluation/NumEpisodes                1180
+Evaluation/StdReturn                     4.28751
+Evaluation/TerminationRate               1
+TotalEnvSteps                       776294
+----------------------------------  ------------
+2022-09-22 06:37:57 | [run_task] epoch #194 | Saving snapshot...
+2022-09-22 06:37:57 | [run_task] epoch #194 | Saved
+2022-09-22 06:37:57 | [run_task] epoch #194 | Time 757.12 s
+2022-09-22 06:37:57 | [run_task] epoch #194 | EpochTime 3.86 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.9507
+Evaluation/AverageReturn                30.1312
+Evaluation/Iteration                   194
+Evaluation/MaxReturn                    44.8812
+Evaluation/MinReturn                    26.7197
+Evaluation/NumEpisodes                1183
+Evaluation/StdReturn                     4.19579
+Evaluation/TerminationRate               1
+TotalEnvSteps                       780296
+----------------------------------  ------------
+2022-09-22 06:38:01 | [run_task] epoch #195 | Saving snapshot...
+2022-09-22 06:38:01 | [run_task] epoch #195 | Saved
+2022-09-22 06:38:01 | [run_task] epoch #195 | Time 760.96 s
+2022-09-22 06:38:01 | [run_task] epoch #195 | EpochTime 3.84 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.0617
+Evaluation/AverageReturn                30.2439
+Evaluation/Iteration                   195
+Evaluation/MaxReturn                    45.1136
+Evaluation/MinReturn                    26.7243
+Evaluation/NumEpisodes                1178
+Evaluation/StdReturn                     4.23537
+Evaluation/TerminationRate               1
+TotalEnvSteps                       784297
+----------------------------------  ------------
+2022-09-22 06:38:05 | [run_task] epoch #196 | Saving snapshot...
+2022-09-22 06:38:05 | [run_task] epoch #196 | Saved
+2022-09-22 06:38:05 | [run_task] epoch #196 | Time 765.10 s
+2022-09-22 06:38:05 | [run_task] epoch #196 | EpochTime 4.13 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.77
+Evaluation/AverageReturn                29.9477
+Evaluation/Iteration                   196
+Evaluation/MaxReturn                    44.6586
+Evaluation/MinReturn                    26.7343
+Evaluation/NumEpisodes                1191
+Evaluation/StdReturn                     4.13503
+Evaluation/TerminationRate               1
+TotalEnvSteps                       788300
+----------------------------------  ------------
+2022-09-22 06:38:10 | [run_task] epoch #197 | Saving snapshot...
+2022-09-22 06:38:10 | [run_task] epoch #197 | Saved
+2022-09-22 06:38:10 | [run_task] epoch #197 | Time 769.64 s
+2022-09-22 06:38:10 | [run_task] epoch #197 | EpochTime 4.54 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.6523
+Evaluation/AverageReturn                29.8283
+Evaluation/Iteration                   197
+Evaluation/MaxReturn                    45.5314
+Evaluation/MinReturn                    26.7197
+Evaluation/NumEpisodes                1196
+Evaluation/StdReturn                     4.16221
+Evaluation/TerminationRate               1
+TotalEnvSteps                       792301
+----------------------------------  ------------
+2022-09-22 06:38:14 | [run_task] epoch #198 | Saving snapshot...
+2022-09-22 06:38:14 | [run_task] epoch #198 | Saved
+2022-09-22 06:38:14 | [run_task] epoch #198 | Time 774.15 s
+2022-09-22 06:38:14 | [run_task] epoch #198 | EpochTime 4.50 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      29.7648
+Evaluation/AverageReturn                29.9424
+Evaluation/Iteration                   198
+Evaluation/MaxReturn                    44.8391
+Evaluation/MinReturn                    26.7331
+Evaluation/NumEpisodes                1191
+Evaluation/StdReturn                     4.11687
+Evaluation/TerminationRate               1
+TotalEnvSteps                       796303
+----------------------------------  ------------
+2022-09-22 06:38:18 | [run_task] epoch #199 | Saving snapshot...
+2022-09-22 06:38:19 | [run_task] epoch #199 | Saved
+2022-09-22 06:38:19 | [run_task] epoch #199 | Time 778.52 s
+2022-09-22 06:38:19 | [run_task] epoch #199 | EpochTime 4.37 s
+----------------------------------  ------------
+Evaluation/AverageDiscountedReturn      30.1815
+Evaluation/AverageReturn                30.3655
+Evaluation/Iteration                   199
+Evaluation/MaxReturn                    44.8111
+Evaluation/MinReturn                    26.7225
+Evaluation/NumEpisodes                1173
+Evaluation/StdReturn                     4.21818
+Evaluation/TerminationRate               1
+TotalEnvSteps                       800305
+----------------------------------  ------------

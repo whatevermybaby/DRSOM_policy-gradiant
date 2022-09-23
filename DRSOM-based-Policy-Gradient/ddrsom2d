@@ -1,0 +1,10 @@
+2022-09-23 01:18:47 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_52
+timesteps: 50000 average return:  47.269585892555185 time 39.557878494262695
+timesteps: 100003 average return:  49.85186919997728 time 89.09524011611938
+timesteps: 150004 average return:  52.28756701882478 time 138.0697374343872
+timesteps: 200007 average return:  55.38859083274914 time 186.73573446273804
+timesteps: 250011 average return:  58.185392766254 time 236.49342012405396
+timesteps: 300016 average return:  61.48780695186236 time 286.1955509185791
+timesteps: 350017 average return:  65.65480359062448 time 334.6106011867523
+timesteps: 400019 average return:  68.03783098678294 time 382.258421421051
+timesteps: 450021 average return:  71.37157000465479 time 429.401816368103

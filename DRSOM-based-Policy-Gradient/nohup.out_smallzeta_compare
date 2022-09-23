@@ -1,0 +1,843 @@
+nohup: ignoring input
+2022-09-22 15:44:48.579744: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/lib64::/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia
+2022-09-22 15:44:48.579815: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+/home/lw/.local/lib/python3.8/site-packages/flatbuffers/compat.py:19: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': pil_image.NEAREST,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': pil_image.BILINEAR,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': pil_image.BICUBIC,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:39: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': pil_image.HAMMING,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:40: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': pil_image.BOX,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:41: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  'lanczos': pil_image.LANCZOS,
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/experiment.py:551: UserWarning: Archiving a launch repo larger than 8MiB. This may be slow. Set archive_launch_repo=False in wrap_experiment to disable this behavior.
+  warnings.warn('Archiving a launch repo larger than 8MiB. This may be '
+2022-09-22 15:45:11 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_50
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/deterministic.py:36: UserWarning: Enabeling deterministic mode in PyTorch can have a performance impact when using GPU.
+  warnings.warn(
+/home/lw/.local/lib/python3.8/site-packages/gym/core.py:329: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  deprecation(
+/home/lw/.local/lib/python3.8/site-packages/gym/wrappers/step_api_compatibility.py:39: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  deprecation(
+timesteps: 50008 average return:  47.59116135660332 time 41.07503843307495
+yes
+0.0001
+算出来的东西 tensor([5.9244e-05], grad_fn=<DivBackward0>)
+半径参数是 0.0001
+yes
+0.0005
+算出来的东西 tensor([0.0004], grad_fn=<DivBackward0>)
+半径参数是 0.0005
+yes
+0.0025
+算出来的东西 tensor([0.0017], grad_fn=<DivBackward0>)
+半径参数是 0.0025
+yes
+0.0125
+算出来的东西 tensor([0.0044], grad_fn=<DivBackward0>)
+半径参数是 0.0125
+yes
+0.0625
+算出来的东西 tensor([0.0244], grad_fn=<DivBackward0>)
+半径参数是 0.0625
+yes
+0.3125
+算出来的东西 tensor([0.1097], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 100012 average return:  49.437020016266096 time 149.22558498382568
+smallest eigenvalue 272.78336
+算出来的东西 tensor([0.3838], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 150017 average return:  51.17483278659946 time 224.07391381263733
+smallest eigenvalue 271.34122
+算出来的东西 tensor([0.3778], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 200020 average return:  53.00239903606134 time 297.7500548362732
+smallest eigenvalue 282.7151
+算出来的东西 tensor([0.3832], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 250020 average return:  55.33826592851303 time 369.7800166606903
+smallest eigenvalue 291.25598
+算出来的东西 tensor([0.3820], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 300020 average return:  57.53270724911656 time 440.2718315124512
+smallest eigenvalue 295.3444
+算出来的东西 tensor([0.3785], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 350022 average return:  59.65351541529631 time 509.4667294025421
+smallest eigenvalue 306.28223
+算出来的东西 tensor([0.3844], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 400026 average return:  62.32719536471549 time 577.5629847049713
+smallest eigenvalue 309.54816
+算出来的东西 tensor([0.3833], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 450028 average return:  64.46891222403939 time 644.3167326450348
+smallest eigenvalue 307.61084
+算出来的东西 tensor([0.3802], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 500038 average return:  66.36250360554139 time 709.9387788772583
+smallest eigenvalue 318.95465
+算出来的东西 tensor([0.3808], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 550040 average return:  69.0896594587085 time 774.8375024795532
+smallest eigenvalue 323.51392
+算出来的东西 tensor([0.3797], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 600045 average return:  70.87951940522981 time 838.5852105617523
+smallest eigenvalue 326.162
+算出来的东西 tensor([0.3841], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 650045 average return:  72.56684186297775 time 901.7839202880859
+smallest eigenvalue 327.70892
+算出来的东西 tensor([0.3840], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 700046 average return:  73.63094495301142 time 964.0637373924255
+smallest eigenvalue 331.4263
+算出来的东西 tensor([0.3846], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 750052 average return:  75.41842950929363 time 1025.9178681373596
+smallest eigenvalue 330.79675
+算出来的东西 tensor([0.3803], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 800054 average return:  76.63429058531426 time 1087.2405395507812
+smallest eigenvalue 304.3802
+算出来的东西 tensor([0.3709], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 850056 average return:  78.56008276230462 time 1148.0753283500671
+smallest eigenvalue 311.02264
+算出来的东西 tensor([0.3801], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 900057 average return:  79.61185664231195 time 1208.3980576992035
+smallest eigenvalue 327.66238
+算出来的东西 tensor([0.3837], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 950061 average return:  81.1030050882199 time 1268.343677520752
+smallest eigenvalue 297.62256
+算出来的东西 tensor([0.3708], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1000066 average return:  82.39680473603165 time 1327.7898843288422
+smallest eigenvalue 269.79846
+算出来的东西 tensor([0.3796], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1050066 average return:  82.55753872667952 time 1387.0636916160583
+smallest eigenvalue 328.80524
+算出来的东西 tensor([0.3743], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1100070 average return:  82.93593696876287 time 1446.354775428772
+smallest eigenvalue 154.86343
+算出来的东西 tensor([0.3723], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1150075 average return:  83.75902764825182 time 1505.300274848938
+smallest eigenvalue 368.12653
+算出来的东西 tensor([0.3866], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1200080 average return:  84.65801577723398 time 1563.9477937221527
+smallest eigenvalue 347.31104
+算出来的东西 tensor([0.3891], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1250086 average return:  86.23898551905664 time 1622.3090615272522
+smallest eigenvalue 321.9948
+算出来的东西 tensor([0.3723], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1300089 average return:  86.16120063423489 time 1680.3339717388153
+smallest eigenvalue 260.97668
+算出来的东西 tensor([0.3773], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1350096 average return:  86.4315701710252 time 1738.351093530655
+smallest eigenvalue 267.82468
+算出来的东西 tensor([0.3828], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1400100 average return:  86.67764874218807 time 1796.0945959091187
+smallest eigenvalue 373.73264
+算出来的东西 tensor([0.3942], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1450105 average return:  86.84269052022864 time 1853.9155721664429
+smallest eigenvalue 359.39273
+算出来的东西 tensor([0.3925], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1500118 average return:  87.95931010882663 time 1911.6807670593262
+smallest eigenvalue 152.75525
+算出来的东西 tensor([0.3744], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1550122 average return:  88.06836252323681 time 1969.142079591751
+smallest eigenvalue 233.69882
+算出来的东西 tensor([0.3691], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1600124 average return:  89.13651171779595 time 2026.593947172165
+smallest eigenvalue 243.47134
+算出来的东西 tensor([0.3722], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1650124 average return:  88.39592047407821 time 2083.609910964966
+smallest eigenvalue 204.74957
+算出来的东西 tensor([0.3919], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1700129 average return:  89.57819774959167 time 2140.7632982730865
+smallest eigenvalue 358.42645
+算出来的东西 tensor([0.4048], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1750132 average return:  89.48971333176428 time 2197.600597381592
+smallest eigenvalue 87.993576
+算出来的东西 tensor([0.3540], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1800134 average return:  89.73852571993795 time 2254.479149580002
+smallest eigenvalue 139.89499
+算出来的东西 tensor([0.3744], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1850137 average return:  90.8866418578287 time 2311.3255360126495
+smallest eigenvalue 156.10223
+算出来的东西 tensor([0.3725], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1900141 average return:  90.66001413852078 time 2368.12607049942
+smallest eigenvalue 310.70306
+算出来的东西 tensor([0.3836], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 1950146 average return:  91.3348668849068 time 2424.8401720523834
+smallest eigenvalue 261.81998
+算出来的东西 tensor([0.4171], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2000149 average return:  91.27557040287901 time 2481.4711129665375
+smallest eigenvalue 227.1402
+算出来的东西 tensor([0.3463], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2050156 average return:  91.83606985509653 time 2538.0815477371216
+smallest eigenvalue 146.92125
+算出来的东西 tensor([0.3584], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2100162 average return:  91.53660344891219 time 2594.6213891506195
+smallest eigenvalue 101.766655
+算出来的东西 tensor([0.3607], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2150163 average return:  91.92919513605467 time 2651.191565513611
+smallest eigenvalue 138.13158
+算出来的东西 tensor([0.3830], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2200179 average return:  92.52103343449352 time 2707.6192994117737
+smallest eigenvalue 332.00983
+算出来的东西 tensor([0.4069], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2250188 average return:  92.30597408683747 time 2764.048410177231
+smallest eigenvalue 99.356026
+算出来的东西 tensor([0.3677], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2300189 average return:  92.91139971224538 time 2820.2399740219116
+smallest eigenvalue 164.62857
+算出来的东西 tensor([0.4079], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2350190 average return:  93.3180701201781 time 2876.399733066559
+smallest eigenvalue 338.72086
+算出来的东西 tensor([0.4074], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2400199 average return:  92.81682246266188 time 2932.518786430359
+smallest eigenvalue 414.32785
+算出来的东西 tensor([0.4286], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2450200 average return:  92.64196098934462 time 2988.9681708812714
+smallest eigenvalue 286.06073
+算出来的东西 tensor([0.3842], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2500200 average return:  93.598373175481 time 3045.2555878162384
+smallest eigenvalue 136.978
+算出来的东西 tensor([0.4149], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2550205 average return:  93.886408408397 time 3101.259847164154
+smallest eigenvalue 139.24203
+算出来的东西 tensor([0.3697], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2600215 average return:  93.95103318901725 time 3157.3708255290985
+smallest eigenvalue 186.43509
+算出来的东西 tensor([0.3789], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2650223 average return:  93.92289442666362 time 3213.4494726657867
+smallest eigenvalue 362.47336
+算出来的东西 tensor([0.3529], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2700237 average return:  94.27301161411353 time 3269.345608472824
+smallest eigenvalue 109.36798
+算出来的东西 tensor([0.3666], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2750238 average return:  95.24415705418123 time 3331.3852739334106
+smallest eigenvalue 197.8804
+算出来的东西 tensor([0.3879], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2800243 average return:  95.13779765025039 time 3384.0872333049774
+smallest eigenvalue 320.02304
+算出来的东西 tensor([0.3786], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2850250 average return:  94.42557750909756 time 3447.8503754138947
+smallest eigenvalue 294.0611
+算出来的东西 tensor([0.3942], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2900259 average return:  94.50376551115869 time 3504.0188024044037
+smallest eigenvalue 335.80652
+算出来的东西 tensor([0.3913], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 2950260 average return:  95.45095398773637 time 3561.269897699356
+smallest eigenvalue 389.60846
+算出来的东西 tensor([0.3965], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3000267 average return:  95.42012639951648 time 3614.8068449497223
+smallest eigenvalue 420.95837
+算出来的东西 tensor([0.3562], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3050268 average return:  95.52008613182767 time 3669.7853815555573
+smallest eigenvalue 221.5006
+算出来的东西 tensor([0.3564], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3100284 average return:  95.47170611802565 time 3725.0331814289093
+smallest eigenvalue 131.99031
+算出来的东西 tensor([0.3765], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3150289 average return:  95.1107433260145 time 3777.880259037018
+smallest eigenvalue 143.44121
+算出来的东西 tensor([0.3963], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3200302 average return:  95.71744537178436 time 3836.062274456024
+smallest eigenvalue 266.13965
+算出来的东西 tensor([0.3468], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3250319 average return:  95.89912974924565 time 3894.38485622406
+smallest eigenvalue 457.20825
+算出来的东西 tensor([0.3707], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3300333 average return:  95.93184502207221 time 3948.0784735679626
+smallest eigenvalue 187.5969
+算出来的东西 tensor([0.3886], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3350335 average return:  96.56232642582063 time 4009.0151743888855
+smallest eigenvalue 309.297
+算出来的东西 tensor([0.3684], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3400345 average return:  95.56668597091469 time 4065.015055179596
+smallest eigenvalue 423.49323
+算出来的东西 tensor([0.3594], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3450348 average return:  95.58674803016486 time 4128.62291097641
+smallest eigenvalue 344.48438
+算出来的东西 tensor([0.3629], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3500354 average return:  95.12856279700591 time 4197.225560665131
+smallest eigenvalue 265.45386
+算出来的东西 tensor([0.3910], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3550362 average return:  94.96741105212105 time 4252.171592712402
+smallest eigenvalue 519.80646
+算出来的东西 tensor([0.3607], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3600367 average return:  96.25943116095125 time 4301.910683393478
+smallest eigenvalue 146.01028
+算出来的东西 tensor([0.3846], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3650369 average return:  96.57132501624066 time 4355.066553592682
+smallest eigenvalue 328.68692
+算出来的东西 tensor([0.4028], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3700373 average return:  97.40717134964692 time 4408.072038412094
+smallest eigenvalue 218.27902
+算出来的东西 tensor([0.3959], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3750383 average return:  97.45594416586407 time 4460.577905893326
+smallest eigenvalue 321.57935
+算出来的东西 tensor([0.4117], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3800385 average return:  97.40126449433362 time 4512.7417533397675
+smallest eigenvalue 228.7923
+算出来的东西 tensor([0.3820], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3850401 average return:  97.24055309158311 time 4564.936407566071
+smallest eigenvalue 235.58328
+算出来的东西 tensor([0.4772], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3900406 average return:  97.5869362183355 time 4617.214572906494
+smallest eigenvalue 229.7162
+算出来的东西 tensor([0.3931], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 3950409 average return:  98.10926828329251 time 4668.120593547821
+smallest eigenvalue 375.33688
+算出来的东西 tensor([0.3532], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4000415 average return:  97.16327936361883 time 4718.982351303101
+smallest eigenvalue 515.6677
+算出来的东西 tensor([0.3756], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4050415 average return:  97.30343773855071 time 4768.9287877082825
+smallest eigenvalue 260.82944
+算出来的东西 tensor([0.3883], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4100433 average return:  97.92939654643693 time 4817.079665899277
+smallest eigenvalue 128.13553
+算出来的东西 tensor([0.3853], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4150439 average return:  97.64415159165019 time 4876.502763748169
+smallest eigenvalue 437.01617
+算出来的东西 tensor([0.3904], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4200449 average return:  98.84991078617635 time 4924.502401828766
+smallest eigenvalue 106.584076
+算出来的东西 tensor([0.3815], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4250456 average return:  98.50483862303169 time 4974.9290981292725
+smallest eigenvalue 129.07346
+算出来的东西 tensor([0.3677], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4300460 average return:  98.01125342148725 time 5025.424968004227
+smallest eigenvalue 524.02234
+算出来的东西 tensor([0.3269], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4350481 average return:  98.33141557993922 time 5075.615464448929
+smallest eigenvalue 542.89154
+算出来的东西 tensor([0.3898], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4400484 average return:  99.08163404488447 time 5125.628719806671
+smallest eigenvalue 239.07681
+算出来的东西 tensor([0.3676], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4450490 average return:  99.07926912505182 time 5174.8975331783295
+smallest eigenvalue 329.61722
+算出来的东西 tensor([0.3766], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4500490 average return:  99.10341518762674 time 5223.2902154922485
+smallest eigenvalue 189.96938
+算出来的东西 tensor([0.3608], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4550505 average return:  99.42159543551284 time 5271.831018209457
+smallest eigenvalue 311.3285
+算出来的东西 tensor([0.3876], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4600510 average return:  99.1149781453335 time 5318.87687587738
+smallest eigenvalue 442.27155
+算出来的东西 tensor([0.4047], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4650511 average return:  98.97737110716416 time 5377.440235137939
+smallest eigenvalue 475.37958
+算出来的东西 tensor([0.4036], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4700511 average return:  99.2111438678113 time 5425.826177358627
+smallest eigenvalue 321.5656
+算出来的东西 tensor([0.3711], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4750511 average return:  98.73473423273744 time 5477.443934440613
+smallest eigenvalue 442.5778
+算出来的东西 tensor([0.3481], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4800513 average return:  99.51310451438664 time 5527.866686344147
+smallest eigenvalue 445.08325
+算出来的东西 tensor([0.3950], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4850520 average return:  99.64966447400333 time 5577.492366313934
+smallest eigenvalue 144.73135
+算出来的东西 tensor([0.3797], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4900531 average return:  99.49413808383633 time 5627.1316566467285
+smallest eigenvalue 399.2051
+算出来的东西 tensor([0.3808], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 4950539 average return:  99.9533189070095 time 5677.007276058197
+smallest eigenvalue 275.50284
+算出来的东西 tensor([0.3819], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5000550 average return:  101.02371157484183 time 5725.688174009323
+smallest eigenvalue 134.39093
+算出来的东西 tensor([0.3852], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5050559 average return:  100.16151967667639 time 5774.743552446365
+smallest eigenvalue 197.12643
+算出来的东西 tensor([0.4135], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5100566 average return:  101.27086961214171 time 5823.324279785156
+smallest eigenvalue 169.07307
+算出来的东西 tensor([0.3445], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5150570 average return:  100.80932813237764 time 5871.597155570984
+smallest eigenvalue 300.6938
+算出来的东西 tensor([0.3655], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5200570 average return:  101.17955063515488 time 5918.622219800949
+smallest eigenvalue 367.20135
+算出来的东西 tensor([0.3796], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5250573 average return:  100.39610742119467 time 5966.077662944794
+smallest eigenvalue 172.35355
+算出来的东西 tensor([0.3751], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5300576 average return:  101.39481804980957 time 6014.096182584763
+smallest eigenvalue 322.86945
+算出来的东西 tensor([0.3661], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5350583 average return:  101.12941017011408 time 6061.949201583862
+smallest eigenvalue 586.30664
+算出来的东西 tensor([0.4021], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5400583 average return:  101.5066677031382 time 6109.6687541008
+smallest eigenvalue 555.7288
+算出来的东西 tensor([0.3774], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5450587 average return:  100.3895179119627 time 6183.833289146423
+smallest eigenvalue 473.79932
+算出来的东西 tensor([0.3238], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5500590 average return:  100.83008591282233 time 6231.973648786545
+smallest eigenvalue 458.50726
+算出来的东西 tensor([0.4300], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5550600 average return:  100.93333144893661 time 6281.436809539795
+smallest eigenvalue 355.2925
+算出来的东西 tensor([0.3759], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5600600 average return:  101.09324996170088 time 6332.990403413773
+smallest eigenvalue 299.34625
+算出来的东西 tensor([0.4735], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5650607 average return:  100.66298228051367 time 6384.789386987686
+smallest eigenvalue 170.44043
+算出来的东西 tensor([0.4340], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5700611 average return:  101.54829918432634 time 6435.9175770282745
+smallest eigenvalue 405.80307
+算出来的东西 tensor([0.3778], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5750611 average return:  100.70942090511257 time 6486.835638523102
+smallest eigenvalue 434.76434
+算出来的东西 tensor([0.3839], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5800611 average return:  101.00796995411146 time 6537.8037786483765
+smallest eigenvalue 635.98
+算出来的东西 tensor([0.3825], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5850624 average return:  101.49807933575136 time 6589.375066518784
+smallest eigenvalue 505.97888
+算出来的东西 tensor([0.3885], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5900631 average return:  100.86857778766128 time 6640.557068347931
+smallest eigenvalue 339.2375
+算出来的东西 tensor([0.3697], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 5950634 average return:  101.60893496677772 time 6692.0414497852325
+smallest eigenvalue 100.82625
+算出来的东西 tensor([0.3672], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6000636 average return:  101.54539158242576 time 6742.495476961136
+smallest eigenvalue 597.6304
+算出来的东西 tensor([0.3757], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6050637 average return:  101.83921669763923 time 6792.699769735336
+smallest eigenvalue 606.7278
+算出来的东西 tensor([0.3882], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6100645 average return:  101.9388526405363 time 6864.883408546448
+smallest eigenvalue 528.41785
+算出来的东西 tensor([0.3924], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6150654 average return:  101.97101349862128 time 6911.94482421875
+smallest eigenvalue 263.93042
+算出来的东西 tensor([0.3700], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6200667 average return:  101.89180833128846 time 6960.711159229279
+smallest eigenvalue 158.77643
+算出来的东西 tensor([0.3589], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6250672 average return:  102.64069537661622 time 7012.507816791534
+smallest eigenvalue 322.66394
+算出来的东西 tensor([0.3953], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6300683 average return:  102.29283108202193 time 7064.110876083374
+smallest eigenvalue 418.24118
+算出来的东西 tensor([0.3222], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6350691 average return:  102.27696807906213 time 7115.36593747139
+smallest eigenvalue 382.01895
+算出来的东西 tensor([0.3987], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6400695 average return:  102.12309097218976 time 7166.252026081085
+smallest eigenvalue 615.2461
+算出来的东西 tensor([0.4140], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6450696 average return:  102.20629622579871 time 7217.334632158279
+smallest eigenvalue 278.26868
+算出来的东西 tensor([0.3186], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6500705 average return:  102.7324590936645 time 7268.325462579727
+smallest eigenvalue 503.80756
+算出来的东西 tensor([0.4091], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6550710 average return:  102.75198780398901 time 7319.025532007217
+smallest eigenvalue 650.129
+算出来的东西 tensor([0.3217], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6600715 average return:  101.44436780550427 time 7367.486901760101
+smallest eigenvalue 246.43042
+算出来的东西 tensor([0.4272], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6650716 average return:  101.97334541022246 time 7422.172632217407
+smallest eigenvalue 131.50821
+算出来的东西 tensor([0.4418], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6700716 average return:  101.73380755706933 time 7473.6913158893585
+smallest eigenvalue 169.05621
+算出来的东西 tensor([0.3786], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6750722 average return:  102.66811522480552 time 7588.004372835159
+smallest eigenvalue 412.91437
+算出来的东西 tensor([0.3768], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6800725 average return:  102.93006262594312 time 7651.028146266937
+smallest eigenvalue 649.0641
+算出来的东西 tensor([0.3521], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6850726 average return:  102.41665231803483 time 7709.619268417358
+smallest eigenvalue 200.77826
+算出来的东西 tensor([0.3891], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6900728 average return:  103.94162821877246 time 7770.503703117371
+smallest eigenvalue 461.89096
+算出来的东西 tensor([0.4303], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 6950738 average return:  103.80814862717645 time 7831.374471187592
+smallest eigenvalue 328.45065
+算出来的东西 tensor([0.3810], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7000746 average return:  102.78054650907954 time 7892.66189455986
+smallest eigenvalue 459.1473
+算出来的东西 tensor([0.3469], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7050762 average return:  102.86497997722404 time 7954.765356063843
+smallest eigenvalue 207.89973
+算出来的东西 tensor([0.3836], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7100763 average return:  103.83977154610687 time 8017.005112409592
+smallest eigenvalue 325.33344
+算出来的东西 tensor([0.3997], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7150765 average return:  104.09647091373344 time 8092.628742218018
+smallest eigenvalue 500.0971
+算出来的东西 tensor([0.3834], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7200765 average return:  103.47093172492288 time 8152.7114906311035
+smallest eigenvalue 516.78723
+算出来的东西 tensor([0.4098], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7250795 average return:  103.6723277422193 time 8205.528839826584
+smallest eigenvalue 674.0911
+算出来的东西 tensor([0.3780], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7300796 average return:  103.54026852916799 time 8258.420846223831
+smallest eigenvalue 562.77435
+算出来的东西 tensor([0.3332], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7350800 average return:  103.93641606043202 time 8311.37216591835
+smallest eigenvalue 190.21095
+算出来的东西 tensor([0.3969], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7400805 average return:  103.92413984863092 time 8364.3900847435
+smallest eigenvalue 627.2572
+算出来的东西 tensor([0.3717], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7450806 average return:  105.09708165688595 time 8418.984577417374
+smallest eigenvalue 222.92943
+算出来的东西 tensor([0.3769], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7500806 average return:  104.79473775348255 time 8472.989975214005
+smallest eigenvalue 359.1874
+算出来的东西 tensor([0.4017], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7550813 average return:  103.90068492980946 time 8526.44165802002
+smallest eigenvalue 400.90198
+算出来的东西 tensor([0.3756], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7600817 average return:  103.96184049593096 time 8579.18045592308
+smallest eigenvalue 468.36148
+算出来的东西 tensor([0.3479], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7650824 average return:  104.37124586444729 time 8633.09834742546
+smallest eigenvalue 371.08063
+算出来的东西 tensor([0.3533], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7700828 average return:  103.81699822767104 time 8730.692189455032
+smallest eigenvalue 454.22577
+算出来的东西 tensor([0.3617], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7750828 average return:  105.43075231058504 time 8782.520180225372
+smallest eigenvalue 768.5792
+算出来的东西 tensor([0.3828], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7800842 average return:  104.3817567026973 time 8833.308698654175
+smallest eigenvalue 224.98074
+算出来的东西 tensor([0.3606], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7850847 average return:  105.10088323663041 time 8884.243505477905
+smallest eigenvalue 603.4678
+算出来的东西 tensor([0.3812], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7900855 average return:  104.84213843936095 time 8935.419481039047
+smallest eigenvalue 638.5056
+算出来的东西 tensor([0.3924], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 7950867 average return:  105.36597376341699 time 8986.54437494278
+smallest eigenvalue 315.06958
+算出来的东西 tensor([0.3869], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8000879 average return:  105.22330599463878 time 9050.511683225632
+smallest eigenvalue 693.22876
+算出来的东西 tensor([0.3915], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8050879 average return:  104.62132434133392 time 9137.912538766861
+smallest eigenvalue 604.78394
+算出来的东西 tensor([0.4122], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8100898 average return:  105.55300500409653 time 9189.319508552551
+smallest eigenvalue 95.44084
+算出来的东西 tensor([0.3627], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8150906 average return:  106.73429237725904 time 9240.397758960724
+smallest eigenvalue 306.19135
+算出来的东西 tensor([0.3764], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8200920 average return:  105.96451561982843 time 9289.169082403183
+smallest eigenvalue 282.2124
+算出来的东西 tensor([0.3676], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8250924 average return:  105.14677026175913 time 9340.131982326508
+smallest eigenvalue 588.67694
+算出来的东西 tensor([0.4130], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8300926 average return:  105.85488864145229 time 9402.44960141182
+smallest eigenvalue 422.33826
+算出来的东西 tensor([0.3505], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8350935 average return:  106.87577799002666 time 9454.47356557846
+smallest eigenvalue 395.2331
+算出来的东西 tensor([0.3904], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8400936 average return:  106.04601393191966 time 9506.96836733818
+smallest eigenvalue 515.55597
+算出来的东西 tensor([0.3813], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8450937 average return:  106.57109182076574 time 9559.68205499649
+smallest eigenvalue 466.71155
+算出来的东西 tensor([0.3638], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8500943 average return:  107.03102869995206 time 9612.051154136658
+smallest eigenvalue 240.20013
+算出来的东西 tensor([0.3291], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8550968 average return:  106.44106089326077 time 9664.314254045486
+smallest eigenvalue 194.92085
+算出来的东西 tensor([0.3841], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8600975 average return:  106.88121562361167 time 9716.22081065178
+smallest eigenvalue 718.9175
+算出来的东西 tensor([0.3814], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8650979 average return:  106.37803642208077 time 9777.39287853241
+smallest eigenvalue 408.02966
+算出来的东西 tensor([0.3826], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8700986 average return:  107.12053257252273 time 9829.197057962418
+smallest eigenvalue 465.457
+算出来的东西 tensor([0.3866], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8750991 average return:  107.79763402590311 time 9880.579434156418
+smallest eigenvalue 621.9862
+算出来的东西 tensor([0.3694], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8800995 average return:  107.23891822401562 time 9931.166699409485
+smallest eigenvalue 780.07947
+算出来的东西 tensor([0.3742], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8851003 average return:  106.65000662094066 time 9981.660903453827
+smallest eigenvalue 355.32117
+算出来的东西 tensor([0.3897], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8901014 average return:  107.40156148465053 time 10032.108658790588
+smallest eigenvalue 335.1457
+算出来的东西 tensor([0.4408], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 8951023 average return:  108.26076455242185 time 10082.211726665497
+smallest eigenvalue 131.93225
+算出来的东西 tensor([0.3525], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9001033 average return:  108.64257920065108 time 10128.694676399231
+smallest eigenvalue 549.7888
+算出来的东西 tensor([0.3692], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9051033 average return:  108.522457750856 time 10186.929477214813
+smallest eigenvalue 522.89453
+算出来的东西 tensor([0.3999], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9101034 average return:  108.21307087192565 time 10241.973285198212
+smallest eigenvalue 627.24414
+算出来的东西 tensor([0.3722], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9151047 average return:  108.77907552544343 time 10287.501107931137
+smallest eigenvalue 861.2118
+算出来的东西 tensor([0.4134], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9201057 average return:  108.33056366429251 time 10334.133676290512
+smallest eigenvalue 127.53148
+算出来的东西 tensor([0.3978], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9251064 average return:  108.12774423358742 time 10384.70823764801
+smallest eigenvalue 307.375
+算出来的东西 tensor([0.3768], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9301069 average return:  107.88677806585247 time 10435.348890542984
+smallest eigenvalue 440.59238
+算出来的东西 tensor([0.3429], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9351073 average return:  109.01660145488792 time 10485.538736820221
+smallest eigenvalue 771.28046
+算出来的东西 tensor([0.3694], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9401079 average return:  108.75139822093325 time 10535.849519968033
+smallest eigenvalue 623.51385
+算出来的东西 tensor([0.3645], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9451086 average return:  108.48125849761344 time 10586.827783107758
+smallest eigenvalue 524.22906
+算出来的东西 tensor([0.3784], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9501092 average return:  109.4350474639678 time 10636.45522403717
+smallest eigenvalue 78.20264
+算出来的东西 tensor([0.3886], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9551099 average return:  110.39964067268014 time 10683.847437381744
+smallest eigenvalue 262.78497
+算出来的东西 tensor([0.3724], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9601100 average return:  109.7208483022447 time 10753.741801738739
+smallest eigenvalue 507.70752
+算出来的东西 tensor([0.3697], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9651102 average return:  109.36248955738353 time 10797.344952821732
+smallest eigenvalue 748.5612
+算出来的东西 tensor([0.3874], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9701104 average return:  109.42195840553728 time 10842.798338651657
+smallest eigenvalue 312.7733
+算出来的东西 tensor([0.3646], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9751117 average return:  109.38421293991998 time 10889.658435821533
+smallest eigenvalue 384.68262
+算出来的东西 tensor([0.3946], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9801128 average return:  109.65509635693657 time 10936.38405919075
+smallest eigenvalue 434.02713
+算出来的东西 tensor([0.3362], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9851140 average return:  110.3948130374259 time 10982.56445145607
+smallest eigenvalue 149.2019
+算出来的东西 tensor([0.3560], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9901143 average return:  111.08624043328433 time 11028.677777290344
+smallest eigenvalue 402.25616
+算出来的东西 tensor([0.3772], grad_fn=<DivBackward0>)
+半径参数是 0.3125
+timesteps: 9951146 average return:  112.08737719724787 time 11075.128787517548
+smallest eigenvalue 162.04332
+算出来的东西 tensor([0.3581], grad_fn=<DivBackward0>)
+半径参数是 0.3125

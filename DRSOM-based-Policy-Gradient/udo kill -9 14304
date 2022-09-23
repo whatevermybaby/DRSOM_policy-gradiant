@@ -1,0 +1,922 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 169152 11860 ?        Ss   9月20   0:13 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    9月20   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   9月20   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   9月20   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   9月20   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/0:1H-kblockd]
+root          11  0.0  0.0      0     0 ?        I<   9月20   0:00 [mm_percpu_wq]
+root          12  0.0  0.0      0     0 ?        S    9月20   0:00 [rcu_tasks_rude_]
+root          13  0.0  0.0      0     0 ?        S    9月20   0:00 [rcu_tasks_trace]
+root          14  0.0  0.0      0     0 ?        S    9月20   0:01 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    9月20   2:52 [rcu_sched]
+root          16  0.0  0.0      0     0 ?        S    9月20   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/2]
+root          28  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/2]
+root          31  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/2:0H-events_highpri]
+root          32  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/3]
+root          34  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/3:0H-kblockd]
+root          38  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/4]
+root          39  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/4]
+root          40  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/4]
+root          41  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/4:0H-events_highpri]
+root          44  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/5]
+root          45  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/5]
+root          46  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/5]
+root          47  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/5:0H-events_highpri]
+root          50  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/6]
+root          51  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/6]
+root          52  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/6]
+root          53  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/6]
+root          55  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/6:0H-events_highpri]
+root          56  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/7]
+root          57  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/7]
+root          58  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/7]
+root          59  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/7]
+root          61  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/7:0H-kblockd]
+root          62  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/8]
+root          63  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/8]
+root          64  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/8]
+root          65  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/8]
+root          67  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/8:0H-events_highpri]
+root          68  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/9]
+root          69  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/9]
+root          70  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/9]
+root          71  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/9]
+root          73  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/9:0H-events_highpri]
+root          74  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/10]
+root          75  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/10]
+root          76  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/10]
+root          77  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/10]
+root          79  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/10:0H-events_highpri]
+root          80  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/11]
+root          81  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/11]
+root          82  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/11]
+root          83  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/11]
+root          85  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/11:0H-events_highpri]
+root          86  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/12]
+root          87  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/12]
+root          88  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/12]
+root          89  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/12]
+root          91  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/12:0H-events_highpri]
+root          92  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/13]
+root          93  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/13]
+root          94  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/13]
+root          95  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/13]
+root          97  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/13:0H-events_highpri]
+root          98  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/14]
+root          99  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/14]
+root         100  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/14]
+root         101  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/14]
+root         103  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/14:0H-events_highpri]
+root         105  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/15]
+root         106  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/15]
+root         107  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/15]
+root         108  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/15]
+root         110  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/15:0H-events_highpri]
+root         111  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/16]
+root         112  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/16]
+root         113  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/16]
+root         114  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/16]
+root         116  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/16:0H-events_highpri]
+root         117  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/17]
+root         118  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/17]
+root         119  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/17]
+root         120  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/17]
+root         122  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/17:0H-events_highpri]
+root         123  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/18]
+root         124  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/18]
+root         125  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/18]
+root         126  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/18]
+root         128  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/18:0H-events_highpri]
+root         129  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/19]
+root         130  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/19]
+root         131  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/19]
+root         132  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/19]
+root         134  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/19:0H-events_highpri]
+root         135  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/20]
+root         136  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/20]
+root         137  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/20]
+root         138  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/20]
+root         140  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/20:0H-events_highpri]
+root         141  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/21]
+root         142  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/21]
+root         143  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/21]
+root         144  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/21]
+root         146  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/21:0H-events_highpri]
+root         147  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/22]
+root         148  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/22]
+root         149  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/22]
+root         150  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/22]
+root         152  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/22:0H-kblockd]
+root         153  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/23]
+root         154  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/23]
+root         155  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/23]
+root         156  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/23]
+root         158  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/23:0H-events_highpri]
+root         159  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/24]
+root         160  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/24]
+root         161  0.0  0.0      0     0 ?        S    9月20   0:03 [migration/24]
+root         162  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/24]
+root         164  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/24:0H-events_highpri]
+root         165  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/25]
+root         166  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/25]
+root         167  0.0  0.0      0     0 ?        S    9月20   0:03 [migration/25]
+root         168  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/25]
+root         170  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/25:0H-events_highpri]
+root         171  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/26]
+root         172  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/26]
+root         173  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/26]
+root         174  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/26]
+root         176  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/26:0H-kblockd]
+root         177  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/27]
+root         178  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/27]
+root         179  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/27]
+root         180  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/27]
+root         182  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/27:0H-events_highpri]
+root         183  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/28]
+root         184  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/28]
+root         185  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/28]
+root         186  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/28]
+root         188  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/28:0H-events_highpri]
+root         189  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/29]
+root         190  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/29]
+root         191  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/29]
+root         192  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/29]
+root         194  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/29:0H-events_highpri]
+root         195  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/30]
+root         196  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/30]
+root         197  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/30]
+root         198  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/30]
+root         200  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/30:0H-events_highpri]
+root         201  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/31]
+root         202  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/31]
+root         203  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/31]
+root         204  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/31]
+root         206  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/31:0H-events_highpri]
+root         207  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/32]
+root         208  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/32]
+root         209  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/32]
+root         210  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/32]
+root         212  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/32:0H-events_highpri]
+root         213  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/33]
+root         214  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/33]
+root         215  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/33]
+root         216  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/33]
+root         218  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/33:0H-events_highpri]
+root         219  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/34]
+root         220  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/34]
+root         221  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/34]
+root         222  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/34]
+root         224  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/34:0H-events_highpri]
+root         225  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/35]
+root         226  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/35]
+root         227  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/35]
+root         228  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/35]
+root         230  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/35:0H-events_highpri]
+root         231  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/36]
+root         232  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/36]
+root         233  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/36]
+root         234  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/36]
+root         236  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/36:0H-events_highpri]
+root         237  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/37]
+root         238  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/37]
+root         239  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/37]
+root         240  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/37]
+root         242  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/37:0H-kblockd]
+root         243  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/38]
+root         244  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/38]
+root         245  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/38]
+root         246  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/38]
+root         248  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/38:0H-kblockd]
+root         249  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/39]
+root         250  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/39]
+root         251  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/39]
+root         252  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/39]
+root         254  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/39:0H-kblockd]
+root         255  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/40]
+root         256  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/40]
+root         257  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/40]
+root         258  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/40]
+root         260  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/40:0H-events_highpri]
+root         261  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/41]
+root         262  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/41]
+root         263  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/41]
+root         264  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/41]
+root         266  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/41:0H-events_highpri]
+root         267  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/42]
+root         268  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/42]
+root         269  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/42]
+root         270  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/42]
+root         272  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/42:0H-events_highpri]
+root         273  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/43]
+root         274  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/43]
+root         275  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/43]
+root         276  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/43]
+root         278  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/43:0H-events_highpri]
+root         279  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/44]
+root         280  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/44]
+root         281  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/44]
+root         282  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/44]
+root         284  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/44:0H-events_highpri]
+root         285  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/45]
+root         286  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/45]
+root         287  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/45]
+root         288  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/45]
+root         290  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/45:0H-kblockd]
+root         291  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/46]
+root         292  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/46]
+root         293  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/46]
+root         294  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/46]
+root         296  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/46:0H-events_highpri]
+root         297  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/47]
+root         298  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/47]
+root         299  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/47]
+root         300  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/47]
+root         302  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/47:0H-kblockd]
+root         303  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/48]
+root         304  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/48]
+root         305  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/48]
+root         306  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/48]
+root         308  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/48:0H-events_highpri]
+root         309  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/49]
+root         310  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/49]
+root         311  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/49]
+root         312  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/49]
+root         314  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/49:0H-events_highpri]
+root         315  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/50]
+root         316  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/50]
+root         317  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/50]
+root         318  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/50]
+root         320  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/50:0H-events_highpri]
+root         321  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/51]
+root         322  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/51]
+root         323  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/51]
+root         324  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/51]
+root         326  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/51:0H-events_highpri]
+root         327  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/52]
+root         328  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/52]
+root         329  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/52]
+root         330  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/52]
+root         332  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/52:0H-events_highpri]
+root         333  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/53]
+root         334  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/53]
+root         335  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/53]
+root         336  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/53]
+root         338  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/53:0H-events_highpri]
+root         339  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/54]
+root         340  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/54]
+root         341  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/54]
+root         342  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/54]
+root         344  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/54:0H-events_highpri]
+root         345  0.0  0.0      0     0 ?        S    9月20   0:00 [cpuhp/55]
+root         346  0.0  0.0      0     0 ?        S    9月20   0:00 [idle_inject/55]
+root         347  0.0  0.0      0     0 ?        S    9月20   0:02 [migration/55]
+root         348  0.0  0.0      0     0 ?        S    9月20   0:00 [ksoftirqd/55]
+root         350  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/55:0H-events_highpri]
+root         351  0.0  0.0      0     0 ?        S    9月20   0:00 [kdevtmpfs]
+root         352  0.0  0.0      0     0 ?        I<   9月20   0:00 [inet_frag_wq]
+root         353  0.0  0.0      0     0 ?        S    9月20   0:00 [kauditd]
+root         357  0.0  0.0      0     0 ?        S    9月20   0:00 [khungtaskd]
+root         358  0.0  0.0      0     0 ?        S    9月20   0:00 [oom_reaper]
+root         359  0.0  0.0      0     0 ?        I<   9月20   0:00 [writeback]
+root         360  0.0  0.0      0     0 ?        S    9月20   2:53 [kcompactd0]
+root         361  0.0  0.0      0     0 ?        S    9月20   3:15 [kcompactd1]
+root         362  0.0  0.0      0     0 ?        SN   9月20   0:00 [ksmd]
+root         363  0.0  0.0      0     0 ?        SN   9月20   0:13 [khugepaged]
+root         410  0.0  0.0      0     0 ?        I<   9月20   0:00 [kintegrityd]
+root         411  0.0  0.0      0     0 ?        I<   9月20   0:00 [kblockd]
+root         412  0.0  0.0      0     0 ?        I<   9月20   0:00 [blkcg_punt_bio]
+root         413  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/1:1H-events_highpri]
+root         421  0.0  0.0      0     0 ?        I    9月20   0:10 [kworker/9:1-events]
+root         432  0.0  0.0      0     0 ?        I    9月20   0:09 [kworker/21:1-events]
+root         443  0.0  0.0      0     0 ?        I    9月20   0:14 [kworker/33:1-events]
+root         458  0.0  0.0      0     0 ?        I    9月20   0:31 [kworker/48:1-events]
+root         459  0.0  0.0      0     0 ?        I    9月20   0:20 [kworker/49:1-events]
+root         460  0.0  0.0      0     0 ?        I    9月20   1:31 [kworker/50:1-events]
+root         461  0.0  0.0      0     0 ?        I    9月20   0:31 [kworker/51:1-events]
+root         463  0.0  0.0      0     0 ?        I    9月20   0:25 [kworker/53:1-events]
+root         465  0.0  0.0      0     0 ?        I    9月20   0:19 [kworker/55:1-rcu_par_gp]
+root         468  0.0  0.0      0     0 ?        I<   9月20   0:00 [tpm_dev_wq]
+root         469  0.0  0.0      0     0 ?        I<   9月20   0:00 [ata_sff]
+root         470  0.0  0.0      0     0 ?        I<   9月20   0:00 [md]
+root         471  0.0  0.0      0     0 ?        I<   9月20   0:00 [edac-poller]
+root         472  0.0  0.0      0     0 ?        I<   9月20   0:00 [devfreq_wq]
+root         473  0.0  0.0      0     0 ?        S    9月20   0:00 [watchdogd]
+root         474  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/28:1H-events_highpri]
+root         476  0.0  0.0      0     0 ?        S    9月20   2:01 [kswapd0]
+root         477  0.0  0.0      0     0 ?        S    9月20   2:04 [kswapd1]
+root         478  0.0  0.0      0     0 ?        S    9月20   0:00 [ecryptfs-kthrea]
+root         480  0.0  0.0      0     0 ?        I<   9月20   0:00 [kthrotld]
+root         481  0.0  0.0      0     0 ?        I<   9月20   0:00 [acpi_thermal_pm]
+root         483  0.0  0.0      0     0 ?        I<   9月20   0:00 [vfio-irqfd-clea]
+root         484  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/8:1H-events_highpri]
+root         488  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/9:1H-events_highpri]
+root         489  0.0  0.0      0     0 ?        I<   9月20   0:00 [mld]
+root         490  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/2:1H-events_highpri]
+root         491  0.0  0.0      0     0 ?        I<   9月20   0:00 [ipv6_addrconf]
+root         503  0.0  0.0      0     0 ?        I<   9月20   0:00 [kstrp]
+root         506  0.0  0.0      0     0 ?        I<   9月20   0:00 [zswap-shrink]
+root         512  0.0  0.0      0     0 ?        I    9月20   0:32 [kworker/7:2-events]
+root         536  0.0  0.0      0     0 ?        I    9月20   0:19 [kworker/31:2-events]
+root         539  0.0  0.0      0     0 ?        I    9月20   0:14 [kworker/34:2-events]
+root         543  0.0  0.0      0     0 ?        I    9月20   0:17 [kworker/38:2-events]
+root         555  0.0  0.0      0     0 ?        I    9月20   0:00 [kworker/51:2-events]
+root         560  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/u115:0]
+root         561  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/u116:0-xprtiod]
+root         562  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/u117:0]
+root         569  0.0  0.0      0     0 ?        I<   9月20   0:00 [charger_manager]
+root         591  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/40:1H-events_highpri]
+root         613  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/52:1H-events_highpri]
+root         629  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/17:1H-events_highpri]
+root         630  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_0]
+root         631  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_0]
+root         652  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/10:1H-kblockd]
+root         680  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_1]
+root         681  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_1]
+root         683  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_2]
+root         684  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_2]
+root         685  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_3]
+root         686  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_3]
+root         687  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_4]
+root         688  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_4]
+root         692  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/34:1H-events_highpri]
+root         696  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/30:1H-events_highpri]
+root         699  0.0  0.0      0     0 ?        I<   9月20   0:00 [cryptd]
+root         700  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/13:1H-events_highpri]
+root         701  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_5]
+root         702  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_5]
+root         703  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_6]
+root         704  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_6]
+root         705  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_7]
+root         706  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_7]
+root         707  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_8]
+root         708  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_8]
+root         709  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_9]
+root         710  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_9]
+root         711  0.0  0.0      0     0 ?        S    9月20   0:00 [scsi_eh_10]
+root         713  0.0  0.0      0     0 ?        I<   9月20   0:00 [scsi_tmf_10]
+root         714  0.0  0.0      0     0 ?        I<   9月20   0:00 [poll_megasas0_s]
+root         756  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/39:1H-events_highpri]
+root         757  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/3:1H-events_highpri]
+root         760  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/4:1H-events_highpri]
+root         761  0.0  0.0      0     0 ?        S    9月20   0:00 [nv_queue]
+root         762  0.0  0.0      0     0 ?        S    9月20   0:00 [nv_queue]
+root         763  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/19:1H-events_highpri]
+root         764  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/21:1H-events_highpri]
+root         765  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/36:1H-kblockd]
+root         790  0.0  0.0      0     0 ?        S    9月20   0:00 [nvidia-modeset/]
+root         791  0.0  0.0      0     0 ?        S    9月20   0:00 [nvidia-modeset/]
+root         792  0.0  0.0      0     0 ?        S    9月20   0:29 [irq/120-nvidia]
+root         793  0.0  0.0      0     0 ?        S    9月20   0:00 [nvidia]
+root         794  0.1  0.0      0     0 ?        S    9月20   6:43 [nv_queue]
+root         795  0.0  0.0      0     0 ?        S    9月20   0:32 [irq/121-nvidia]
+root         796  0.0  0.0      0     0 ?        S    9月20   0:00 [nvidia]
+root         797  0.1  0.0      0     0 ?        S    9月20   6:43 [nv_queue]
+root         798  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/29:1H-events_highpri]
+root         799  0.0  0.0      0     0 ?        S    9月20   0:31 [irq/122-nvidia]
+root         800  0.0  0.0      0     0 ?        S    9月20   0:00 [nvidia]
+root         801  0.1  0.0      0     0 ?        S    9月20   6:43 [nv_queue]
+root         802  0.0  0.0      0     0 ?        S    9月20   0:34 [irq/123-nvidia]
+root         803  0.0  0.0      0     0 ?        S    9月20   0:00 [nvidia]
+root         804  0.1  0.0      0     0 ?        S    9月20   6:39 [nv_queue]
+root         805  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/18:1H-events_highpri]
+root         808  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/15:1H-events_highpri]
+root         819  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/16:1H-events_highpri]
+root         820  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/55:1H-kblockd]
+root         827  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/44:1H-events_highpri]
+root         837  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/42:1H-kblockd]
+root         851  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/20:1H-events_highpri]
+root        1281  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/41:1H-kblockd]
+root        1282  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/7:1H-kblockd]
+root        1283  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/37:1H-kblockd]
+root        1284  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/38:1H-events_highpri]
+root        1285  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/47:1H-events_highpri]
+root        1286  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/31:1H-events_highpri]
+root        1287  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/33:1H-events_highpri]
+root        1288  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/32:1H-events_highpri]
+root        1289  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/5:1H-kblockd]
+root        1290  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/35:1H-kblockd]
+root        1293  0.0  0.0      0     0 ?        S    9月20   0:07 [jbd2/sda4-8]
+root        1294  0.0  0.0      0     0 ?        I<   9月20   0:00 [ext4-rsv-conver]
+root        1346  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/46:1H-events_highpri]
+root        1356  0.0  0.0 105728 35760 ?        S<s  9月20   0:08 /lib/systemd/systemd-journald
+root        1390  0.0  0.0      0     0 ?        I<   9月20   0:00 [rpciod]
+root        1391  0.0  0.0      0     0 ?        I<   9月20   0:00 [xprtiod]
+root        1395  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/12:1H-events_highpri]
+root        1396  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/45:1H-events_highpri]
+root        1401  0.0  0.0      0     0 ?        I<   9月20   0:00 [ipmi-msghandler]
+root        1435  0.0  0.0  29904  6500 ?        Ss   9月20   0:01 /lib/systemd/systemd-udevd
+root        1459  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/48:1H-events_highpri]
+root        1463  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/22:1H-events_highpri]
+root        1465  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/54:1H-events_highpri]
+root        1466  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/6:1H-events_highpri]
+root        1468  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/24:1H-events_highpri]
+root        1577  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/26:1H-events_highpri]
+root        1580  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/53:1H-events_highpri]
+root        1582  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/50:1H-kblockd]
+root        1586  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/43:1H-kblockd]
+root        1587  0.0  0.0      0     0 ?        S    9月20   0:00 [UVM global queu]
+root        1588  0.0  0.0      0     0 ?        S    9月20   0:00 [UVM deferred re]
+root        1589  0.0  0.0      0     0 ?        S    9月20   0:00 [UVM Tools Event]
+root        1591  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/51:1H-events_highpri]
+root        1592  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/49:1H-events_highpri]
+root        1593  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/25:1H-events_highpri]
+root        1594  0.0  0.0      0     0 ?        I<   9月20   0:01 [kworker/11:1H-events_highpri]
+root        1595  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/23:1H-events_highpri]
+root        1654  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/27:1H-events_highpri]
+root        1879  0.0  0.0      0     0 ?        I<   9月20   0:02 [kworker/14:1H-events_highpri]
+root        2078  0.0  0.0      0     0 ?        SN   9月20   0:00 [kipmi0]
+root        2252  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfsalloc]
+root        2253  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs_mru_cache]
+root        2254  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-buf/sdb1]
+root        2255  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-conv/sdb1]
+root        2256  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-reclaim/sdb]
+root        2257  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-blockgc/sdb]
+root        2258  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-inodegc/sdb]
+root        2259  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-log/sdb1]
+root        2260  0.0  0.0      0     0 ?        I<   9月20   0:00 [xfs-cil/sdb1]
+root        2261  0.0  0.0      0     0 ?        S    9月20   0:00 [xfsaild/sdb1]
+root        2266  0.0  0.0      0     0 ?        S    9月20   0:00 [jbd2/sda3-8]
+root        2267  0.0  0.0      0     0 ?        I<   9月20   0:00 [ext4-rsv-conver]
+_rpc        2398  0.0  0.0   8100  3092 ?        Ss   9月20   0:00 /sbin/rpcbind -f -w
+systemd+    2399  0.1  0.0  14824  3732 ?        Ss   9月20   6:25 /lib/systemd/systemd-oomd
+systemd+    2400  0.0  0.0  25264  5760 ?        Ss   9月20   0:00 /lib/systemd/systemd-resolved
+systemd+    2401  0.0  0.0  89508  3208 ?        Ssl  9月20   0:00 /lib/systemd/systemd-timesyncd
+root        2408  0.0  0.0   5124   144 ?        Ss   9月20   0:00 /usr/sbin/blkmapd
+root        2417  0.0  0.0   5024  2628 ?        Ss   9月20   0:00 /usr/sbin/rpc.idmapd
+root        2436  0.0  0.0   5460  1804 ?        Ss   9月20   0:00 /usr/sbin/nfsdcld
+root        2478  0.0  0.0   2812  1016 ?        Ss   9月20   0:00 /usr/sbin/acpid
+avahi       2484  0.0  0.0   9704  3908 ?        Ss   9月20   0:03 avahi-daemon: running [ZzStudio-7048-4x1080.local]
+message+    2487  0.0  0.0  13032  6632 ?        Ss   9月20   0:05 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        2488  0.0  0.0 264416 10164 ?        Ssl  9月20   0:03 /usr/sbin/NetworkManager --no-daemon
+root        2508  0.0  0.0  82904  3284 ?        Ssl  9月20   1:14 /usr/sbin/irqbalance --foreground
+root        2513  0.0  0.0  46200 12912 ?        Ss   9月20   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        2516  0.0  0.0 239236  9668 ?        Ssl  9月20   0:12 /usr/libexec/polkitd --no-debug
+root        2517  0.0  0.0 243144  4636 ?        Ssl  9月20   0:00 /usr/libexec/power-profiles-daemon
+syslog      2523  0.0  0.0 224544  7184 ?        Ssl  9月20   0:02 /usr/sbin/rsyslogd -n -iNONE
+root        2530  0.0  0.0  12328  4032 ?        Ss   9月20   0:00 /usr/sbin/smartd -n
+root        2531  0.0  0.0  19384   432 ?        Sl   9月20   0:03 /usr/sbin/aksusbd
+root        2533  0.0  0.0 3241992 41492 ?       Ssl  9月20   1:01 /usr/lib/snapd/snapd
+root        2542  0.0  0.0   2880     0 ?        S    9月20   0:00 /usr/sbin/winehasp
+nvidia-+    2548  0.0  0.0   7212  1684 ?        Ss   9月20   0:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+root        2552  0.0  0.0 246792  8396 ?        Ssl  9月20   0:04 /usr/libexec/accounts-daemon
+root        2557  0.0  0.0  14504  3292 ?        Ss   9月20   0:00 /usr/sbin/cron -f -P
+root        2559  0.0  0.0 239464  3500 ?        Ssl  9月20   0:00 /usr/libexec/switcheroo-control
+root        2560  0.0  0.0  50924  6976 ?        Ss   9月20   0:01 /lib/systemd/systemd-logind
+root        2563  0.0  0.0 395432  9372 ?        Ssl  9月20   0:00 /usr/libexec/udisks2/udisksd
+root        2564  0.0  0.0  16492  2264 ?        Ss   9月20   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+daemon      2571  0.0  0.0   5780  2552 ?        Ss   9月20   0:00 /usr/sbin/atd -f
+avahi       2572  0.0  0.0   9412   392 ?        S    9月20   0:00 avahi-daemon: chroot helper
+root        2582  0.0  0.0  60704  4500 ?        Sl   9月20   1:56 /usr/sbin/hasplmd -s
+root        2724  0.0  0.0 243280  5204 ?        Ssl  9月20   0:00 /usr/sbin/ModemManager
+root        2895  0.0  0.0 431704 37920 ?        Ss   9月20   0:03 /usr/bin/python3 /usr/bin/glances -s -B 127.0.0.1
+memcache    2896  0.0  0.0 413284  3400 ?        Ssl  9月20   0:28 /usr/bin/memcached -m 512 -p 6009 -u memcache -l 127.0.0.1
+root        2900  0.0  0.0  44960 17320 ?        Ss   9月20   0:22 /usr/bin/python3 /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
+root        2902  0.0  0.0 123200 12368 ?        Ssl  9月20   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        2903  0.2  0.0 736148 26492 ?        Ssl  9月20   8:07 /usr/bin/v2raya --log-disable-timestamp
+zabbix      2905  0.0  0.0  24300  3172 ?        Ss   9月20   0:00 /usr/sbin/zabbix_agentd --foreground
+root        2906  0.4  0.0 3350444 20236 ?       Ssl  9月20  13:36 /usr/bin/containerd
+root        2920  0.0  0.0  19832  1948 ?        S    9月20   0:00 /usr/sbin/xrdp-sesman
+zabbix      2922  0.0  0.0  24300  6260 ?        S    9月20   1:13 /usr/sbin/zabbix_agentd: collector [idle 1 sec]
+zabbix      2923  0.0  0.0  24300  1772 ?        S    9月20   0:00 /usr/sbin/zabbix_agentd: listener #1 [waiting for connection]
+zabbix      2924  0.0  0.0  24300  1788 ?        S    9月20   0:00 /usr/sbin/zabbix_agentd: listener #2 [waiting for connection]
+zabbix      2925  0.0  0.0  24300  1652 ?        S    9月20   0:00 /usr/sbin/zabbix_agentd: listener #3 [waiting for connection]
+zabbix      2926  0.0  0.0  24300  1372 ?        S    9月20   0:09 /usr/sbin/zabbix_agentd: active checks #1 [idle 1 sec]
+root        2936  0.0  0.0  15672  5092 ?        Ss   9月20   0:05 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+xrdp        2945  0.0  0.0  17944   608 ?        S    9月20   0:00 /usr/sbin/xrdp
+root        2982  0.0  0.0  57564  2280 ?        Ss   9月20   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data    2983  0.0  0.0  58236  3692 ?        S    9月20   0:00 nginx: worker process
+www-data    2984  0.0  0.0  58236  3692 ?        S    9月20   0:00 nginx: worker process
+www-data    2985  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    2986  0.0  0.0  58236  3696 ?        S    9月20   0:00 nginx: worker process
+www-data    2987  0.0  0.0  58236  3684 ?        S    9月20   0:00 nginx: worker process
+www-data    2988  0.0  0.0  58236  3608 ?        S    9月20   0:00 nginx: worker process
+www-data    2989  0.0  0.0  58236  3680 ?        S    9月20   0:00 nginx: worker process
+www-data    2990  0.0  0.0  58236  3660 ?        S    9月20   0:00 nginx: worker process
+www-data    2991  0.0  0.0  58236  3608 ?        S    9月20   0:00 nginx: worker process
+www-data    2992  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    2993  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    2994  0.0  0.0  58236  3488 ?        S    9月20   0:00 nginx: worker process
+www-data    2995  0.0  0.0  58236  3660 ?        S    9月20   0:00 nginx: worker process
+www-data    2996  0.0  0.0  58236  3660 ?        S    9月20   0:00 nginx: worker process
+www-data    2997  0.0  0.0  58236  3692 ?        S    9月20   0:00 nginx: worker process
+www-data    2998  0.0  0.0  58236  3696 ?        S    9月20   0:00 nginx: worker process
+www-data    2999  0.0  0.0  58236  3688 ?        S    9月20   0:00 nginx: worker process
+www-data    3000  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3001  0.0  0.0  58236  3696 ?        S    9月20   0:00 nginx: worker process
+www-data    3002  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3003  0.0  0.0  58236  3688 ?        S    9月20   0:00 nginx: worker process
+www-data    3004  0.0  0.0  58236  3424 ?        S    9月20   0:00 nginx: worker process
+www-data    3005  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3006  0.0  0.0  58236  3680 ?        S    9月20   0:00 nginx: worker process
+www-data    3007  0.0  0.0  58236  3540 ?        S    9月20   0:00 nginx: worker process
+www-data    3008  0.0  0.0  58236  3524 ?        S    9月20   0:00 nginx: worker process
+www-data    3009  0.0  0.0  58236  3680 ?        S    9月20   0:00 nginx: worker process
+www-data    3010  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3011  0.0  0.0  58236  3636 ?        S    9月20   0:00 nginx: worker process
+www-data    3012  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3013  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3014  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3015  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3016  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3017  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3018  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3019  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3020  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3021  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3022  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3023  0.0  0.0  58236  3696 ?        S    9月20   0:00 nginx: worker process
+www-data    3024  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3025  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3026  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3027  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3028  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3029  0.0  0.0  58236  3332 ?        S    9月20   0:00 nginx: worker process
+www-data    3030  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3031  0.0  0.0  58236  3700 ?        S    9月20   0:00 nginx: worker process
+www-data    3032  0.0  0.0  58236  3488 ?        S    9月20   0:00 nginx: worker process
+www-data    3033  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3034  0.0  0.0  58236  3492 ?        S    9月20   0:00 nginx: worker process
+www-data    3035  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3036  0.0  0.0  58236  3696 ?        S    9月20   0:00 nginx: worker process
+www-data    3037  0.0  0.0  58236  3704 ?        S    9月20   0:00 nginx: worker process
+www-data    3038  0.0  0.0  58236  3696 ?        S    9月20   0:00 nginx: worker process
+root        3074  0.2  0.0 5131352 36032 ?       Sl   9月20   8:18 /usr/local/bin/v2ray --config=/etc/v2raya/config.json
+root        3240  0.0  0.0 5301076 27196 ?       Ssl  9月20   3:08 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        3265  0.0  0.0   6944   400 ?        Ss   9月20   0:00 /usr/sbin/rpc.mountd
+statd       3273  0.0  0.0   6584  1200 ?        Ss   9月20   0:00 /sbin/rpc.statd
+kernoops    3276  0.0  0.0  13080  1900 ?        Ss   9月20   0:00 /usr/sbin/kerneloops --test
+kernoops    3278  0.0  0.0  13080   444 ?        Ss   9月20   0:00 /usr/sbin/kerneloops
+root        3323  0.0  0.0      0     0 ?        I<   9月20   0:00 [kworker/u116:1]
+root        3325  0.0  0.0      0     0 ?        S    9月20   0:00 [lockd]
+root        3326  0.0  0.0      0     0 ?        I<   9月20   0:00 [iprt-VBoxWQueue]
+root        3330  0.0  0.0      0     0 ?        S    9月20   0:00 [iprt-VBoxTscThr]
+root        3347  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3348  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3349  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3350  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3351  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3352  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3353  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3354  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3355  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3356  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3357  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3358  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3359  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3360  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3361  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3362  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3363  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3364  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3365  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3366  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3367  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3368  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3369  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3370  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3371  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3372  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3373  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3374  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3375  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3376  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3377  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3378  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3379  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3380  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3381  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3382  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3383  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3384  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3385  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3386  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3387  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3388  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3389  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3390  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3391  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3392  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3393  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3394  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3395  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3396  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3397  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3398  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3399  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3400  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3401  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3402  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3403  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3404  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3405  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3406  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3407  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3408  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3409  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3410  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3411  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3412  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3413  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3414  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3415  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3416  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3417  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3418  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3419  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3420  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3421  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3422  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3423  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3424  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3425  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3426  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3427  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3428  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3429  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3430  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3431  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3432  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3433  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3434  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3435  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3436  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3437  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3438  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3439  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3440  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3441  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3442  0.0  0.0      0     0 ?        S    9月20   0:00 [nfsd]
+root        3534  0.0  0.0 246212  6128 ?        Ssl  9月20   0:00 /usr/sbin/gdm3
+root        3535  0.0  0.0  11552  2808 ?        Ss   9月20   0:00 /usr/sbin/xinetd -pidfile /run/xinetd.pid -stayalive -inetd_compat -inetd_ipv6
+root        3545  0.0  0.0 173500  6836 ?        Sl   9月20   0:00 gdm-session-worker [pam/gdm-launch-environment]
+rstudio+    3549  0.0  0.0 113800  5004 ?        Ssl  9月20   0:38 /usr/lib/rstudio-server/bin/rserver
+gdm         3568  0.0  0.0  18024  7024 ?        Ss   9月20   0:00 /lib/systemd/systemd --user
+gdm         3571  0.0  0.0 171312  4324 ?        S    9月20   0:00 (sd-pam)
+gdm         3728  0.0  0.0  44432  4396 ?        S<sl 9月20   0:00 /usr/bin/pipewire
+gdm         3729  0.0  0.0  28604  4320 ?        Ssl  9月20   0:01 /usr/bin/pipewire-media-session
+gdm         3730  0.0  0.0 904408 12524 ?        S<sl 9月20   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gdm         3738  0.0  0.0 165512  3636 tty1     Ssl+ 9月20   0:00 /usr/libexec/gdm-x-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         3752  0.0  0.0 27728560 68068 tty1   Sl+  9月20   0:02 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/126/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+rtkit       3862  0.0  0.0 155920  3056 ?        SNsl 9月20   0:02 /usr/libexec/rtkit-daemon
+gdm         3956  0.0  0.0  10532  3660 ?        Ss   9月20   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        3992  0.0  0.0  41332  2800 ?        Ss   9月20   0:00 /usr/lib/postfix/sbin/master -w
+postfix     3994  0.0  0.0  41768  3556 ?        S    9月20   0:00 qmgr -l -t unix -u
+gdm         4025  0.0  0.0 243724  4496 ?        Ssl  9月20   0:00 /usr/libexec/gvfsd
+gdm         4038  0.0  0.0 380884  3792 ?        Sl   9月20   0:00 /usr/libexec/gvfsd-fuse /run/user/126/gvfs -f
+gdm         4092  0.0  0.0 712624 20976 ?        SNsl 9月20   0:01 /usr/libexec/tracker-miner-fs-3
+gdm         4099  0.0  0.0 321308  7728 ?        Ssl  9月20   0:01 /usr/libexec/gvfs-udisks2-volume-monitor
+gdm         4104  0.0  0.0 318284  4980 ?        Ssl  9月20   0:04 /usr/libexec/gvfs-afc-volume-monitor
+gdm         4109  0.0  0.0 240632  3604 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gdm         4113  0.0  0.0 239544  3848 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+gdm         4117  0.0  0.0 239716  4432 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-goa-volume-monitor
+gdm         4121  0.0  0.0 564592 12732 ?        Sl   9月20   0:00 /usr/libexec/goa-daemon
+gdm         4129  0.0  0.0   6492   980 tty1     S+   9月20   0:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         4130  0.0  0.0  10832  4236 tty1     S+   9月20   0:00 dbus-daemon --nofork --print-address 4 --session
+gdm         4131  0.0  0.0 523140  6656 tty1     Sl+  9月20   0:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm         4139  0.0  0.0 341480  5132 ?        Sl   9月20   0:00 /usr/libexec/goa-identity-service
+gdm         4142  0.0  0.0 310464  4260 tty1     Sl+  9月20   0:00 /usr/libexec/at-spi-bus-launcher
+root        4150  0.0  0.0 245424  4608 ?        Ssl  9月20   0:00 /usr/libexec/upowerd
+gdm         4152  0.0  0.0  10400  3088 tty1     S+   9月20   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/126/at-spi/bus_0
+gdm         4232  0.0  0.0 6483188 98424 tty1    Sl+  9月20   1:41 /usr/bin/gnome-shell
+gdm         4283  0.0  0.0 239232  3180 tty1     Sl+  9月20   0:00 /usr/libexec/xdg-permission-store
+root        4291  0.0  0.0 301692  8708 ?        Ssl  9月20   0:00 /usr/libexec/packagekitd
+gdm         4297  0.0  0.0 2934268 9200 tty1     Sl+  9月20   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         4314  0.0  0.0 162744  4488 tty1     Sl+  9月20   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         4319  0.0  0.0 469596  4952 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-sharing
+gdm         4322  0.0  0.0 338012  7536 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-wacom
+gdm         4323  0.0  0.0 450252  7116 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-color
+gdm         4324  0.0  0.0 338316  6904 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-keyboard
+gdm         4325  0.0  0.0 393824  9192 tty1     Sl   9月20   0:00 ibus-daemon --panel disable --xim
+gdm         4326  0.0  0.0 253340  7308 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-print-notifications
+gdm         4327  0.0  0.0 460936  3568 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-rfkill
+gdm         4328  0.0  0.0 316096  4220 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-smartcard
+gdm         4329  0.0  0.0 379256  7568 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-datetime
+gdm         4330  0.0  0.0 864552  9616 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-media-keys
+gdm         4331  0.0  0.0 239368  2792 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-screensaver-proxy
+gdm         4332  0.0  0.0 323132  5464 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-sound
+gdm         4333  0.0  0.0 314212  4084 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-a11y-settings
+gdm         4334  0.0  0.0 315716  4868 tty1     Sl+  9月20   0:16 /usr/libexec/gsd-housekeeping
+gdm         4338  0.0  0.0 450752  8520 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-power
+gdm         4373  0.0  0.0 243728  3712 tty1     Sl+  9月20   0:00 /usr/libexec/gvfsd
+gdm         4396  0.0  0.0 345440  5616 tty1     Sl+  9月20   0:00 /usr/libexec/gsd-printer
+colord      4422  0.0  0.0 250336  8476 ?        Ssl  9月20   0:00 /usr/libexec/colord
+gdm         4424  0.0  0.0 240388  3584 tty1     Sl   9月20   0:00 /usr/libexec/ibus-dconf
+gdm         4426  0.0  0.0 2942460 11692 tty1    Sl+  9月20   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+gdm         4443  0.0  0.0 240344  4444 tty1     Sl+  9月20   0:00 /usr/libexec/ibus-portal
+gdm         4473  0.0  0.0 166564  3948 tty1     Sl   9月20   0:00 /usr/libexec/ibus-engine-simple
+wzy         4536  0.0  0.0  18076  7120 ?        Ss   9月20   0:00 /lib/systemd/systemd --user
+wzy         4537  0.0  0.0 171132  4688 ?        S    9月20   0:00 (sd-pam)
+wzy         4544  0.0  0.0  44584  4528 ?        Ssl  9月20   0:00 /usr/bin/pipewire
+wzy         4545  0.0  0.0  28612  4500 ?        Ssl  9月20   0:01 /usr/bin/pipewire-media-session
+wzy         4553  0.0  0.0  10532  4012 ?        Ss   9月20   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wzy         4555  0.0  0.0 243724  4560 ?        Ssl  9月20   0:00 /usr/libexec/gvfsd
+wzy         4560  0.0  0.0 380884  3740 ?        Sl   9月20   0:00 /usr/libexec/gvfsd-fuse /run/user/1004/gvfs -f
+wzy         4585  0.0  0.0 712632 23164 ?        SNsl 9月20   0:01 /usr/libexec/tracker-miner-fs-3
+wzy         4592  0.0  0.0 321308  7876 ?        Ssl  9月20   0:01 /usr/libexec/gvfs-udisks2-volume-monitor
+wzy         4597  0.0  0.0 318284  4996 ?        Ssl  9月20   0:04 /usr/libexec/gvfs-afc-volume-monitor
+wzy         4602  0.0  0.0 240636  3920 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+wzy         4606  0.0  0.0 239544  4116 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+wzy         4610  0.0  0.0 239716  3884 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-goa-volume-monitor
+wzy         4614  0.0  0.0 564592 11184 ?        Sl   9月20   0:00 /usr/libexec/goa-daemon
+wzy         4621  0.0  0.0 341480  6256 ?        Sl   9月20   0:00 /usr/libexec/goa-identity-service
+root        4731  0.0  0.0  17424  6308 ?        Ss   9月20   0:00 sshd: yrh [priv]
+yrh         4734  0.0  0.0  18076  6960 ?        Ss   9月20   0:00 /lib/systemd/systemd --user
+yrh         4735  0.0  0.0 171132  4744 ?        S    9月20   0:00 (sd-pam)
+yrh         4742  0.0  0.0  44428  4424 ?        Ssl  9月20   0:00 /usr/bin/pipewire
+yrh         4743  0.0  0.0  28612  4412 ?        Ssl  9月20   0:01 /usr/bin/pipewire-media-session
+yrh         4744  0.0  0.0 303736 11240 ?        Ssl  9月20   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+yrh         4758  0.0  0.0  10532  3896 ?        Ss   9月20   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+yrh         4773  0.0  0.0 243724  4688 ?        Ssl  9月20   0:00 /usr/libexec/gvfsd
+yrh         4788  0.0  0.0 380884  3704 ?        Sl   9月20   0:00 /usr/libexec/gvfsd-fuse /run/user/1001/gvfs -f
+yrh         4793  0.0  0.0  17728  4680 ?        S    9月20   0:01 sshd: yrh@pts/1
+yrh         4802  0.0  0.0  25268  9124 pts/1    Ss+  9月20   0:01 -zsh
+yrh         4807  0.0  0.0 712632 21364 ?        SNsl 9月20   0:01 /usr/libexec/tracker-miner-fs-3
+yrh         4818  0.0  0.0  15760  3340 pts/1    S    9月20   0:00 /usr/bin/zsh -dfxc          exec >&4         echo $$         /home/yrh/.antigen/bundles/romkatv/powerlevel10k/gitstatus/bin/gitstatusd-linux-x86_64 --lock-fd=3 --parent-pid=4802 --num-threads=32 --max-num-staged=1 --max-num-unstaged=1 --max-num-conflicted=1 --max-num-untracked=1 --dirty-max-index-size=-1 --log-level=INFO         if [[ $? != (0|10) && $? -le 128 && -f /home/yrh/.antigen/bundles/romkatv/powerlevel10k/gitstatus/bin/gitstatusd-linux-x86_64-static ]]; then           /home/yrh/.antigen/bundles/romkatv/powerlevel10k/gitstatus/bin/gitstatusd-linux-x86_64-static --lock-fd=3 --parent-pid=4802 --num-threads=32 --max-num-staged=1 --max-num-unstaged=1 --max-num-conflicted=1 --max-num-untracked=1 --dirty-max-index-size=-1 --log-level=INFO         fi         echo -nE $'bye\x1f0\x1e'
+yrh         4819  0.0  0.0 267344  1076 pts/1    Sl   9月20   0:06 /home/yrh/.antigen/bundles/romkatv/powerlevel10k/gitstatus/bin/gitstatusd-linux-x86_64 --lock-fd=3 --parent-pid=4802 --num-threads=32 --max-num-staged=1 --max-num-unstaged=1 --max-num-conflicted=1 --max-num-untracked=1 --dirty-max-index-size=-1 --log-level=INFO
+yrh         4858  0.0  0.0 321320  7664 ?        Ssl  9月20   0:01 /usr/libexec/gvfs-udisks2-volume-monitor
+yrh         4866  0.0  0.0 318284  5008 ?        Ssl  9月20   0:04 /usr/libexec/gvfs-afc-volume-monitor
+yrh         4873  0.0  0.0 240636  3884 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+yrh         4878  0.0  0.0 239544  4012 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+yrh         4882  0.0  0.0 239716  3684 ?        Ssl  9月20   0:00 /usr/libexec/gvfs-goa-volume-monitor
+yrh         4886  0.0  0.0 564600 11532 ?        Sl   9月20   0:00 /usr/libexec/goa-daemon
+yrh         4896  0.0  0.0 341480  6640 ?        Sl   9月20   0:00 /usr/libexec/goa-identity-service
+yrh         4905  0.0  0.0   7968  2212 ?        Ss   9月20   0:00 ssh-agent -s
+wzy         5030  0.0  0.0  20836  7828 ?        Ss   9月20   0:10 tmux new -s ziye
+wzy         5031  0.0  0.0  17788  5380 pts/2    Ss+  9月20   0:00 -bash
+wzy         5052  0.0  0.0  17788  5304 pts/3    Ss   9月20   0:00 -bash
+wzy         5114  0.0  0.0  17788  5108 pts/4    Ss+  9月20   0:00 -bash
+wzy         5135  0.0  0.0  17788  4708 pts/5    Ss+  9月20   0:00 -bash
+root        5159  0.0  0.0      0     0 ?        I    9月20   0:19 [kworker/11:0-rcu_gp]
+root        5185  0.0  0.0      0     0 ?        I    9月20   0:14 [kworker/32:0-events]
+root        6085  0.0  0.0      0     0 ?        I    9月20   0:00 [kworker/12:1-cgroup_destroy]
+wzy         8703  0.0  0.0  17788  6268 pts/6    Ss+  9月20   0:01 -bash
+root       14005  0.0  0.0      0     0 ?        I    9月20   0:15 [kworker/36:3-rcu_par_gp]
+root       16190  0.0  0.0      0     0 ?        I    9月20   0:00 [kworker/48:0-events]
+root       16752  0.0  0.0      0     0 ?        I    9月20   0:01 [kworker/30:0-events]
+root       16759  0.0  0.0      0     0 ?        I    9月20   0:17 [kworker/28:3-events]
+gdm        17743  0.0  0.0 166104  4572 ?        Ssl  9月20   0:00 /usr/libexec/gvfsd-metadata
+yrh        17744  0.0  0.0 166104  4356 ?        Ssl  9月20   0:00 /usr/libexec/gvfsd-metadata
+wzy        17745  0.0  0.0 166104  4420 ?        Ssl  9月20   0:00 /usr/libexec/gvfsd-metadata
+root       18939  0.0  0.0      0     0 ?        I    9月20   0:14 [kworker/47:3-rcu_par_gp]
+wzy        19608  0.0  0.0  17788  5584 pts/7    Ss   9月20   0:00 -bash
+root       20939  0.0  0.0      0     0 ?        I    9月20   0:30 [kworker/27:3-events]
+root       21058  0.0  0.0      0     0 ?        I    9月21   0:13 [kworker/30:1-events]
+root       25209  0.0  0.0      0     0 ?        I    9月21   0:02 [kworker/19:1-events]
+root       27569  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/10:3-rcu_gp]
+root       31139  0.0  0.0      0     0 ?        I    9月21   0:09 [kworker/39:0-events]
+root       31140  0.0  0.0      0     0 ?        I    9月21   0:30 [kworker/10:1-events]
+root       31143  0.0  0.0      0     0 ?        I    9月21   0:21 [kworker/11:2-events]
+root       32639  0.0  0.0      0     0 ?        I    9月21   0:24 [kworker/21:0-events]
+root       32649  0.0  0.0      0     0 ?        I    9月21   0:06 [kworker/42:0-events]
+root       32653  0.0  0.0      0     0 ?        I    9月21   0:18 [kworker/19:0-events]
+root       32701  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/23:0-events]
+root       33284  0.0  0.0      0     0 ?        I    9月21   0:21 [kworker/4:1-events]
+root       35129  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/8:2-events]
+root       37118  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/14:1-cgwb_release]
+root       37303  0.0  0.0      0     0 ?        I    9月21   0:15 [kworker/8:1-events]
+root       37327  0.0  0.0      0     0 ?        I    9月21   0:26 [kworker/14:2-events]
+root       43408  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/32:2-events]
+root       43687  0.0  0.0      0     0 ?        I    9月21   0:07 [kworker/37:2-events]
+root       44017  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/20:2-events]
+root       44040  0.0  0.0      0     0 ?        I    9月21   0:10 [kworker/20:3-events]
+root       44131  0.0  0.0      0     0 ?        I    9月21   0:11 [kworker/41:0-rcu_par_gp]
+root       44155  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/31:1-events]
+root       44158  0.0  0.0      0     0 ?        I    9月21   0:16 [kworker/26:0-events]
+root       44455  0.0  0.0      0     0 ?        I    9月21   0:20 [kworker/15:0-events]
+root       44502  0.0  0.0      0     0 ?        I    9月21   0:06 [kworker/16:0-events]
+root       44565  0.0  0.0      0     0 ?        I    9月21   0:00 [kworker/26:1-events]
+root       45079  0.0  0.0      0     0 ?        I    9月21   0:03 [kworker/29:3-cgroup_destroy]
+root       45128  0.0  0.0      0     0 ?        I    9月21   0:14 [kworker/55:0-events]
+root       45204  0.0  0.0      0     0 ?        I    9月21   0:12 [kworker/47:0-events]
+root       45246  0.0  0.0      0     0 ?        I    9月21   0:10 [kworker/44:2-events]
+root       45298  0.0  0.0      0     0 ?        I    9月21   0:06 [kworker/1:1-events]
+root       45384  0.0  0.0      0     0 ?        I    9月22   0:11 [kworker/46:1-events]
+root       45551  0.0  0.0      0     0 ?        I    9月22   0:10 [kworker/42:1-events]
+root       49476  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/43:1-rcu_gp]
+root       49477  0.0  0.0      0     0 ?        I    9月22   0:09 [kworker/45:2-events]
+root       49478  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/27:0]
+root       49481  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/54:0-rcu_par_gp]
+root       49482  0.0  0.0      0     0 ?        I    9月22   0:11 [kworker/24:2-events]
+root       49484  0.0  0.0      0     0 ?        I    9月22   0:03 [kworker/22:0-events]
+root       49485  0.0  0.0      0     0 ?        I    9月22   0:12 [kworker/49:3-events]
+root       49489  0.0  0.0      0     0 ?        I    9月22   0:12 [kworker/25:2-events]
+root       49572  0.0  0.0      0     0 ?        I    9月22   0:13 [kworker/54:2-events]
+root       49577  0.0  0.0      0     0 ?        I    9月22   0:05 [kworker/43:0-events]
+root       49582  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/25:1-events]
+root       61874  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/39:1-events]
+root       69471  0.0  0.0      0     0 ?        I    9月22   0:12 [kworker/12:0-events]
+root       69475  0.0  0.0      0     0 ?        I    9月22   0:12 [kworker/9:2-events]
+root       69479  0.0  0.0      0     0 ?        I    9月22   0:05 [kworker/29:1-events]
+root       69480  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/50:0]
+root       69594  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/17:4-events]
+root       69674  0.0  0.0      0     0 ?        I    9月22   0:09 [kworker/17:1-events]
+root       71022  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/18:1-events]
+root       79801  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/6:0-events]
+root       95308  0.0  0.0      0     0 ?        I    9月22   0:05 [kworker/5:2-cgwb_release]
+root       96071  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/7:0-events]
+root       96662  0.0  0.0      0     0 ?        I    9月22   0:04 [kworker/6:1-events]
+root       96666  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/35:3-events]
+root       97977  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/28:2-events]
+root       98092  0.0  0.0      0     0 ?        I    9月22   0:05 [kworker/16:1-events]
+root       98149  0.0  0.0      0     0 ?        I    9月22   0:08 [kworker/18:3-events]
+root       98320  0.0  0.0      0     0 ?        I    9月22   0:04 [kworker/22:1-events]
+wzy        98761  0.0  0.0  39320 14280 pts/7    S+   9月22   0:00 vi estimate_res.txt
+root       99264  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/5:0-events]
+root       99265  0.0  0.0      0     0 ?        I    9月22   0:03 [kworker/52:2-rcu_gp]
+root       99266  0.0  0.0      0     0 ?        I    9月22   0:04 [kworker/40:1-rcu_gp]
+root       99328  0.0  0.0      0     0 ?        I    9月22   0:01 [kworker/u112:2-ext4-rsv-conversion]
+wzy       100050  0.0  0.0  39328 14304 pts/3    S+   9月22   0:00 vi /home/wzy/data/cami_gt/output/COMEBin_whole_addcovloss/cluster_res/estimate_res.txt
+root      100272  0.0  0.0      0     0 ?        I    9月22   0:06 [kworker/1:3-events]
+root      100273  0.0  0.0      0     0 ?        I    9月22   0:01 [kworker/3:2-events]
+root      101105  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/2:0-cgroup_destroy]
+root      101107  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/37:1-rcu_par_gp]
+root      101110  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/2:3-events]
+root      101111  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/13:0-rcu_gp]
+root      101112  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/4:0]
+root      101113  0.0  0.0      0     0 ?        I    9月22   0:05 [kworker/33:2-events]
+root      101512  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/23:2-events]
+root      101513  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/38:0-events]
+root      101863  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/u112:0-poll_megasas0_status]
+root      102311  0.0  0.0      0     0 ?        I    9月22   0:01 [kworker/3:3-events]
+root      103100  0.0  0.0      0     0 ?        I    9月22   0:01 [kworker/24:1-events]
+root      104146  0.0  0.0      0     0 ?        I    9月22   0:11 [kworker/0:3-events]
+root      109900  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/15:1-events]
+root      109905  0.1  0.0      0     0 ?        I    9月22   0:10 [kworker/0:2-events]
+root      109950  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/41:1-events]
+root      109951  0.0  0.0      0     0 ?        I    9月22   0:02 [kworker/40:0-events]
+root      109974  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/13:2-events]
+root      109985  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/44:0-rcu_par_gp]
+root      110002  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/52:0-events]
+root      110928  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/34:3-events]
+root      110981  0.0  0.0      0     0 ?        I    9月22   0:00 [kworker/36:0-events]
+root      110992  0.0  0.0      0     0 ?        I    00:00   0:00 [kworker/46:2-events]
+root      110993  0.0  0.0  76356 14084 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root      110994  0.0  0.0 173112 11868 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+root      110999  0.0  0.0      0     0 ?        I    00:00   0:00 [kworker/35:0-events]
+postfix   111320  0.0  0.0  41724  6480 ?        S    00:11   0:00 pickup -l -t unix -u -c
+root      111677  0.0  0.0      0     0 ?        I    00:23   0:00 [kworker/u113:3-flush-8:0]
+root      112202  0.0  0.0  17688 11512 ?        Ss   00:42   0:00 sshd: lw [priv]
+lw        112207  0.0  0.0  17952 10684 ?        Ss   00:42   0:00 /lib/systemd/systemd --user
+lw        112208  0.0  0.0 172456  6672 ?        S    00:42   0:00 (sd-pam)
+root      112209  0.0  0.0      0     0 ?        I    00:42   0:00 [kworker/45:0-events]
+lw        112218  0.0  0.0  44428  7772 ?        Ssl  00:42   0:00 /usr/bin/pipewire
+lw        112219  0.0  0.0  28612  7868 ?        Ssl  00:42   0:00 /usr/bin/pipewire-media-session
+lw        112220  0.0  0.0 301600 24180 ?        Ssl  00:42   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+lw        112225  0.0  0.0  10532  5952 ?        Ss   00:42   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lw        112235  0.0  0.0 243724  8116 ?        Ssl  00:42   0:00 /usr/libexec/gvfsd
+lw        112248  0.0  0.0 380884  5740 ?        Sl   00:42   0:00 /usr/libexec/gvfsd-fuse /run/user/1005/gvfs -f
+lw        112348  0.1  0.0  18388  9040 ?        S    00:42   0:03 sshd: lw@notty
+lw        112349  0.0  0.0 636820 26948 ?        SNsl 00:42   0:00 /usr/libexec/tracker-miner-fs-3
+lw        112356  0.0  0.0  13324  4072 ?        Ss   00:42   0:00 bash
+lw        112373  0.0  0.0 321304 10816 ?        Ssl  00:42   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+lw        112391  0.0  0.0 318284  8112 ?        Ssl  00:42   0:00 /usr/libexec/gvfs-afc-volume-monitor
+lw        112408  0.0  0.0 240636  6768 ?        Ssl  00:42   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+lw        112411  0.0  0.0   2888  1000 ?        S    00:42   0:00 sh /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/lw/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+lw        112423  0.4  0.0 945348 83284 ?        Sl   00:42   0:11 /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/lw/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+lw        112425  0.0  0.0 239544  6556 ?        Ssl  00:42   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+lw        112440  0.0  0.0 239716  6596 ?        Ssl  00:42   0:00 /usr/libexec/gvfs-goa-volume-monitor
+lw        112457  0.0  0.0 564588 39436 ?        Sl   00:42   0:00 /usr/libexec/goa-daemon
+lw        112500  0.1  0.0 680064 57896 ?        Sl   00:42   0:04 /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /home/lw/.vscode-server/data/logs/20220923T004237
+lw        112532  0.0  0.0 341480 14856 ?        Sl   00:42   0:00 /usr/libexec/goa-identity-service
+lw        112542  0.2  0.0 972240 219900 ?       Sl   00:42   0:05 /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=fileWatcher
+lw        112558  0.0  0.0 166112  6724 ?        Ssl  00:42   0:00 /usr/libexec/gvfsd-metadata
+lw        112576  2.0  0.0 1037304 186248 ?      Sl   00:42   0:51 /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+lw        112696  0.0  0.0  17792  8120 pts/0    Ss   00:42   0:00 /usr/bin/bash --init-file /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root      112738  0.0  0.0      0     0 ?        I    00:42   0:00 [kworker/53:2-events]
+lw        112816  4.8  0.1 1041932 307600 ?      Sl   00:42   1:58 /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/lw/.vscode-server/extensions/ms-python.vscode-pylance-2022.9.30/dist/server.bundle.js --cancellationReceive=file:d0cd15eaabcd4037abd183a9c9cd4941e5ef633cab --node-ipc --clientProcessId=112576
+root      114103  0.0  0.0      0     0 ?        I    01:03   0:00 [kworker/u113:2-flush-8:0]
+root      114148  0.0  0.0      0     0 ?        I    01:05   0:00 [kworker/u114:2-events_unbound]
+root      114325  0.0  0.0      0     0 ?        I    01:10   0:00 [kworker/u114:1-flush-8:0]
+lw        114615 98.5  0.5 21172760 1362432 pts/0 Rl  01:13  10:45 python -u DMPG.py
+root      114696  0.0  0.0      0     0 ?        I    01:13   0:00 [kworker/u113:0-events_power_efficient]
+lw        114706  0.0  0.0 589476 39788 ?        Sl   01:13   0:00 /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/lw/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/extensions/markdown-language-features/server/dist/node/main --node-ipc --clientProcessId=112576
+root      114757  0.0  0.0      0     0 ?        S    01:14   0:00 [UVM GPU1 BH]
+root      114758  0.0  0.0      0     0 ?        S    01:14   0:00 [UVM GPU2 BH]
+root      114759  0.0  0.0      0     0 ?        S    01:14   0:00 [UVM GPU3 BH]
+root      114760  0.0  0.0      0     0 ?        S    01:14   0:00 [UVM GPU4 BH]
+lw        115102 97.6  0.5 21179816 1368728 pts/0 Rl  01:18   5:32 python -u DMPG.py
+root      115256  0.0  0.0      0     0 ?        I    01:19   0:00 [kworker/u113:1-events_unbound]
+lw        115440 96.9  0.5 21179428 1369332 pts/0 Rl  01:21   2:54 python -u DMPG.py
+lw        115599  0.0  0.0  11460  1020 ?        S    01:21   0:00 sleep 180
+lw        115651 92.0  0.5 21177892 1368584 pts/0 Rl  01:22   1:47 python -u DMPG.py
+root      115817  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/u114:0-events_unbound]
+lw        115890 84.5  0.4 20984408 1173788 pts/0 Rl  01:22   0:55 python -u DMPG.py
+lw        116037  0.0  0.0  17684  4416 pts/0    R+   01:24   0:00 ps aux
+lw        116038  0.0  0.0  11848  2732 pts/0    S+   01:24   0:00 less

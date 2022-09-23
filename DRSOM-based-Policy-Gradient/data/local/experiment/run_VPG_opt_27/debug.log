@@ -1,0 +1,32 @@
+2022-09-22 14:24:00 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_27
+2022-09-22 14:24:01 | [run_VPG_opt] Obtaining samples...
+2022-09-22 14:24:12 | [run_VPG_opt] epoch #0 | Saving snapshot...
+2022-09-22 14:24:12 | [run_VPG_opt] epoch #0 | Saved
+2022-09-22 14:24:12 | [run_VPG_opt] epoch #0 | Time 11.08 s
+2022-09-22 14:24:12 | [run_VPG_opt] epoch #0 | EpochTime 11.08 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    47.2807
+Evaluation/AverageReturn              48.4245
+Evaluation/Iteration                   0
+Evaluation/MaxReturn                 119.353
+Evaluation/MinReturn                  26.7588
+Evaluation/NumEpisodes               749
+Evaluation/StdReturn                  15.2807
+Evaluation/TerminationRate             1
+TotalEnvSteps                       4007
+----------------------------------  ---------
+2022-09-22 14:24:23 | [run_VPG_opt] epoch #1 | Saving snapshot...
+2022-09-22 14:24:23 | [run_VPG_opt] epoch #1 | Saved
+2022-09-22 14:24:23 | [run_VPG_opt] epoch #1 | Time 21.88 s
+2022-09-22 14:24:23 | [run_VPG_opt] epoch #1 | EpochTime 10.80 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    48.0823
+Evaluation/AverageReturn              49.2752
+Evaluation/Iteration                   1
+Evaluation/MaxReturn                 128.937
+Evaluation/MinReturn                  26.8096
+Evaluation/NumEpisodes               735
+Evaluation/StdReturn                  15.8714
+Evaluation/TerminationRate             1
+TotalEnvSteps                       8007
+----------------------------------  ---------

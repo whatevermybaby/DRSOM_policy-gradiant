@@ -1,0 +1,52 @@
+2022-09-22 12:06:11.149826: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/lib64::/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia
+2022-09-22 12:06:11.149894: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+/home/lw/.local/lib/python3.8/site-packages/flatbuffers/compat.py:19: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': pil_image.NEAREST,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': pil_image.BILINEAR,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': pil_image.BICUBIC,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:39: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': pil_image.HAMMING,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:40: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': pil_image.BOX,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:41: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  'lanczos': pil_image.LANCZOS,
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/experiment.py:551: UserWarning: Archiving a launch repo larger than 8MiB. This may be slow. Set archive_launch_repo=False in wrap_experiment to disable this behavior.
+  warnings.warn('Archiving a launch repo larger than 8MiB. This may be '
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/deterministic.py:36: UserWarning: Enabeling deterministic mode in PyTorch can have a performance impact when using GPU.
+  warnings.warn(
+/home/lw/.local/lib/python3.8/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment InvertedDoublePendulum-v2 is out of date. You should consider upgrading to version `v4`.[0m
+  logger.warn(
+/home/lw/.local/lib/python3.8/site-packages/gym/envs/mujoco/mujoco_env.py:237: UserWarning: [33mWARN: This version of the mujoco environments depends on the mujoco-py bindings, which are no longer maintained and may stop working. Please upgrade to the v4 versions of the environments (which depend on the mujoco python bindings instead), unless you are trying to precisely replicate previous works).[0m
+  logger.warn(
+2022-09-22 12:06:21 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_8
+Traceback (most recent call last):
+  File "DMPG.py", line 212, in <module>
+    run_VPG_opt(opt='drsom')
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/experiment/experiment.py", line 369, in __call__
+    result = self.function(ctxt, **kwargs)
+  File "DMPG.py", line 171, in run_VPG_opt
+    env = normalize(GymEnv(environment))
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 136, in __init__
+    self._env = gym.make(env)
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 662, in make
+    env = env_creator(**_kwargs)
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/envs/mujoco/inverted_double_pendulum.py", line 22, in __init__
+    MuJocoPyEnv.__init__(
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/envs/mujoco/mujoco_env.py", line 245, in __init__
+    super().__init__(
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/envs/mujoco/mujoco_env.py", line 52, in __init__
+    self._initialize_simulation()
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/envs/mujoco/mujoco_env.py", line 257, in _initialize_simulation
+    self.model = mujoco_py.load_model_from_path(self.fullpath)
+AttributeError: module 'mujoco_py' has no attribute 'load_model_from_path'
+Exception ignored in: <function Environment.__del__ at 0x7f5c2a469c10>
+Traceback (most recent call last):
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 355, in __del__
+    self.close()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 294, in close
+    self._env.close()
+AttributeError: 'NoneType' object has no attribute 'close'

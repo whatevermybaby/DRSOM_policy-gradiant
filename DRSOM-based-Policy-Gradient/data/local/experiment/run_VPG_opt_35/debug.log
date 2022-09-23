@@ -1,0 +1,182 @@
+2022-09-22 14:35:57 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_35
+2022-09-22 14:35:58 | [run_VPG_opt] Obtaining samples...
+2022-09-22 14:36:05 | [run_VPG_opt] epoch #0 | Saving snapshot...
+2022-09-22 14:36:05 | [run_VPG_opt] epoch #0 | Saved
+2022-09-22 14:36:05 | [run_VPG_opt] epoch #0 | Time 6.70 s
+2022-09-22 14:36:05 | [run_VPG_opt] epoch #0 | EpochTime 6.70 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    48.0299
+Evaluation/AverageReturn              49.2111
+Evaluation/Iteration                   0
+Evaluation/MaxReturn                 119.679
+Evaluation/MinReturn                  26.7792
+Evaluation/NumEpisodes               736
+Evaluation/StdReturn                  15.3264
+Evaluation/TerminationRate             1
+TotalEnvSteps                       4000
+----------------------------------  ---------
+2022-09-22 14:36:10 | [run_VPG_opt] epoch #1 | Saving snapshot...
+2022-09-22 14:36:10 | [run_VPG_opt] epoch #1 | Saved
+2022-09-22 14:36:10 | [run_VPG_opt] epoch #1 | Time 11.88 s
+2022-09-22 14:36:10 | [run_VPG_opt] epoch #1 | EpochTime 5.17 s
+----------------------------------  ---------
+Evaluation/AverageDiscountedReturn    49.2324
+Evaluation/AverageReturn              50.4792
+Evaluation/Iteration                   1
+Evaluation/MaxReturn                 138.142
+Evaluation/MinReturn                  26.8126
+Evaluation/NumEpisodes               718
+Evaluation/StdReturn                  15.642
+Evaluation/TerminationRate             1
+TotalEnvSteps                       8001
+----------------------------------  ---------
+2022-09-22 14:36:15 | [run_VPG_opt] epoch #2 | Saving snapshot...
+2022-09-22 14:36:15 | [run_VPG_opt] epoch #2 | Saved
+2022-09-22 14:36:15 | [run_VPG_opt] epoch #2 | Time 16.96 s
+2022-09-22 14:36:15 | [run_VPG_opt] epoch #2 | EpochTime 5.08 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     50.818
+Evaluation/AverageReturn               52.1898
+Evaluation/Iteration                    2
+Evaluation/MaxReturn                  183.367
+Evaluation/MinReturn                   26.7785
+Evaluation/NumEpisodes                695
+Evaluation/StdReturn                   18.0626
+Evaluation/TerminationRate              1
+TotalEnvSteps                       12001
+----------------------------------  ----------
+2022-09-22 14:36:20 | [run_VPG_opt] epoch #3 | Saving snapshot...
+2022-09-22 14:36:20 | [run_VPG_opt] epoch #3 | Saved
+2022-09-22 14:36:20 | [run_VPG_opt] epoch #3 | Time 22.09 s
+2022-09-22 14:36:20 | [run_VPG_opt] epoch #3 | EpochTime 5.13 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     51.0243
+Evaluation/AverageReturn               52.3957
+Evaluation/Iteration                    3
+Evaluation/MaxReturn                  156.701
+Evaluation/MinReturn                   26.8321
+Evaluation/NumEpisodes                693
+Evaluation/StdReturn                   17.4391
+Evaluation/TerminationRate              1
+TotalEnvSteps                       16005
+----------------------------------  ----------
+2022-09-22 14:36:25 | [run_VPG_opt] epoch #4 | Saving snapshot...
+2022-09-22 14:36:25 | [run_VPG_opt] epoch #4 | Saved
+2022-09-22 14:36:25 | [run_VPG_opt] epoch #4 | Time 27.08 s
+2022-09-22 14:36:25 | [run_VPG_opt] epoch #4 | EpochTime 4.98 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     52.1708
+Evaluation/AverageReturn               53.6037
+Evaluation/Iteration                    4
+Evaluation/MaxReturn                  128.855
+Evaluation/MinReturn                   26.7693
+Evaluation/NumEpisodes                677
+Evaluation/StdReturn                   17.4166
+Evaluation/TerminationRate              1
+TotalEnvSteps                       20005
+----------------------------------  ----------
+2022-09-22 14:36:30 | [run_VPG_opt] epoch #5 | Saving snapshot...
+2022-09-22 14:36:30 | [run_VPG_opt] epoch #5 | Saved
+2022-09-22 14:36:30 | [run_VPG_opt] epoch #5 | Time 32.07 s
+2022-09-22 14:36:30 | [run_VPG_opt] epoch #5 | EpochTime 4.99 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     53.6885
+Evaluation/AverageReturn               55.224
+Evaluation/Iteration                    5
+Evaluation/MaxReturn                  147.233
+Evaluation/MinReturn                   26.7766
+Evaluation/NumEpisodes                658
+Evaluation/StdReturn                   18.395
+Evaluation/TerminationRate              1
+TotalEnvSteps                       24007
+----------------------------------  ----------
+2022-09-22 14:36:35 | [run_VPG_opt] epoch #6 | Saving snapshot...
+2022-09-22 14:36:35 | [run_VPG_opt] epoch #6 | Saved
+2022-09-22 14:36:35 | [run_VPG_opt] epoch #6 | Time 36.97 s
+2022-09-22 14:36:35 | [run_VPG_opt] epoch #6 | EpochTime 4.89 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     54.4017
+Evaluation/AverageReturn               56.0067
+Evaluation/Iteration                    6
+Evaluation/MaxReturn                  193.552
+Evaluation/MinReturn                   26.8192
+Evaluation/NumEpisodes                650
+Evaluation/StdReturn                   19.8594
+Evaluation/TerminationRate              1
+TotalEnvSteps                       28016
+----------------------------------  ----------
+2022-09-22 14:36:40 | [run_VPG_opt] epoch #7 | Saving snapshot...
+2022-09-22 14:36:40 | [run_VPG_opt] epoch #7 | Saved
+2022-09-22 14:36:40 | [run_VPG_opt] epoch #7 | Time 42.10 s
+2022-09-22 14:36:40 | [run_VPG_opt] epoch #7 | EpochTime 5.13 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     56.451
+Evaluation/AverageReturn               58.1754
+Evaluation/Iteration                    7
+Evaluation/MaxReturn                  147.733
+Evaluation/MinReturn                   26.8512
+Evaluation/NumEpisodes                626
+Evaluation/StdReturn                   19.8492
+Evaluation/TerminationRate              1
+TotalEnvSteps                       32022
+----------------------------------  ----------
+2022-09-22 14:36:45 | [run_VPG_opt] epoch #8 | Saving snapshot...
+2022-09-22 14:36:45 | [run_VPG_opt] epoch #8 | Saved
+2022-09-22 14:36:45 | [run_VPG_opt] epoch #8 | Time 47.01 s
+2022-09-22 14:36:45 | [run_VPG_opt] epoch #8 | EpochTime 4.91 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     56.8905
+Evaluation/AverageReturn               58.6397
+Evaluation/Iteration                    8
+Evaluation/MaxReturn                  156.138
+Evaluation/MinReturn                   26.8424
+Evaluation/NumEpisodes                621
+Evaluation/StdReturn                   19.734
+Evaluation/TerminationRate              1
+TotalEnvSteps                       36029
+----------------------------------  ----------
+2022-09-22 14:36:50 | [run_VPG_opt] epoch #9 | Saving snapshot...
+2022-09-22 14:36:50 | [run_VPG_opt] epoch #9 | Saved
+2022-09-22 14:36:50 | [run_VPG_opt] epoch #9 | Time 51.80 s
+2022-09-22 14:36:50 | [run_VPG_opt] epoch #9 | EpochTime 4.79 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     58.5213
+Evaluation/AverageReturn               60.3744
+Evaluation/Iteration                    9
+Evaluation/MaxReturn                  138.367
+Evaluation/MinReturn                   26.8526
+Evaluation/NumEpisodes                603
+Evaluation/StdReturn                   19.9518
+Evaluation/TerminationRate              1
+TotalEnvSteps                       40031
+----------------------------------  ----------
+2022-09-22 14:36:54 | [run_VPG_opt] epoch #10 | Saving snapshot...
+2022-09-22 14:36:55 | [run_VPG_opt] epoch #10 | Saved
+2022-09-22 14:36:55 | [run_VPG_opt] epoch #10 | Time 56.57 s
+2022-09-22 14:36:55 | [run_VPG_opt] epoch #10 | EpochTime 4.77 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     60.728
+Evaluation/AverageReturn               62.7209
+Evaluation/Iteration                   10
+Evaluation/MaxReturn                  128.728
+Evaluation/MinReturn                   26.8915
+Evaluation/NumEpisodes                581
+Evaluation/StdReturn                   19.9556
+Evaluation/TerminationRate              1
+TotalEnvSteps                       44033
+----------------------------------  ----------
+2022-09-22 14:36:59 | [run_VPG_opt] epoch #11 | Saving snapshot...
+2022-09-22 14:36:59 | [run_VPG_opt] epoch #11 | Saved
+2022-09-22 14:36:59 | [run_VPG_opt] epoch #11 | Time 61.21 s
+2022-09-22 14:36:59 | [run_VPG_opt] epoch #11 | EpochTime 4.65 s
+----------------------------------  ----------
+Evaluation/AverageDiscountedReturn     61.7035
+Evaluation/AverageReturn               63.8093
+Evaluation/Iteration                   11
+Evaluation/MaxReturn                  174.66
+Evaluation/MinReturn                   26.8001
+Evaluation/NumEpisodes                571
+Evaluation/StdReturn                   22.1697
+Evaluation/TerminationRate              1
+TotalEnvSteps                       48034
+----------------------------------  ----------

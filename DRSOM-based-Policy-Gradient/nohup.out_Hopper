@@ -1,0 +1,139 @@
+nohup: ignoring input
+2022-09-22 14:00:57.536517: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/lib64::/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/lw/.mujoco/mujoco210/bin:/usr/lib/nvidia
+2022-09-22 14:00:57.536569: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+/home/lw/.local/lib/python3.8/site-packages/flatbuffers/compat.py:19: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:36: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  'nearest': pil_image.NEAREST,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:37: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  'bilinear': pil_image.BILINEAR,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:38: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  'bicubic': pil_image.BICUBIC,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:39: DeprecationWarning: HAMMING is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.HAMMING instead.
+  'hamming': pil_image.HAMMING,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:40: DeprecationWarning: BOX is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BOX instead.
+  'box': pil_image.BOX,
+/home/lw/.local/lib/python3.8/site-packages/keras/utils/image_utils.py:41: DeprecationWarning: LANCZOS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  'lanczos': pil_image.LANCZOS,
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/experiment.py:551: UserWarning: Archiving a launch repo larger than 8MiB. This may be slow. Set archive_launch_repo=False in wrap_experiment to disable this behavior.
+  warnings.warn('Archiving a launch repo larger than 8MiB. This may be '
+2022-09-22 14:01:11 | [run_VPG_opt] Logging to /home/lw/shanshu/DRSOM-based-Policy-Gradient/data/local/experiment/run_VPG_opt_24
+/home/lw/.local/lib/python3.8/site-packages/garage/experiment/deterministic.py:36: UserWarning: Enabeling deterministic mode in PyTorch can have a performance impact when using GPU.
+  warnings.warn(
+/home/lw/.local/lib/python3.8/site-packages/gym/core.py:329: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  deprecation(
+/home/lw/.local/lib/python3.8/site-packages/gym/wrappers/step_api_compatibility.py:39: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  deprecation(
+Traceback (most recent call last):
+  File "DMPG.py", line 212, in <module>
+    run_VPG_opt(opt='drsom')
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/experiment/experiment.py", line 369, in __call__
+    result = self.function(ctxt, **kwargs)
+  File "DMPG.py", line 187, in run_VPG_opt
+    sampler = LocalSampler(agents=policy,
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/sampler/local_sampler.py", line 78, in __init__
+    self._envs = self._factory.prepare_worker_messages(
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/sampler/worker_factory.py", line 95, in prepare_worker_messages
+    return [preprocess(objs) for _ in range(self.n_workers)]
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/sampler/worker_factory.py", line 95, in <listcomp>
+    return [preprocess(objs) for _ in range(self.n_workers)]
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 353, in __getstate__
+    state = copy.deepcopy(self.__dict__)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/lw/miniconda3/envs/py38/lib/python3.8/copy.py", line 272, in _reconstruct
+    y.__setstate__(state)
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/utils/ezpickle.py", line 34, in __setstate__
+    out = type(self)(*d["_ezpickle_args"], **d["_ezpickle_kwargs"])
+  File "/home/lw/.local/lib/python3.8/site-packages/gym/envs/mujoco/hopper_v4.py", line 193, in __init__
+    MujocoEnv.__init__(
+TypeError: __init__() got an unexpected keyword argument 'kwargs'
+Exception ignored in: <function Environment.__del__ at 0x7f5e3e60bca0>
+Traceback (most recent call last):
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 355, in __del__
+    self.close()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 457, in close
+    self._env.close()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 385, in __getattr__
+    raise AttributeError(
+AttributeError: attempted to get missing private attribute '_env'
+Exception ignored in: <function Environment.__del__ at 0x7f5e3e60bca0>
+Traceback (most recent call last):
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 355, in __del__
+    self.close()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 457, in close
+    self._env.close()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 293, in close
+    self._close_viewer_window()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 316, in _close_viewer_window
+    from mujoco_py.mjviewer import MjViewer
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1407, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1373, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1239, in __iter__
+  File "<frozen importlib._bootstrap_external>", line 1227, in _recalculate
+TypeError: 'NoneType' object is not iterable
+Exception ignored in: <function Environment.__del__ at 0x7f5e3e60bca0>
+Traceback (most recent call last):
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/_environment.py", line 355, in __del__
+    self.close()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 293, in close
+    self._close_viewer_window()
+  File "/home/lw/.local/lib/python3.8/site-packages/garage/envs/gym_env.py", line 316, in _close_viewer_window
+    from mujoco_py.mjviewer import MjViewer
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1407, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1373, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1239, in __iter__
+  File "<frozen importlib._bootstrap_external>", line 1227, in _recalculate
+TypeError: 'NoneType' object is not iterable
